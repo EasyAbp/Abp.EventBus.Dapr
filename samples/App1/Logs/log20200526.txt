@@ -1,0 +1,1400 @@
+26-May-2020 13:44:15.966 +08:00 [INF] Starting App1.WebHost.
+26-May-2020 13:44:18.707 +08:00 [DBG] Hosting starting
+26-May-2020 13:44:18.762 +08:00 [INF] User profile is available. Using 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+26-May-2020 13:44:18.821 +08:00 [DBG] RabbitMQ configuration:'HostName:localhost, Port:-1, UserName:guest, Password:guest, ExchangeName:cap.default.router'
+26-May-2020 13:44:18.889 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-0bef591e-88d1-4798-8f0e-444aed5c7107.xml'.
+26-May-2020 13:44:18.914 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-5097cf8b-9f8a-4e57-b949-718a2a81439b.xml'.
+26-May-2020 13:44:18.914 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-53e17354-b418-4384-bfa8-08935f98ffbf.xml'.
+26-May-2020 13:44:18.915 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-cf3c06b9-d825-4592-b341-ed17371e7bdf.xml'.
+26-May-2020 13:44:18.915 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9.xml'.
+26-May-2020 13:44:18.916 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a.xml'.
+26-May-2020 13:44:18.924 +08:00 [DBG] Found key "0bef591e-88d1-4798-8f0e-444aed5c7107".
+26-May-2020 13:44:18.929 +08:00 [DBG] Found key "5097cf8b-9f8a-4e57-b949-718a2a81439b".
+26-May-2020 13:44:18.929 +08:00 [DBG] Found key "53e17354-b418-4384-bfa8-08935f98ffbf".
+26-May-2020 13:44:18.929 +08:00 [DBG] Found key "cf3c06b9-d825-4592-b341-ed17371e7bdf".
+26-May-2020 13:44:18.929 +08:00 [DBG] Found key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9".
+26-May-2020 13:44:18.929 +08:00 [DBG] Found key "ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a".
+26-May-2020 13:44:18.935 +08:00 [DBG] Considering key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9" with expiration date "2020-06-14T05:07:23.2879292+00:00" as default key.
+26-May-2020 13:44:18.943 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+26-May-2020 13:44:18.945 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+26-May-2020 13:44:18.947 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+26-May-2020 13:44:18.950 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+26-May-2020 13:44:18.952 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+26-May-2020 13:44:18.955 +08:00 [DBG] Using key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9" as the default key.
+26-May-2020 13:44:18.955 +08:00 [DBG] Key ring with default key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9" was loaded during application startup.
+26-May-2020 13:44:18.956 +08:00 [DBG] ### CAP background task is starting.
+26-May-2020 13:44:18.957 +08:00 [INF] Starting the processing server.
+26-May-2020 13:44:18.962 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:44:18.962 +08:00 [DBG] Transport connection healthy!
+26-May-2020 13:44:18.977 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-May-2020 13:44:18.978 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-May-2020 13:44:18.988 +08:00 [INF] ### CAP started!
+26-May-2020 13:44:19.006 +08:00 [INF] Loaded ABP modules:
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+26-May-2020 13:44:19.006 +08:00 [INF] - EasyAbp.Abp.EventBus.Cap.CapModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Dapper.AbpDapperModule
+26-May-2020 13:44:19.006 +08:00 [INF] - EasyAbp.Abp.EventBus.CAP.MySql.CapMysqlModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+26-May-2020 13:44:19.006 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+26-May-2020 13:44:19.006 +08:00 [INF] - App1.App1Module
+26-May-2020 13:44:21.392 +08:00 [INF] Starting background tasks
+26-May-2020 13:44:21.405 +08:00 [INF] Initialized all ABP modules.
+26-May-2020 13:44:21.421 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:44:21.464 +08:00 [DBG] Loaded hosting startup assembly App1
+26-May-2020 13:44:21.464 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+26-May-2020 13:44:21.464 +08:00 [INF] Hosting environment: Development
+26-May-2020 13:44:21.464 +08:00 [INF] Content root path: D:\workshop\Github\Abp.EventBus.CAP\sample\App1
+26-May-2020 13:44:21.464 +08:00 [DBG] Hosting started
+26-May-2020 13:44:21.503 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/  
+26-May-2020 13:44:21.505 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+26-May-2020 13:44:21.511 +08:00 [DBG] The request path / does not match a supported file type
+26-May-2020 13:44:21.546 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+26-May-2020 13:44:21.549 +08:00 [DBG] Endpoint 'App1.Controllers.HomeController.Index (App1)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+26-May-2020 13:44:21.550 +08:00 [DBG] Request matched endpoint 'App1.Controllers.HomeController.Index (App1)'
+26-May-2020 13:44:21.603 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+26-May-2020 13:44:21.603 +08:00 [INF] Executing endpoint 'App1.Controllers.HomeController.Index (App1)'
+26-May-2020 13:44:21.611 +08:00 [DBG] Registered model binder providers, in the following order: ["Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpExtraPropertiesDictionaryModelBinderProvider","Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpDateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+26-May-2020 13:44:21.686 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller App1.Controllers.HomeController (App1).
+26-May-2020 13:44:21.686 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+26-May-2020 13:44:21.687 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-May-2020 13:44:21.687 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+26-May-2020 13:44:21.687 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+26-May-2020 13:44:21.687 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-May-2020 13:44:21.688 +08:00 [DBG] Executing controller factory for controller App1.Controllers.HomeController (App1)
+26-May-2020 13:44:21.690 +08:00 [DBG] Executed controller factory for controller App1.Controllers.HomeController (App1)
+26-May-2020 13:44:21.697 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:44:21.737 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+26-May-2020 13:44:21.743 +08:00 [INF] Executed action App1.Controllers.HomeController.Index (App1) in 51.3444ms
+26-May-2020 13:44:21.745 +08:00 [INF] Executed endpoint 'App1.Controllers.HomeController.Index (App1)'
+26-May-2020 13:44:21.747 +08:00 [INF] HTTP GET / responded 302 in 233.357 ms
+26-May-2020 13:44:21.773 +08:00 [DBG] Connection ID "18374686481282236417" disconnecting.
+26-May-2020 13:44:21.776 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger  
+26-May-2020 13:44:21.776 +08:00 [DBG] The request path /swagger does not match a supported file type
+26-May-2020 13:44:21.778 +08:00 [INF] Request finished in 276.4561ms 302 
+26-May-2020 13:44:21.778 +08:00 [DBG] No candidates found for the request path '/swagger'
+26-May-2020 13:44:21.778 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:44:21.780 +08:00 [INF] HTTP GET /swagger responded 301 in 3.86 ms
+26-May-2020 13:44:21.781 +08:00 [INF] Request finished in 4.528ms 301 
+26-May-2020 13:44:21.781 +08:00 [DBG] Connection ID "18374686485577203713" disconnecting.
+26-May-2020 13:44:21.784 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/index.html  
+26-May-2020 13:44:21.798 +08:00 [DBG] The request path /swagger/index.html does not match an existing file
+26-May-2020 13:44:21.799 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+26-May-2020 13:44:21.799 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:44:21.839 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 40.8653 ms
+26-May-2020 13:44:21.840 +08:00 [INF] Request finished in 56.3736ms 200 text/html;charset=utf-8
+26-May-2020 13:44:21.861 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/swagger-ui.css  
+26-May-2020 13:44:21.861 +08:00 [DBG] The request path /swagger/swagger-ui.css does not match an existing file
+26-May-2020 13:44:21.861 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/swagger-ui-bundle.js  
+26-May-2020 13:44:21.861 +08:00 [DBG] The request path /swagger/swagger-ui-bundle.js does not match an existing file
+26-May-2020 13:44:21.861 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/swagger-ui-standalone-preset.js  
+26-May-2020 13:44:21.862 +08:00 [DBG] The request path /swagger/swagger-ui-standalone-preset.js does not match an existing file
+26-May-2020 13:44:21.862 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+26-May-2020 13:44:21.862 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:44:21.862 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+26-May-2020 13:44:21.862 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+26-May-2020 13:44:21.862 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:44:21.862 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:44:21.891 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+26-May-2020 13:44:21.893 +08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 31.6887 ms
+26-May-2020 13:44:21.893 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+26-May-2020 13:44:21.893 +08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 31.8277 ms
+26-May-2020 13:44:21.894 +08:00 [INF] Request finished in 32.8754ms 200 text/css
+26-May-2020 13:44:21.894 +08:00 [INF] Request finished in 32.6433ms 200 application/javascript
+26-May-2020 13:44:21.895 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+26-May-2020 13:44:21.895 +08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 33.8366 ms
+26-May-2020 13:44:21.895 +08:00 [INF] Request finished in 34.0654ms 200 application/javascript
+26-May-2020 13:44:22.061 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/v1/swagger.json  
+26-May-2020 13:44:22.061 +08:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+26-May-2020 13:44:22.062 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+26-May-2020 13:44:22.062 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:44:22.100 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/favicon-32x32.png  
+26-May-2020 13:44:22.100 +08:00 [DBG] The request path /swagger/favicon-32x32.png does not match an existing file
+26-May-2020 13:44:22.100 +08:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+26-May-2020 13:44:22.100 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:44:22.102 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+26-May-2020 13:44:22.102 +08:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 1.392 ms
+26-May-2020 13:44:22.102 +08:00 [INF] Request finished in 1.9058ms 200 image/png
+26-May-2020 13:44:22.169 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 107.2589 ms
+26-May-2020 13:44:22.169 +08:00 [INF] Request finished in 108.5697ms 200 application/json;charset=utf-8
+26-May-2020 13:44:23.482 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:44:31.406 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:44:31.423 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:44:41.406 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:44:41.420 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:44:48.977 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:44:48.977 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:44:51.409 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:44:51.417 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:44:53.295 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:45:01.406 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:45:01.411 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:45:11.406 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:45:11.412 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:45:18.984 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:45:18.984 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:45:21.418 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:45:21.428 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:45:23.276 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:45:31.406 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:45:31.428 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:45:41.405 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:45:41.411 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:45:48.985 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:45:48.985 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:45:51.405 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:45:51.413 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:45:53.342 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:46:01.416 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:46:01.423 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:46:11.408 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:46:11.412 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:46:18.989 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:46:18.989 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:46:21.410 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:46:21.417 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:46:23.330 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:46:31.405 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:46:31.410 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:46:34.075 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/  
+26-May-2020 13:46:34.075 +08:00 [DBG] The request path / does not match a supported file type
+26-May-2020 13:46:34.075 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+26-May-2020 13:46:34.076 +08:00 [DBG] Endpoint 'App1.Controllers.HomeController.Index (App1)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+26-May-2020 13:46:34.076 +08:00 [DBG] Request matched endpoint 'App1.Controllers.HomeController.Index (App1)'
+26-May-2020 13:46:34.077 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+26-May-2020 13:46:34.077 +08:00 [INF] Executing endpoint 'App1.Controllers.HomeController.Index (App1)'
+26-May-2020 13:46:34.078 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller App1.Controllers.HomeController (App1).
+26-May-2020 13:46:34.078 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+26-May-2020 13:46:34.078 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-May-2020 13:46:34.078 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+26-May-2020 13:46:34.078 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+26-May-2020 13:46:34.079 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-May-2020 13:46:34.079 +08:00 [DBG] Executing controller factory for controller App1.Controllers.HomeController (App1)
+26-May-2020 13:46:34.079 +08:00 [DBG] Executed controller factory for controller App1.Controllers.HomeController (App1)
+26-May-2020 13:46:34.080 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+26-May-2020 13:46:34.081 +08:00 [INF] Executed action App1.Controllers.HomeController.Index (App1) in 2.0163ms
+26-May-2020 13:46:34.081 +08:00 [INF] Executed endpoint 'App1.Controllers.HomeController.Index (App1)'
+26-May-2020 13:46:34.081 +08:00 [INF] HTTP GET / responded 302 in 5.7285 ms
+26-May-2020 13:46:34.087 +08:00 [DBG] Connection ID "18230571314681217025" disconnecting.
+26-May-2020 13:46:34.087 +08:00 [INF] Request finished in 12.4717ms 302 
+26-May-2020 13:46:34.091 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/index.html  
+26-May-2020 13:46:34.091 +08:00 [DBG] The request path /swagger/index.html does not match an existing file
+26-May-2020 13:46:34.091 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+26-May-2020 13:46:34.091 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:46:34.092 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 1.6204 ms
+26-May-2020 13:46:34.093 +08:00 [INF] Request finished in 2.0707ms 200 text/html;charset=utf-8
+26-May-2020 13:46:34.301 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/v1/swagger.json  
+26-May-2020 13:46:34.301 +08:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+26-May-2020 13:46:34.301 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+26-May-2020 13:46:34.301 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:46:34.315 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 13.797 ms
+26-May-2020 13:46:34.318 +08:00 [INF] Request finished in 17.2842ms 200 application/json;charset=utf-8
+26-May-2020 13:46:41.405 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:46:41.410 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:46:46.059 +08:00 [DBG] Hosting stopping
+26-May-2020 13:46:46.062 +08:00 [INF] Stopping background tasks
+26-May-2020 13:46:46.290 +08:00 [INF] Worker tasks stopped
+26-May-2020 13:46:46.292 +08:00 [INF] Application is shutting down...
+26-May-2020 13:46:46.293 +08:00 [DBG] ### CAP background task is stopping.
+26-May-2020 13:46:46.294 +08:00 [INF] Shutting down the processing server...
+26-May-2020 13:46:46.453 +08:00 [INF] ### CAP shutdown!
+26-May-2020 13:46:46.458 +08:00 [DBG] Hosting stopped
+26-May-2020 13:47:07.101 +08:00 [INF] Starting App1.WebHost.
+26-May-2020 13:47:08.853 +08:00 [DBG] Hosting starting
+26-May-2020 13:47:08.904 +08:00 [INF] User profile is available. Using 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+26-May-2020 13:47:08.953 +08:00 [DBG] RabbitMQ configuration:'HostName:localhost, Port:-1, UserName:guest, Password:guest, ExchangeName:cap.default.router'
+26-May-2020 13:47:09.019 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-0bef591e-88d1-4798-8f0e-444aed5c7107.xml'.
+26-May-2020 13:47:09.043 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-5097cf8b-9f8a-4e57-b949-718a2a81439b.xml'.
+26-May-2020 13:47:09.043 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-53e17354-b418-4384-bfa8-08935f98ffbf.xml'.
+26-May-2020 13:47:09.043 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-cf3c06b9-d825-4592-b341-ed17371e7bdf.xml'.
+26-May-2020 13:47:09.043 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9.xml'.
+26-May-2020 13:47:09.044 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a.xml'.
+26-May-2020 13:47:09.048 +08:00 [DBG] Found key "0bef591e-88d1-4798-8f0e-444aed5c7107".
+26-May-2020 13:47:09.052 +08:00 [DBG] Found key "5097cf8b-9f8a-4e57-b949-718a2a81439b".
+26-May-2020 13:47:09.052 +08:00 [DBG] Found key "53e17354-b418-4384-bfa8-08935f98ffbf".
+26-May-2020 13:47:09.052 +08:00 [DBG] Found key "cf3c06b9-d825-4592-b341-ed17371e7bdf".
+26-May-2020 13:47:09.052 +08:00 [DBG] Found key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9".
+26-May-2020 13:47:09.052 +08:00 [DBG] Found key "ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a".
+26-May-2020 13:47:09.058 +08:00 [DBG] Considering key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9" with expiration date "2020-06-14T05:07:23.2879292+00:00" as default key.
+26-May-2020 13:47:09.066 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+26-May-2020 13:47:09.068 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+26-May-2020 13:47:09.069 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+26-May-2020 13:47:09.073 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+26-May-2020 13:47:09.075 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+26-May-2020 13:47:09.077 +08:00 [DBG] Using key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9" as the default key.
+26-May-2020 13:47:09.078 +08:00 [DBG] Key ring with default key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9" was loaded during application startup.
+26-May-2020 13:47:09.079 +08:00 [DBG] ### CAP background task is starting.
+26-May-2020 13:47:09.080 +08:00 [INF] Starting the processing server.
+26-May-2020 13:47:09.086 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:47:09.086 +08:00 [DBG] Transport connection healthy!
+26-May-2020 13:47:09.104 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-May-2020 13:47:09.105 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-May-2020 13:47:09.115 +08:00 [INF] ### CAP started!
+26-May-2020 13:47:09.150 +08:00 [INF] Loaded ABP modules:
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+26-May-2020 13:47:09.150 +08:00 [INF] - EasyAbp.Abp.EventBus.Cap.CapModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Dapper.AbpDapperModule
+26-May-2020 13:47:09.150 +08:00 [INF] - EasyAbp.Abp.EventBus.CAP.MySql.CapMysqlModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+26-May-2020 13:47:09.150 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+26-May-2020 13:47:09.151 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+26-May-2020 13:47:09.151 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+26-May-2020 13:47:09.151 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+26-May-2020 13:47:09.151 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+26-May-2020 13:47:09.151 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+26-May-2020 13:47:09.151 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+26-May-2020 13:47:09.151 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+26-May-2020 13:47:09.151 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+26-May-2020 13:47:09.151 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+26-May-2020 13:47:09.151 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+26-May-2020 13:47:09.151 +08:00 [INF] - App1.App1Module
+26-May-2020 13:47:10.404 +08:00 [INF] Starting background tasks
+26-May-2020 13:47:10.420 +08:00 [INF] Initialized all ABP modules.
+26-May-2020 13:47:10.435 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:47:10.476 +08:00 [DBG] Loaded hosting startup assembly App1
+26-May-2020 13:47:10.476 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+26-May-2020 13:47:10.477 +08:00 [INF] Hosting environment: Development
+26-May-2020 13:47:10.477 +08:00 [INF] Content root path: D:\workshop\Github\Abp.EventBus.CAP\sample\App1
+26-May-2020 13:47:10.477 +08:00 [DBG] Hosting started
+26-May-2020 13:47:10.511 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/  
+26-May-2020 13:47:10.513 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+26-May-2020 13:47:10.517 +08:00 [DBG] The request path / does not match a supported file type
+26-May-2020 13:47:10.551 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+26-May-2020 13:47:10.554 +08:00 [DBG] Endpoint 'App1.Controllers.HomeController.Index (App1)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+26-May-2020 13:47:10.555 +08:00 [DBG] Request matched endpoint 'App1.Controllers.HomeController.Index (App1)'
+26-May-2020 13:47:10.600 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+26-May-2020 13:47:10.600 +08:00 [INF] Executing endpoint 'App1.Controllers.HomeController.Index (App1)'
+26-May-2020 13:47:10.610 +08:00 [DBG] Registered model binder providers, in the following order: ["Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpExtraPropertiesDictionaryModelBinderProvider","Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpDateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+26-May-2020 13:47:10.706 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller App1.Controllers.HomeController (App1).
+26-May-2020 13:47:10.707 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+26-May-2020 13:47:10.707 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-May-2020 13:47:10.707 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+26-May-2020 13:47:10.707 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+26-May-2020 13:47:10.707 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-May-2020 13:47:10.709 +08:00 [DBG] Executing controller factory for controller App1.Controllers.HomeController (App1)
+26-May-2020 13:47:10.710 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:47:10.710 +08:00 [DBG] Executed controller factory for controller App1.Controllers.HomeController (App1)
+26-May-2020 13:47:10.751 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+26-May-2020 13:47:10.757 +08:00 [INF] Executed action App1.Controllers.HomeController.Index (App1) in 44.6474ms
+26-May-2020 13:47:10.759 +08:00 [INF] Executed endpoint 'App1.Controllers.HomeController.Index (App1)'
+26-May-2020 13:47:10.760 +08:00 [INF] HTTP GET / responded 302 in 240.496 ms
+26-May-2020 13:47:10.783 +08:00 [DBG] Connection ID "18374686481282236423" disconnecting.
+26-May-2020 13:47:10.785 +08:00 [INF] Request finished in 274.6923ms 302 
+26-May-2020 13:47:10.800 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/index.html  
+26-May-2020 13:47:10.816 +08:00 [DBG] The request path /swagger/index.html does not match an existing file
+26-May-2020 13:47:10.818 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+26-May-2020 13:47:10.818 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:47:10.861 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 45.0488 ms
+26-May-2020 13:47:10.863 +08:00 [INF] Request finished in 63.1364ms 200 text/html;charset=utf-8
+26-May-2020 13:47:10.984 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/v1/swagger.json  
+26-May-2020 13:47:10.984 +08:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+26-May-2020 13:47:10.985 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+26-May-2020 13:47:10.985 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:47:11.145 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 160.986 ms
+26-May-2020 13:47:11.145 +08:00 [INF] Request finished in 161.4686ms 200 application/json;charset=utf-8
+26-May-2020 13:47:13.617 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:47:20.427 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:47:20.451 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:47:30.422 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:47:30.445 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:47:39.102 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:47:39.103 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:47:40.422 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:47:40.427 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:47:43.422 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:47:50.422 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:47:50.436 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:48:00.422 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:48:00.447 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:48:09.112 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:48:09.112 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:48:10.424 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:48:10.437 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:48:13.425 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:48:20.435 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:48:20.453 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:48:30.424 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:48:30.430 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:48:39.113 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:48:39.113 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:48:40.427 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:48:40.447 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:48:43.418 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:48:50.434 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:48:50.438 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:49:00.434 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:49:00.443 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:49:09.127 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:49:09.128 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:49:10.421 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:49:10.431 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:49:13.436 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:49:20.432 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:49:20.445 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:49:30.436 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:49:30.454 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:49:39.141 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:49:39.141 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:49:40.434 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:49:40.440 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:49:43.458 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:49:50.422 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:49:50.425 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:50:00.421 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:50:00.429 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:50:09.151 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:50:09.151 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:50:10.423 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:50:10.430 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:50:13.476 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:50:20.421 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:50:20.436 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:50:26.915 +08:00 [INF] Starting App1.WebHost.
+26-May-2020 13:50:28.684 +08:00 [DBG] Hosting starting
+26-May-2020 13:50:28.751 +08:00 [INF] User profile is available. Using 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+26-May-2020 13:50:28.799 +08:00 [DBG] RabbitMQ configuration:'HostName:localhost, Port:-1, UserName:guest, Password:guest, ExchangeName:cap.default.router'
+26-May-2020 13:50:28.870 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-0bef591e-88d1-4798-8f0e-444aed5c7107.xml'.
+26-May-2020 13:50:28.895 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-5097cf8b-9f8a-4e57-b949-718a2a81439b.xml'.
+26-May-2020 13:50:28.895 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-53e17354-b418-4384-bfa8-08935f98ffbf.xml'.
+26-May-2020 13:50:28.896 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-cf3c06b9-d825-4592-b341-ed17371e7bdf.xml'.
+26-May-2020 13:50:28.896 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9.xml'.
+26-May-2020 13:50:28.896 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a.xml'.
+26-May-2020 13:50:28.902 +08:00 [DBG] Found key "0bef591e-88d1-4798-8f0e-444aed5c7107".
+26-May-2020 13:50:28.908 +08:00 [DBG] Found key "5097cf8b-9f8a-4e57-b949-718a2a81439b".
+26-May-2020 13:50:28.909 +08:00 [DBG] Found key "53e17354-b418-4384-bfa8-08935f98ffbf".
+26-May-2020 13:50:28.909 +08:00 [DBG] Found key "cf3c06b9-d825-4592-b341-ed17371e7bdf".
+26-May-2020 13:50:28.909 +08:00 [DBG] Found key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9".
+26-May-2020 13:50:28.909 +08:00 [DBG] Found key "ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a".
+26-May-2020 13:50:28.917 +08:00 [DBG] Considering key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9" with expiration date "2020-06-14T05:07:23.2879292+00:00" as default key.
+26-May-2020 13:50:28.928 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+26-May-2020 13:50:28.931 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+26-May-2020 13:50:28.933 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+26-May-2020 13:50:28.938 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+26-May-2020 13:50:28.940 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+26-May-2020 13:50:28.944 +08:00 [DBG] Using key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9" as the default key.
+26-May-2020 13:50:28.945 +08:00 [DBG] Key ring with default key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9" was loaded during application startup.
+26-May-2020 13:50:28.946 +08:00 [DBG] ### CAP background task is starting.
+26-May-2020 13:50:28.947 +08:00 [INF] Starting the processing server.
+26-May-2020 13:50:28.954 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:50:28.954 +08:00 [DBG] Transport connection healthy!
+26-May-2020 13:50:28.974 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-May-2020 13:50:28.975 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-May-2020 13:50:28.988 +08:00 [INF] ### CAP started!
+26-May-2020 13:50:29.040 +08:00 [INF] Loaded ABP modules:
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+26-May-2020 13:50:29.040 +08:00 [INF] - EasyAbp.Abp.EventBus.Cap.CapModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+26-May-2020 13:50:29.040 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Dapper.AbpDapperModule
+26-May-2020 13:50:29.041 +08:00 [INF] - EasyAbp.Abp.EventBus.CAP.MySql.CapMysqlModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+26-May-2020 13:50:29.041 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+26-May-2020 13:50:29.041 +08:00 [INF] - App1.App1Module
+26-May-2020 13:50:30.364 +08:00 [INF] Starting background tasks
+26-May-2020 13:50:30.376 +08:00 [INF] Initialized all ABP modules.
+26-May-2020 13:50:30.390 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:50:30.428 +08:00 [DBG] Loaded hosting startup assembly App1
+26-May-2020 13:50:30.428 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+26-May-2020 13:50:30.428 +08:00 [INF] Hosting environment: Development
+26-May-2020 13:50:30.428 +08:00 [INF] Content root path: D:\workshop\Github\Abp.EventBus.CAP\sample\App1
+26-May-2020 13:50:30.428 +08:00 [DBG] Hosting started
+26-May-2020 13:50:30.473 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/  
+26-May-2020 13:50:30.476 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+26-May-2020 13:50:30.483 +08:00 [DBG] The request path / does not match a supported file type
+26-May-2020 13:50:30.522 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+26-May-2020 13:50:30.526 +08:00 [DBG] Endpoint 'App1.Controllers.HomeController.Index (App1)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+26-May-2020 13:50:30.527 +08:00 [DBG] Request matched endpoint 'App1.Controllers.HomeController.Index (App1)'
+26-May-2020 13:50:30.588 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+26-May-2020 13:50:30.589 +08:00 [INF] Executing endpoint 'App1.Controllers.HomeController.Index (App1)'
+26-May-2020 13:50:30.601 +08:00 [DBG] Registered model binder providers, in the following order: ["Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpExtraPropertiesDictionaryModelBinderProvider","Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpDateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+26-May-2020 13:50:30.709 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:50:30.713 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller App1.Controllers.HomeController (App1).
+26-May-2020 13:50:30.714 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+26-May-2020 13:50:30.714 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-May-2020 13:50:30.714 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+26-May-2020 13:50:30.714 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+26-May-2020 13:50:30.714 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-May-2020 13:50:30.715 +08:00 [DBG] Executing controller factory for controller App1.Controllers.HomeController (App1)
+26-May-2020 13:50:30.717 +08:00 [DBG] Executed controller factory for controller App1.Controllers.HomeController (App1)
+26-May-2020 13:50:30.753 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+26-May-2020 13:50:30.758 +08:00 [INF] Executed action App1.Controllers.HomeController.Index (App1) in 39.7895ms
+26-May-2020 13:50:30.759 +08:00 [INF] Executed endpoint 'App1.Controllers.HomeController.Index (App1)'
+26-May-2020 13:50:30.761 +08:00 [INF] HTTP GET / responded 302 in 274.6908 ms
+26-May-2020 13:50:30.779 +08:00 [DBG] Connection ID "18374686489872171037" disconnecting.
+26-May-2020 13:50:30.781 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/index.html  
+26-May-2020 13:50:30.784 +08:00 [INF] Request finished in 311.0176ms 302 
+26-May-2020 13:50:30.788 +08:00 [DBG] The request path /swagger/index.html does not match an existing file
+26-May-2020 13:50:30.795 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+26-May-2020 13:50:30.796 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:50:30.841 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 52.2948 ms
+26-May-2020 13:50:30.842 +08:00 [INF] Request finished in 61.1088ms 200 text/html;charset=utf-8
+26-May-2020 13:50:30.963 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/v1/swagger.json  
+26-May-2020 13:50:30.964 +08:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+26-May-2020 13:50:30.964 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+26-May-2020 13:50:30.964 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:50:31.102 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 138.7908 ms
+26-May-2020 13:50:31.103 +08:00 [INF] Request finished in 139.1533ms 200 application/json;charset=utf-8
+26-May-2020 13:50:33.468 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:50:40.378 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:50:40.393 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:50:50.379 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:50:50.388 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:50:58.957 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:50:58.957 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:51:00.390 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:51:00.396 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:51:03.449 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:51:10.382 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:51:10.387 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:51:20.378 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:51:20.409 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:51:28.962 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:51:28.963 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:51:30.376 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:51:30.382 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:51:33.271 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:51:40.375 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:51:40.380 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:51:50.376 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:51:50.380 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:51:58.975 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:51:58.975 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:52:00.380 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:52:00.393 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:52:03.289 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:52:10.378 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:52:10.382 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:52:20.378 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:52:20.403 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:52:28.984 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:52:28.985 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:52:30.379 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:52:30.383 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:52:33.284 +08:00 [ERR] Broker Unreachable
+DotNetCore.CAP.BrokerConnectionException: Broker Unreachable
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5672
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__275_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.<>c__DisplayClass19_0.<CreateConnection>b__1()
+   at DotNetCore.CAP.RabbitMQ.ConnectionChannelPool.GetConnection()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClient.Connect()
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.RabbitMQ.RabbitMQConsumerClientFactory.Create(String groupId)
+   at DotNetCore.CAP.Internal.ConsumerRegister.<>c__DisplayClass16_0.<Start>b__0()
+26-May-2020 13:52:40.387 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:52:40.391 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:52:50.376 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:52:50.383 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:52:58.999 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:52:58.999 +08:00 [WRN] Transport connection is unhealthy, reconnection...
+26-May-2020 13:52:59.392 +08:00 [INF] RabbitMQ consumer registered. --> amq.ctag-N2ozB22yiN7ckHIhjqqibw
+26-May-2020 13:53:00.380 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:53:00.384 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:53:00.909 +08:00 [DBG] Received message. id:1265158458555699200, name: Test.App2ToApp1Text
+26-May-2020 13:53:01.057 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-May-2020 13:53:01.074 +08:00 [INF] ************************ INCOMING MESSAGE ****************************
+26-May-2020 13:53:01.074 +08:00 [INF] App2.Message 2020/5/26 13:50:56
+26-May-2020 13:53:01.074 +08:00 [INF] **********************************************************************
+26-May-2020 13:53:01.089 +08:00 [DBG] Consumer executed. Took: 35.1547 ms.
+26-May-2020 13:53:01.098 +08:00 [DBG] RabbitMQ topic message [Test.App1TextReceived] has been published.
+26-May-2020 13:53:01.921 +08:00 [DBG] Received message. id:1265158472354959360, name: Test.App2ToApp1Text
+26-May-2020 13:53:01.922 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-May-2020 13:53:01.923 +08:00 [INF] ************************ INCOMING MESSAGE ****************************
+26-May-2020 13:53:01.923 +08:00 [INF] App2.Message 2020/5/26 13:50:59
+26-May-2020 13:53:01.923 +08:00 [INF] **********************************************************************
+26-May-2020 13:53:01.925 +08:00 [DBG] Consumer executed. Took: 2.298 ms.
+26-May-2020 13:53:01.926 +08:00 [DBG] RabbitMQ topic message [Test.App1TextReceived] has been published.
+26-May-2020 13:53:02.924 +08:00 [DBG] Received message. id:1265158468064186368, name: Test.App2ToApp1Text
+26-May-2020 13:53:02.925 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-May-2020 13:53:02.926 +08:00 [INF] ************************ INCOMING MESSAGE ****************************
+26-May-2020 13:53:02.926 +08:00 [INF] App2.Message 2020/5/26 13:50:58
+26-May-2020 13:53:02.926 +08:00 [INF] **********************************************************************
+26-May-2020 13:53:02.927 +08:00 [DBG] Consumer executed. Took: 2.4329 ms.
+26-May-2020 13:53:02.929 +08:00 [DBG] RabbitMQ topic message [Test.App1TextReceived] has been published.
+26-May-2020 13:53:04.934 +08:00 [DBG] Received message. id:1265158996450021376, name: Test.App2ToApp1Text
+26-May-2020 13:53:04.935 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-May-2020 13:53:04.935 +08:00 [INF] ************************ INCOMING MESSAGE ****************************
+26-May-2020 13:53:04.935 +08:00 [INF] App2.Message 2020/5/26 13:53:04
+26-May-2020 13:53:04.935 +08:00 [INF] **********************************************************************
+26-May-2020 13:53:04.937 +08:00 [DBG] Consumer executed. Took: 1.9421 ms.
+26-May-2020 13:53:04.938 +08:00 [DBG] RabbitMQ topic message [Test.App1TextReceived] has been published.
+26-May-2020 13:53:06.572 +08:00 [DBG] Received message. id:1265159003320291328, name: Test.App2ToApp1Text
+26-May-2020 13:53:06.573 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-May-2020 13:53:06.573 +08:00 [INF] ************************ INCOMING MESSAGE ****************************
+26-May-2020 13:53:06.573 +08:00 [INF] App2.Message 2020/5/26 13:53:06
+26-May-2020 13:53:06.573 +08:00 [INF] **********************************************************************
+26-May-2020 13:53:06.575 +08:00 [DBG] Consumer executed. Took: 1.8946 ms.
+26-May-2020 13:53:06.576 +08:00 [DBG] RabbitMQ topic message [Test.App1TextReceived] has been published.
+26-May-2020 13:53:10.376 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:53:10.380 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:53:20.390 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:53:20.398 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:53:29.002 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:53:29.002 +08:00 [DBG] Transport connection healthy!
+26-May-2020 13:53:30.376 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:53:30.386 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:53:33.009 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/api/Values  
+26-May-2020 13:53:33.009 +08:00 [DBG] The request path /api/Values does not match a supported file type
+26-May-2020 13:53:33.010 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+26-May-2020 13:53:33.010 +08:00 [DBG] Endpoint 'App1.Controllers.ValuesController.AppMessage (App1)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+26-May-2020 13:53:33.010 +08:00 [DBG] Request matched endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+26-May-2020 13:53:33.011 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+26-May-2020 13:53:33.011 +08:00 [INF] Executing endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+26-May-2020 13:53:33.017 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] AppMessage() on controller App1.Controllers.ValuesController (App1).
+26-May-2020 13:53:33.017 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+26-May-2020 13:53:33.017 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-May-2020 13:53:33.017 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+26-May-2020 13:53:33.017 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+26-May-2020 13:53:33.017 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+26-May-2020 13:53:33.017 +08:00 [DBG] Executing controller factory for controller App1.Controllers.ValuesController (App1)
+26-May-2020 13:53:33.018 +08:00 [DBG] Executed controller factory for controller App1.Controllers.ValuesController (App1)
+26-May-2020 13:53:33.544 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+26-May-2020 13:53:33.547 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+26-May-2020 13:53:33.549 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+26-May-2020 13:53:33.549 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+26-May-2020 13:53:33.552 +08:00 [INF] Executed action App1.Controllers.ValuesController.AppMessage (App1) in 533.8318ms
+26-May-2020 13:53:33.552 +08:00 [INF] Executed endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+26-May-2020 13:53:33.552 +08:00 [INF] HTTP GET /api/Values responded 200 in 542.4255 ms
+26-May-2020 13:53:33.552 +08:00 [INF] Request finished in 542.9926ms 200 text/plain; charset=utf-8
+26-May-2020 13:53:33.698 +08:00 [DBG] Starting step null on workflow 18a7903b-1184-45c5-99d2-658cb17585dc
+26-May-2020 13:53:33.913 +08:00 [DBG] Starting step null on workflow 18a7903b-1184-45c5-99d2-658cb17585dc
+26-May-2020 13:53:34.072 +08:00 [DBG] Starting step null on workflow 18a7903b-1184-45c5-99d2-658cb17585dc
+26-May-2020 13:53:34.073 +08:00 [DBG] Starting step Task1 on workflow 18a7903b-1184-45c5-99d2-658cb17585dc
+26-May-2020 13:53:34.076 +08:00 [INF] App1.Message 2020/5/26 13:53:34 send to the App2.
+26-May-2020 13:53:34.081 +08:00 [DBG] RabbitMQ topic message [Test.App1ToApp2Text] has been published.
+26-May-2020 13:53:34.095 +08:00 [DBG] Received message. id:1265159118768508928, name: Test.App2TextReceived
+26-May-2020 13:53:34.097 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-May-2020 13:53:34.100 +08:00 [INF] --------> App2 has received the message: App1.Message 2020/5/26 13:53:34
+26-May-2020 13:53:34.100 +08:00 [DBG] Consumer executed. Took: 3.2617 ms.
+26-May-2020 13:53:34.247 +08:00 [DBG] Starting step null on workflow 18a7903b-1184-45c5-99d2-658cb17585dc
+26-May-2020 13:53:34.247 +08:00 [DBG] Starting step Task2 on workflow 18a7903b-1184-45c5-99d2-658cb17585dc
+26-May-2020 13:53:34.249 +08:00 [INF] Doing Task 2
+26-May-2020 13:53:34.308 +08:00 [ERR] Workflow 18a7903b-1184-45c5-99d2-658cb17585dc raised error on step 4 Message: Exception of type 'System.Exception' was thrown.
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at App1.Steps.Task2.Run(IStepExecutionContext context) in D:\workshop\Github\Abp.EventBus.CAP\sample\App1\Saga\Task2.cs:line 21
+   at WorkflowCore.Models.StepBody.RunAsync(IStepExecutionContext context)
+   at WorkflowCore.Services.WorkflowExecutor.ExecuteStep(WorkflowInstance workflow, WorkflowStep step, ExecutionPointer pointer, WorkflowExecutorResult wfResult, WorkflowDefinition def)
+   at WorkflowCore.Services.WorkflowExecutor.Execute(WorkflowInstance workflow)
+26-May-2020 13:53:34.536 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/api/Values  
+26-May-2020 13:53:34.536 +08:00 [DBG] The request path /api/Values does not match a supported file type
+26-May-2020 13:53:34.537 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+26-May-2020 13:53:34.537 +08:00 [DBG] Endpoint 'App1.Controllers.ValuesController.AppMessage (App1)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+26-May-2020 13:53:34.537 +08:00 [DBG] Request matched endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+26-May-2020 13:53:34.538 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+26-May-2020 13:53:34.538 +08:00 [INF] Executing endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+26-May-2020 13:53:34.539 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] AppMessage() on controller App1.Controllers.ValuesController (App1).
+26-May-2020 13:53:34.539 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+26-May-2020 13:53:34.539 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-May-2020 13:53:34.539 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+26-May-2020 13:53:34.540 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+26-May-2020 13:53:34.540 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+26-May-2020 13:53:34.540 +08:00 [DBG] Executing controller factory for controller App1.Controllers.ValuesController (App1)
+26-May-2020 13:53:34.540 +08:00 [DBG] Executed controller factory for controller App1.Controllers.ValuesController (App1)
+26-May-2020 13:53:34.645 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+26-May-2020 13:53:34.648 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+26-May-2020 13:53:34.649 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+26-May-2020 13:53:34.649 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+26-May-2020 13:53:34.649 +08:00 [INF] Executed action App1.Controllers.ValuesController.AppMessage (App1) in 109.4446ms
+26-May-2020 13:53:34.650 +08:00 [INF] Executed endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+26-May-2020 13:53:34.650 +08:00 [INF] HTTP GET /api/Values responded 200 in 114.2013 ms
+26-May-2020 13:53:34.650 +08:00 [INF] Request finished in 114.9404ms 200 text/plain; charset=utf-8
+26-May-2020 13:53:34.654 +08:00 [DBG] Starting step null on workflow eef148c4-8908-4882-831a-506c7820dee7
+26-May-2020 13:53:34.696 +08:00 [DBG] Starting step null on workflow eef148c4-8908-4882-831a-506c7820dee7
+26-May-2020 13:53:34.730 +08:00 [DBG] Starting step UndoTask2 on workflow 18a7903b-1184-45c5-99d2-658cb17585dc
+26-May-2020 13:53:34.731 +08:00 [INF] Undoing Task 2
+26-May-2020 13:53:34.731 +08:00 [DBG] Starting step UndoTask1 on workflow 18a7903b-1184-45c5-99d2-658cb17585dc
+26-May-2020 13:53:34.732 +08:00 [INF] undoing...
+26-May-2020 13:53:34.732 +08:00 [DBG] Starting step UndoEverything on workflow 18a7903b-1184-45c5-99d2-658cb17585dc
+26-May-2020 13:53:34.733 +08:00 [INF] Undo everything
+26-May-2020 13:53:34.733 +08:00 [DBG] Starting step null on workflow 18a7903b-1184-45c5-99d2-658cb17585dc
+26-May-2020 13:53:34.930 +08:00 [DBG] Starting step null on workflow eef148c4-8908-4882-831a-506c7820dee7
+26-May-2020 13:53:34.930 +08:00 [DBG] Starting step Task1 on workflow eef148c4-8908-4882-831a-506c7820dee7
+26-May-2020 13:53:34.930 +08:00 [INF] App1.Message 2020/5/26 13:53:34 send to the App2.
+26-May-2020 13:53:34.932 +08:00 [DBG] RabbitMQ topic message [Test.App1ToApp2Text] has been published.
+26-May-2020 13:53:34.937 +08:00 [DBG] Received message. id:1265159122304307200, name: Test.App2TextReceived
+26-May-2020 13:53:34.938 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-May-2020 13:53:34.939 +08:00 [INF] --------> App2 has received the message: App1.Message 2020/5/26 13:53:34
+26-May-2020 13:53:34.939 +08:00 [DBG] Consumer executed. Took: 0.5763 ms.
+26-May-2020 13:53:35.067 +08:00 [DBG] Starting step null on workflow eef148c4-8908-4882-831a-506c7820dee7
+26-May-2020 13:53:35.067 +08:00 [DBG] Starting step Task2 on workflow eef148c4-8908-4882-831a-506c7820dee7
+26-May-2020 13:53:35.067 +08:00 [INF] Doing Task 2
+26-May-2020 13:53:35.114 +08:00 [ERR] Workflow eef148c4-8908-4882-831a-506c7820dee7 raised error on step 4 Message: Exception of type 'System.Exception' was thrown.
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at App1.Steps.Task2.Run(IStepExecutionContext context) in D:\workshop\Github\Abp.EventBus.CAP\sample\App1\Saga\Task2.cs:line 21
+   at WorkflowCore.Models.StepBody.RunAsync(IStepExecutionContext context)
+   at WorkflowCore.Services.WorkflowExecutor.ExecuteStep(WorkflowInstance workflow, WorkflowStep step, ExecutionPointer pointer, WorkflowExecutorResult wfResult, WorkflowDefinition def)
+   at WorkflowCore.Services.WorkflowExecutor.Execute(WorkflowInstance workflow)
+26-May-2020 13:53:35.503 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/api/Values  
+26-May-2020 13:53:35.503 +08:00 [DBG] The request path /api/Values does not match a supported file type
+26-May-2020 13:53:35.504 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+26-May-2020 13:53:35.504 +08:00 [DBG] Endpoint 'App1.Controllers.ValuesController.AppMessage (App1)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+26-May-2020 13:53:35.504 +08:00 [DBG] Request matched endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+26-May-2020 13:53:35.504 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+26-May-2020 13:53:35.504 +08:00 [INF] Executing endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+26-May-2020 13:53:35.505 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] AppMessage() on controller App1.Controllers.ValuesController (App1).
+26-May-2020 13:53:35.505 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+26-May-2020 13:53:35.505 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-May-2020 13:53:35.505 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+26-May-2020 13:53:35.505 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+26-May-2020 13:53:35.505 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+26-May-2020 13:53:35.506 +08:00 [DBG] Executing controller factory for controller App1.Controllers.ValuesController (App1)
+26-May-2020 13:53:35.506 +08:00 [DBG] Executed controller factory for controller App1.Controllers.ValuesController (App1)
+26-May-2020 13:53:35.536 +08:00 [DBG] Starting step UndoTask2 on workflow eef148c4-8908-4882-831a-506c7820dee7
+26-May-2020 13:53:35.536 +08:00 [INF] Undoing Task 2
+26-May-2020 13:53:35.536 +08:00 [DBG] Starting step UndoTask1 on workflow eef148c4-8908-4882-831a-506c7820dee7
+26-May-2020 13:53:35.537 +08:00 [INF] undoing...
+26-May-2020 13:53:35.537 +08:00 [DBG] Starting step UndoEverything on workflow eef148c4-8908-4882-831a-506c7820dee7
+26-May-2020 13:53:35.537 +08:00 [INF] Undo everything
+26-May-2020 13:53:35.537 +08:00 [DBG] Starting step null on workflow eef148c4-8908-4882-831a-506c7820dee7
+26-May-2020 13:53:35.757 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+26-May-2020 13:53:35.757 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+26-May-2020 13:53:35.758 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+26-May-2020 13:53:35.758 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+26-May-2020 13:53:35.758 +08:00 [INF] Executed action App1.Controllers.ValuesController.AppMessage (App1) in 252.9518ms
+26-May-2020 13:53:35.759 +08:00 [INF] Executed endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+26-May-2020 13:53:35.759 +08:00 [INF] HTTP GET /api/Values responded 200 in 255.1858 ms
+26-May-2020 13:53:35.759 +08:00 [INF] Request finished in 255.8436ms 200 text/plain; charset=utf-8
+26-May-2020 13:53:35.760 +08:00 [DBG] Starting step null on workflow 84e3c727-8be9-4328-a5ac-b28cce6041d1
+26-May-2020 13:53:35.862 +08:00 [DBG] Starting step null on workflow 84e3c727-8be9-4328-a5ac-b28cce6041d1
+26-May-2020 13:53:35.923 +08:00 [DBG] Starting step null on workflow 84e3c727-8be9-4328-a5ac-b28cce6041d1
+26-May-2020 13:53:35.923 +08:00 [DBG] Starting step Task1 on workflow 84e3c727-8be9-4328-a5ac-b28cce6041d1
+26-May-2020 13:53:35.924 +08:00 [INF] App1.Message 2020/5/26 13:53:35 send to the App2.
+26-May-2020 13:53:35.928 +08:00 [DBG] RabbitMQ topic message [Test.App1ToApp2Text] has been published.
+26-May-2020 13:53:35.938 +08:00 [DBG] Received message. id:1265159126490222592, name: Test.App2TextReceived
+26-May-2020 13:53:35.938 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-May-2020 13:53:35.938 +08:00 [INF] --------> App2 has received the message: App1.Message 2020/5/26 13:53:35
+26-May-2020 13:53:35.938 +08:00 [DBG] Consumer executed. Took: 0.38 ms.
+26-May-2020 13:53:36.443 +08:00 [DBG] Starting step null on workflow 84e3c727-8be9-4328-a5ac-b28cce6041d1
+26-May-2020 13:53:36.443 +08:00 [DBG] Starting step Task2 on workflow 84e3c727-8be9-4328-a5ac-b28cce6041d1
+26-May-2020 13:53:36.443 +08:00 [INF] Doing Task 2
+26-May-2020 13:53:36.492 +08:00 [ERR] Workflow 84e3c727-8be9-4328-a5ac-b28cce6041d1 raised error on step 4 Message: Exception of type 'System.Exception' was thrown.
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at App1.Steps.Task2.Run(IStepExecutionContext context) in D:\workshop\Github\Abp.EventBus.CAP\sample\App1\Saga\Task2.cs:line 21
+   at WorkflowCore.Models.StepBody.RunAsync(IStepExecutionContext context)
+   at WorkflowCore.Services.WorkflowExecutor.ExecuteStep(WorkflowInstance workflow, WorkflowStep step, ExecutionPointer pointer, WorkflowExecutorResult wfResult, WorkflowDefinition def)
+   at WorkflowCore.Services.WorkflowExecutor.Execute(WorkflowInstance workflow)
+26-May-2020 13:53:36.782 +08:00 [DBG] Starting step UndoTask2 on workflow 84e3c727-8be9-4328-a5ac-b28cce6041d1
+26-May-2020 13:53:36.782 +08:00 [INF] Undoing Task 2
+26-May-2020 13:53:36.783 +08:00 [DBG] Starting step UndoTask1 on workflow 84e3c727-8be9-4328-a5ac-b28cce6041d1
+26-May-2020 13:53:36.783 +08:00 [INF] undoing...
+26-May-2020 13:53:36.783 +08:00 [DBG] Starting step UndoEverything on workflow 84e3c727-8be9-4328-a5ac-b28cce6041d1
+26-May-2020 13:53:36.783 +08:00 [INF] Undo everything
+26-May-2020 13:53:36.783 +08:00 [DBG] Starting step null on workflow 84e3c727-8be9-4328-a5ac-b28cce6041d1
+26-May-2020 13:53:40.375 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:53:40.378 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:53:40.450 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap  
+26-May-2020 13:53:40.560 +08:00 [INF] Request finished in 109.6932ms 200 text/html
+26-May-2020 13:53:40.580 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/js303  
+26-May-2020 13:53:40.580 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/css303  
+26-May-2020 13:53:40.598 +08:00 [INF] Request finished in 17.6538ms 200 text/css
+26-May-2020 13:53:40.598 +08:00 [INF] Request finished in 17.6538ms 200 application/javascript
+26-May-2020 13:53:40.634 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/fonts/glyphicons-halflings-regular/woff2  
+26-May-2020 13:53:40.635 +08:00 [INF] Request finished in 0.9395ms 200 font/woff2
+26-May-2020 13:53:40.710 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/favicon.ico  
+26-May-2020 13:53:40.710 +08:00 [DBG] The request path /favicon.ico does not match an existing file
+26-May-2020 13:53:40.711 +08:00 [DBG] No candidates found for the request path '/favicon.ico'
+26-May-2020 13:53:40.711 +08:00 [DBG] Request did not match any endpoints
+26-May-2020 13:53:40.711 +08:00 [DBG] The request path  does not match the path filter
+26-May-2020 13:53:40.711 +08:00 [INF] HTTP GET /favicon.ico responded 404 in 0.5987 ms
+26-May-2020 13:53:40.712 +08:00 [INF] Request finished in 1.4299ms 404 
+26-May-2020 13:53:42.700 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 312
+26-May-2020 13:53:42.726 +08:00 [INF] Request finished in 26.4712ms 200 application/json
+26-May-2020 13:53:43.888 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/received/succeeded  
+26-May-2020 13:53:43.906 +08:00 [INF] Request finished in 18.214ms 200 text/html
+26-May-2020 13:53:45.966 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-May-2020 13:53:45.969 +08:00 [INF] Request finished in 3.2496ms 200 application/json
+26-May-2020 13:53:46.016 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/published/succeeded  
+26-May-2020 13:53:46.023 +08:00 [INF] Request finished in 7.7671ms 200 text/html
+26-May-2020 13:53:47.503 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/received/succeeded  
+26-May-2020 13:53:47.506 +08:00 [INF] Request finished in 2.7202ms 200 text/html
+26-May-2020 13:53:48.459 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/published/succeeded  
+26-May-2020 13:53:48.461 +08:00 [INF] Request finished in 2.099ms 200 text/html
+26-May-2020 13:53:49.407 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/received/succeeded  
+26-May-2020 13:53:49.409 +08:00 [INF] Request finished in 2.0296ms 200 text/html
+26-May-2020 13:53:50.379 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:53:50.382 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:53:50.528 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/published/succeeded  
+26-May-2020 13:53:50.530 +08:00 [INF] Request finished in 2.6053ms 200 text/html
+26-May-2020 13:53:51.424 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/subscribers  
+26-May-2020 13:53:51.430 +08:00 [INF] Request finished in 6.2141ms 200 text/html
+26-May-2020 13:53:53.463 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+26-May-2020 13:53:53.465 +08:00 [INF] Request finished in 1.4856ms 200 application/json
+26-May-2020 13:53:55.464 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+26-May-2020 13:53:55.466 +08:00 [INF] Request finished in 1.3563ms 200 application/json
+26-May-2020 13:53:57.473 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+26-May-2020 13:53:57.477 +08:00 [INF] Request finished in 3.7594ms 200 application/json
+26-May-2020 13:53:59.002 +08:00 [DBG] Transport connection checking...
+26-May-2020 13:53:59.002 +08:00 [DBG] Transport connection healthy!
+26-May-2020 13:53:59.463 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+26-May-2020 13:53:59.464 +08:00 [INF] Request finished in 1.1654ms 200 application/json
+26-May-2020 13:54:00.390 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:54:00.405 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:54:01.463 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+26-May-2020 13:54:01.464 +08:00 [INF] Request finished in 1.0622ms 200 application/json
+26-May-2020 13:54:03.465 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+26-May-2020 13:54:03.466 +08:00 [INF] Request finished in 0.9355ms 200 application/json
+26-May-2020 13:54:05.463 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+26-May-2020 13:54:05.464 +08:00 [INF] Request finished in 1.0374ms 200 application/json
+26-May-2020 13:54:07.326 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/received/succeeded  
+26-May-2020 13:54:07.328 +08:00 [INF] Request finished in 1.9028ms 200 text/html
+26-May-2020 13:54:09.377 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-May-2020 13:54:09.379 +08:00 [INF] Request finished in 1.0979ms 200 application/json
+26-May-2020 13:54:09.998 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/published/succeeded  
+26-May-2020 13:54:10.000 +08:00 [INF] Request finished in 1.6218ms 200 text/html
+26-May-2020 13:54:10.390 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:54:10.397 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:54:12.046 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 274
+26-May-2020 13:54:12.047 +08:00 [INF] Request finished in 1.0052ms 200 application/json
+26-May-2020 13:54:14.051 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 274
+26-May-2020 13:54:14.053 +08:00 [INF] Request finished in 2.0413ms 200 application/json
+26-May-2020 13:54:16.047 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 274
+26-May-2020 13:54:16.048 +08:00 [INF] Request finished in 0.92ms 200 application/json
+26-May-2020 13:54:18.059 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 274
+26-May-2020 13:54:18.062 +08:00 [INF] Request finished in 3.4647ms 200 application/json
+26-May-2020 13:54:20.047 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 274
+26-May-2020 13:54:20.048 +08:00 [INF] Request finished in 1.0279ms 200 application/json
+26-May-2020 13:54:20.389 +08:00 [INF] Polling for runnable workflows
+26-May-2020 13:54:20.411 +08:00 [INF] Polling for unprocessed events
+26-May-2020 13:54:22.046 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 274
+26-May-2020 13:54:22.047 +08:00 [INF] Request finished in 1.4108ms 200 application/json
+26-May-2020 13:54:24.050 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 274
+26-May-2020 13:54:24.054 +08:00 [INF] Request finished in 4.1825ms 200 application/json
+26-May-2020 13:54:26.047 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 274
+26-May-2020 13:54:26.047 +08:00 [INF] Request finished in 0.9664ms 200 application/json

@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+
+    <AbpVersion>4.1.1</AbpVersion>
+    <DaprVersion>1.0.0</DaprVersion>
+  </PropertyGroup>
+</Project>

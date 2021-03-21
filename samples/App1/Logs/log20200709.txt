@@ -1,0 +1,635 @@
+09-Jul-2020 09:52:53.770 +08:00 [INF] Starting App1.WebHost.
+09-Jul-2020 09:52:59.038 +08:00 [DBG] Hosting starting
+09-Jul-2020 09:52:59.170 +08:00 [INF] User profile is available. Using 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+09-Jul-2020 09:52:59.308 +08:00 [DBG] RabbitMQ configuration:'HostName:localhost, Port:-1, UserName:guest, Password:guest, ExchangeName:cap.default.router'
+09-Jul-2020 09:52:59.382 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-0bef591e-88d1-4798-8f0e-444aed5c7107.xml'.
+09-Jul-2020 09:52:59.459 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-5097cf8b-9f8a-4e57-b949-718a2a81439b.xml'.
+09-Jul-2020 09:52:59.468 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-53e17354-b418-4384-bfa8-08935f98ffbf.xml'.
+09-Jul-2020 09:52:59.468 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-cf3c06b9-d825-4592-b341-ed17371e7bdf.xml'.
+09-Jul-2020 09:52:59.469 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9.xml'.
+09-Jul-2020 09:52:59.470 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e5ee03e3-e27a-4e1f-acff-3b3209d2568f.xml'.
+09-Jul-2020 09:52:59.471 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a.xml'.
+09-Jul-2020 09:52:59.485 +08:00 [DBG] Found key {0bef591e-88d1-4798-8f0e-444aed5c7107}.
+09-Jul-2020 09:52:59.490 +08:00 [DBG] Found key {5097cf8b-9f8a-4e57-b949-718a2a81439b}.
+09-Jul-2020 09:52:59.490 +08:00 [DBG] Found key {53e17354-b418-4384-bfa8-08935f98ffbf}.
+09-Jul-2020 09:52:59.491 +08:00 [DBG] Found key {cf3c06b9-d825-4592-b341-ed17371e7bdf}.
+09-Jul-2020 09:52:59.491 +08:00 [DBG] Found key {e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9}.
+09-Jul-2020 09:52:59.491 +08:00 [DBG] Found key {e5ee03e3-e27a-4e1f-acff-3b3209d2568f}.
+09-Jul-2020 09:52:59.491 +08:00 [DBG] Found key {ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a}.
+09-Jul-2020 09:52:59.497 +08:00 [DBG] Considering key {e5ee03e3-e27a-4e1f-acff-3b3209d2568f} with expiration date 2020-09-10 06:24:21Z as default key.
+09-Jul-2020 09:52:59.505 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+09-Jul-2020 09:52:59.507 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+09-Jul-2020 09:52:59.509 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+09-Jul-2020 09:52:59.511 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+09-Jul-2020 09:52:59.513 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+09-Jul-2020 09:52:59.516 +08:00 [DBG] Using key {e5ee03e3-e27a-4e1f-acff-3b3209d2568f} as the default key.
+09-Jul-2020 09:52:59.516 +08:00 [DBG] Key ring with default key {e5ee03e3-e27a-4e1f-acff-3b3209d2568f} was loaded during application startup.
+09-Jul-2020 09:52:59.518 +08:00 [DBG] ### CAP background task is starting.
+09-Jul-2020 09:52:59.519 +08:00 [INF] Starting the processing server.
+09-Jul-2020 09:52:59.524 +08:00 [DBG] Transport connection checking...
+09-Jul-2020 09:52:59.524 +08:00 [DBG] Transport connection healthy!
+09-Jul-2020 09:52:59.542 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+09-Jul-2020 09:52:59.543 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+09-Jul-2020 09:52:59.553 +08:00 [INF] ### CAP started!
+09-Jul-2020 09:52:59.580 +08:00 [INF] Loaded ABP modules:
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - EasyAbp.Abp.EventBus.Cap.CapModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Dapper.AbpDapperModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - EasyAbp.Abp.EventBus.CAP.MySql.CapMysqlModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+09-Jul-2020 09:52:59.580 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+09-Jul-2020 09:52:59.581 +08:00 [INF] - App1.App1Module
+09-Jul-2020 09:52:59.863 +08:00 [INF] RabbitMQ consumer registered. --> amq.ctag-eT5kZZr-Kv3LJ3tZHUrTAg
+09-Jul-2020 09:53:03.940 +08:00 [INF] Starting background tasks
+09-Jul-2020 09:53:03.953 +08:00 [INF] Initialized all ABP modules.
+09-Jul-2020 09:53:03.962 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:53:03.997 +08:00 [DBG] Loaded hosting startup assembly App1
+09-Jul-2020 09:53:03.997 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+09-Jul-2020 09:53:03.997 +08:00 [INF] Hosting environment: Development
+09-Jul-2020 09:53:03.997 +08:00 [INF] Content root path: D:\workshop\Github\Abp.EventBus.CAP\sample\App1
+09-Jul-2020 09:53:03.997 +08:00 [DBG] Hosting started
+09-Jul-2020 09:53:04.044 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/  
+09-Jul-2020 09:53:04.048 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+09-Jul-2020 09:53:04.057 +08:00 [DBG] The request path / does not match a supported file type
+09-Jul-2020 09:53:04.105 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+09-Jul-2020 09:53:04.108 +08:00 [DBG] Endpoint 'App1.Controllers.HomeController.Index (App1)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+09-Jul-2020 09:53:04.109 +08:00 [DBG] Request matched endpoint 'App1.Controllers.HomeController.Index (App1)'
+09-Jul-2020 09:53:04.152 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+09-Jul-2020 09:53:04.152 +08:00 [INF] Executing endpoint 'App1.Controllers.HomeController.Index (App1)'
+09-Jul-2020 09:53:04.162 +08:00 [DBG] Registered model binder providers, in the following order: ["Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpExtraPropertiesDictionaryModelBinderProvider","Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpDateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+09-Jul-2020 09:53:04.268 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller App1.Controllers.HomeController (App1).
+09-Jul-2020 09:53:04.270 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+09-Jul-2020 09:53:04.270 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+09-Jul-2020 09:53:04.270 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+09-Jul-2020 09:53:04.270 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+09-Jul-2020 09:53:04.270 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+09-Jul-2020 09:53:04.273 +08:00 [DBG] Executing controller factory for controller App1.Controllers.HomeController (App1)
+09-Jul-2020 09:53:04.275 +08:00 [DBG] Executed controller factory for controller App1.Controllers.HomeController (App1)
+09-Jul-2020 09:53:04.343 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:53:04.352 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+09-Jul-2020 09:53:04.360 +08:00 [INF] Executed action App1.Controllers.HomeController.Index (App1) in 83.3352ms
+09-Jul-2020 09:53:04.362 +08:00 [INF] Executed endpoint 'App1.Controllers.HomeController.Index (App1)'
+09-Jul-2020 09:53:04.364 +08:00 [INF] HTTP GET / responded 302 in 304.3492 ms
+09-Jul-2020 09:53:04.383 +08:00 [DBG] Connection ID "18374686498462105601" disconnecting.
+09-Jul-2020 09:53:04.383 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger  
+09-Jul-2020 09:53:04.383 +08:00 [DBG] The request path /swagger does not match a supported file type
+09-Jul-2020 09:53:04.386 +08:00 [DBG] No candidates found for the request path '/swagger'
+09-Jul-2020 09:53:04.386 +08:00 [DBG] Request did not match any endpoints
+09-Jul-2020 09:53:04.386 +08:00 [INF] Request finished in 345.0606ms 302 
+09-Jul-2020 09:53:04.388 +08:00 [INF] HTTP GET /swagger responded 301 in 5.0932 ms
+09-Jul-2020 09:53:04.394 +08:00 [DBG] Connection ID "18374686507052040193" disconnecting.
+09-Jul-2020 09:53:04.394 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/index.html  
+09-Jul-2020 09:53:04.394 +08:00 [INF] Request finished in 10.5413ms 301 
+09-Jul-2020 09:53:04.408 +08:00 [DBG] The request path /swagger/index.html does not match an existing file
+09-Jul-2020 09:53:04.409 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+09-Jul-2020 09:53:04.409 +08:00 [DBG] Request did not match any endpoints
+09-Jul-2020 09:53:04.437 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 28.6484 ms
+09-Jul-2020 09:53:04.438 +08:00 [INF] Request finished in 44.7428ms 200 text/html;charset=utf-8
+09-Jul-2020 09:53:04.461 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/swagger-ui-standalone-preset.js  
+09-Jul-2020 09:53:04.461 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/swagger-ui-bundle.js  
+09-Jul-2020 09:53:04.461 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/swagger-ui.css  
+09-Jul-2020 09:53:04.461 +08:00 [DBG] The request path /swagger/swagger-ui-bundle.js does not match an existing file
+09-Jul-2020 09:53:04.461 +08:00 [DBG] The request path /swagger/swagger-ui.css does not match an existing file
+09-Jul-2020 09:53:04.461 +08:00 [DBG] The request path /swagger/swagger-ui-standalone-preset.js does not match an existing file
+09-Jul-2020 09:53:04.462 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+09-Jul-2020 09:53:04.462 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+09-Jul-2020 09:53:04.462 +08:00 [DBG] Request did not match any endpoints
+09-Jul-2020 09:53:04.462 +08:00 [DBG] Request did not match any endpoints
+09-Jul-2020 09:53:04.462 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+09-Jul-2020 09:53:04.462 +08:00 [DBG] Request did not match any endpoints
+09-Jul-2020 09:53:04.482 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+09-Jul-2020 09:53:04.482 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+09-Jul-2020 09:53:04.484 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+09-Jul-2020 09:53:04.488 +08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 26.5481 ms
+09-Jul-2020 09:53:04.488 +08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 26.5130 ms
+09-Jul-2020 09:53:04.488 +08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 26.5487 ms
+09-Jul-2020 09:53:04.491 +08:00 [INF] Request finished in 29.6041ms 200 application/javascript
+09-Jul-2020 09:53:04.491 +08:00 [INF] Request finished in 29.5744ms 200 application/javascript
+09-Jul-2020 09:53:04.491 +08:00 [INF] Request finished in 29.5762ms 200 text/css
+09-Jul-2020 09:53:04.663 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/v1/swagger.json  
+09-Jul-2020 09:53:04.663 +08:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+09-Jul-2020 09:53:04.664 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+09-Jul-2020 09:53:04.664 +08:00 [DBG] Request did not match any endpoints
+09-Jul-2020 09:53:04.708 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/swagger/favicon-32x32.png  
+09-Jul-2020 09:53:04.709 +08:00 [DBG] The request path /swagger/favicon-32x32.png does not match an existing file
+09-Jul-2020 09:53:04.709 +08:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+09-Jul-2020 09:53:04.709 +08:00 [DBG] Request did not match any endpoints
+09-Jul-2020 09:53:04.710 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+09-Jul-2020 09:53:04.710 +08:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 1.3832 ms
+09-Jul-2020 09:53:04.710 +08:00 [INF] Request finished in 2.7266ms 200 image/png
+09-Jul-2020 09:53:04.794 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 130.0945 ms
+09-Jul-2020 09:53:04.794 +08:00 [INF] Request finished in 131.6022ms 200 application/json;charset=utf-8
+09-Jul-2020 09:53:09.609 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/api/Values  
+09-Jul-2020 09:53:09.609 +08:00 [DBG] The request path /api/Values does not match a supported file type
+09-Jul-2020 09:53:09.610 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+09-Jul-2020 09:53:09.610 +08:00 [DBG] Endpoint 'App1.Controllers.ValuesController.AppMessage (App1)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+09-Jul-2020 09:53:09.611 +08:00 [DBG] Request matched endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:09.611 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+09-Jul-2020 09:53:09.611 +08:00 [INF] Executing endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:09.619 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] AppMessage() on controller App1.Controllers.ValuesController (App1).
+09-Jul-2020 09:53:09.619 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+09-Jul-2020 09:53:09.619 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+09-Jul-2020 09:53:09.619 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+09-Jul-2020 09:53:09.619 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+09-Jul-2020 09:53:09.619 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+09-Jul-2020 09:53:09.619 +08:00 [DBG] Executing controller factory for controller App1.Controllers.ValuesController (App1)
+09-Jul-2020 09:53:09.620 +08:00 [DBG] Executed controller factory for controller App1.Controllers.ValuesController (App1)
+09-Jul-2020 09:53:10.782 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+09-Jul-2020 09:53:10.787 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+09-Jul-2020 09:53:10.788 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+09-Jul-2020 09:53:10.789 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+09-Jul-2020 09:53:10.791 +08:00 [INF] Executed action App1.Controllers.ValuesController.AppMessage (App1) in 1171.6054ms
+09-Jul-2020 09:53:10.791 +08:00 [INF] Executed endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:10.791 +08:00 [INF] HTTP GET /api/Values responded 200 in 1181.4625 ms
+09-Jul-2020 09:53:10.791 +08:00 [INF] Request finished in 1182.3698ms 200 text/plain; charset=utf-8
+09-Jul-2020 09:53:10.984 +08:00 [DBG] Starting step null on workflow 4b21ed91-4f56-440a-af8d-b70cd7ce6cc5
+09-Jul-2020 09:53:11.905 +08:00 [DBG] Starting step null on workflow 4b21ed91-4f56-440a-af8d-b70cd7ce6cc5
+09-Jul-2020 09:53:12.668 +08:00 [DBG] Starting step null on workflow 4b21ed91-4f56-440a-af8d-b70cd7ce6cc5
+09-Jul-2020 09:53:12.669 +08:00 [DBG] Starting step Task1 on workflow 4b21ed91-4f56-440a-af8d-b70cd7ce6cc5
+09-Jul-2020 09:53:12.677 +08:00 [INF] App1.Message 2020/7/9 9:53:12 send to the App2.
+09-Jul-2020 09:53:12.726 +08:00 [DBG] RabbitMQ topic message [Test.App1ToApp2Text] has been published.
+09-Jul-2020 09:53:13.069 +08:00 [DBG] Received message. id:1281043698599641088, name: Test.App2TextReceived
+09-Jul-2020 09:53:13.085 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+09-Jul-2020 09:53:13.098 +08:00 [INF] --------> App2 has received the message: App1.Message 2020/7/9 9:53:12
+09-Jul-2020 09:53:13.099 +08:00 [DBG] Consumer executed. Took: 17.1884 ms.
+09-Jul-2020 09:53:13.118 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/api/Values  
+09-Jul-2020 09:53:13.118 +08:00 [DBG] The request path /api/Values does not match a supported file type
+09-Jul-2020 09:53:13.118 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+09-Jul-2020 09:53:13.118 +08:00 [DBG] Endpoint 'App1.Controllers.ValuesController.AppMessage (App1)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+09-Jul-2020 09:53:13.119 +08:00 [DBG] Request matched endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:13.119 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+09-Jul-2020 09:53:13.119 +08:00 [INF] Executing endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:13.120 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] AppMessage() on controller App1.Controllers.ValuesController (App1).
+09-Jul-2020 09:53:13.120 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+09-Jul-2020 09:53:13.120 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+09-Jul-2020 09:53:13.120 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+09-Jul-2020 09:53:13.151 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+09-Jul-2020 09:53:13.152 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+09-Jul-2020 09:53:13.152 +08:00 [DBG] Executing controller factory for controller App1.Controllers.ValuesController (App1)
+09-Jul-2020 09:53:13.152 +08:00 [DBG] Executed controller factory for controller App1.Controllers.ValuesController (App1)
+09-Jul-2020 09:53:13.317 +08:00 [DBG] Starting step null on workflow 4b21ed91-4f56-440a-af8d-b70cd7ce6cc5
+09-Jul-2020 09:53:13.318 +08:00 [DBG] Starting step Task2 on workflow 4b21ed91-4f56-440a-af8d-b70cd7ce6cc5
+09-Jul-2020 09:53:13.320 +08:00 [INF] Doing Task 2
+09-Jul-2020 09:53:13.436 +08:00 [ERR] Workflow 4b21ed91-4f56-440a-af8d-b70cd7ce6cc5 raised error on step 4 Message: Exception of type 'System.Exception' was thrown.
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at App1.Steps.Task2.Run(IStepExecutionContext context) in D:\workshop\Github\Abp.EventBus.CAP\sample\App1\Saga\Task2.cs:line 21
+   at WorkflowCore.Models.StepBody.RunAsync(IStepExecutionContext context)
+   at WorkflowCore.Services.WorkflowExecutor.ExecuteStep(WorkflowInstance workflow, WorkflowStep step, ExecutionPointer pointer, WorkflowExecutorResult wfResult, WorkflowDefinition def)
+   at WorkflowCore.Services.WorkflowExecutor.Execute(WorkflowInstance workflow)
+09-Jul-2020 09:53:13.683 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+09-Jul-2020 09:53:13.683 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+09-Jul-2020 09:53:13.683 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+09-Jul-2020 09:53:13.683 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+09-Jul-2020 09:53:13.686 +08:00 [INF] Executed action App1.Controllers.ValuesController.AppMessage (App1) in 534.315ms
+09-Jul-2020 09:53:13.686 +08:00 [INF] Executed endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:13.688 +08:00 [INF] HTTP GET /api/Values responded 200 in 568.7936 ms
+09-Jul-2020 09:53:13.689 +08:00 [INF] Request finished in 571.1568ms 200 text/plain; charset=utf-8
+09-Jul-2020 09:53:13.858 +08:00 [DBG] Starting step null on workflow 0c5f4bc4-df68-466b-8e2f-719726c387f1
+09-Jul-2020 09:53:13.957 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:53:13.963 +08:00 [DBG] Got runnable instance 4b21ed91-4f56-440a-af8d-b70cd7ce6cc5
+09-Jul-2020 09:53:13.963 +08:00 [DBG] Got runnable instance 0c5f4bc4-df68-466b-8e2f-719726c387f1
+09-Jul-2020 09:53:13.963 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:53:14.021 +08:00 [DBG] Starting step UndoTask2 on workflow 4b21ed91-4f56-440a-af8d-b70cd7ce6cc5
+09-Jul-2020 09:53:14.022 +08:00 [INF] Undoing Task 2
+09-Jul-2020 09:53:14.022 +08:00 [DBG] Starting step UndoTask1 on workflow 4b21ed91-4f56-440a-af8d-b70cd7ce6cc5
+09-Jul-2020 09:53:14.023 +08:00 [INF] undoing...
+09-Jul-2020 09:53:14.023 +08:00 [DBG] Starting step UndoEverything on workflow 4b21ed91-4f56-440a-af8d-b70cd7ce6cc5
+09-Jul-2020 09:53:14.024 +08:00 [INF] Undo everything
+09-Jul-2020 09:53:14.024 +08:00 [DBG] Starting step null on workflow 4b21ed91-4f56-440a-af8d-b70cd7ce6cc5
+09-Jul-2020 09:53:14.294 +08:00 [DBG] Starting step null on workflow 0c5f4bc4-df68-466b-8e2f-719726c387f1
+09-Jul-2020 09:53:14.392 +08:00 [DBG] Starting step null on workflow 0c5f4bc4-df68-466b-8e2f-719726c387f1
+09-Jul-2020 09:53:14.392 +08:00 [DBG] Starting step Task1 on workflow 0c5f4bc4-df68-466b-8e2f-719726c387f1
+09-Jul-2020 09:53:14.392 +08:00 [INF] App1.Message 2020/7/9 9:53:14 send to the App2.
+09-Jul-2020 09:53:14.395 +08:00 [DBG] RabbitMQ topic message [Test.App1ToApp2Text] has been published.
+09-Jul-2020 09:53:14.411 +08:00 [DBG] Received message. id:1281043704308088832, name: Test.App2TextReceived
+09-Jul-2020 09:53:14.412 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+09-Jul-2020 09:53:14.412 +08:00 [INF] --------> App2 has received the message: App1.Message 2020/7/9 9:53:14
+09-Jul-2020 09:53:14.412 +08:00 [DBG] Consumer executed. Took: 0.2494 ms.
+09-Jul-2020 09:53:14.437 +08:00 [DBG] Starting step null on workflow 0c5f4bc4-df68-466b-8e2f-719726c387f1
+09-Jul-2020 09:53:14.437 +08:00 [DBG] Starting step Task2 on workflow 0c5f4bc4-df68-466b-8e2f-719726c387f1
+09-Jul-2020 09:53:14.437 +08:00 [INF] Doing Task 2
+09-Jul-2020 09:53:14.486 +08:00 [ERR] Workflow 0c5f4bc4-df68-466b-8e2f-719726c387f1 raised error on step 4 Message: Exception of type 'System.Exception' was thrown.
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at App1.Steps.Task2.Run(IStepExecutionContext context) in D:\workshop\Github\Abp.EventBus.CAP\sample\App1\Saga\Task2.cs:line 21
+   at WorkflowCore.Models.StepBody.RunAsync(IStepExecutionContext context)
+   at WorkflowCore.Services.WorkflowExecutor.ExecuteStep(WorkflowInstance workflow, WorkflowStep step, ExecutionPointer pointer, WorkflowExecutorResult wfResult, WorkflowDefinition def)
+   at WorkflowCore.Services.WorkflowExecutor.Execute(WorkflowInstance workflow)
+09-Jul-2020 09:53:15.098 +08:00 [DBG] Starting step UndoTask2 on workflow 0c5f4bc4-df68-466b-8e2f-719726c387f1
+09-Jul-2020 09:53:15.098 +08:00 [INF] Undoing Task 2
+09-Jul-2020 09:53:15.099 +08:00 [DBG] Starting step UndoTask1 on workflow 0c5f4bc4-df68-466b-8e2f-719726c387f1
+09-Jul-2020 09:53:15.100 +08:00 [INF] undoing...
+09-Jul-2020 09:53:15.100 +08:00 [DBG] Starting step UndoEverything on workflow 0c5f4bc4-df68-466b-8e2f-719726c387f1
+09-Jul-2020 09:53:15.100 +08:00 [INF] Undo everything
+09-Jul-2020 09:53:15.100 +08:00 [DBG] Starting step null on workflow 0c5f4bc4-df68-466b-8e2f-719726c387f1
+09-Jul-2020 09:53:15.278 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/api/Values  
+09-Jul-2020 09:53:15.278 +08:00 [DBG] The request path /api/Values does not match a supported file type
+09-Jul-2020 09:53:15.278 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+09-Jul-2020 09:53:15.278 +08:00 [DBG] Endpoint 'App1.Controllers.ValuesController.AppMessage (App1)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+09-Jul-2020 09:53:15.278 +08:00 [DBG] Request matched endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:15.278 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+09-Jul-2020 09:53:15.278 +08:00 [INF] Executing endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:15.279 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] AppMessage() on controller App1.Controllers.ValuesController (App1).
+09-Jul-2020 09:53:15.279 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+09-Jul-2020 09:53:15.279 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+09-Jul-2020 09:53:15.279 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+09-Jul-2020 09:53:15.279 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+09-Jul-2020 09:53:15.279 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+09-Jul-2020 09:53:15.279 +08:00 [DBG] Executing controller factory for controller App1.Controllers.ValuesController (App1)
+09-Jul-2020 09:53:15.279 +08:00 [DBG] Executed controller factory for controller App1.Controllers.ValuesController (App1)
+09-Jul-2020 09:53:15.465 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+09-Jul-2020 09:53:15.465 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+09-Jul-2020 09:53:15.466 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+09-Jul-2020 09:53:15.466 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+09-Jul-2020 09:53:15.466 +08:00 [INF] Executed action App1.Controllers.ValuesController.AppMessage (App1) in 187.0802ms
+09-Jul-2020 09:53:15.466 +08:00 [INF] Executed endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:15.467 +08:00 [INF] HTTP GET /api/Values responded 200 in 188.6889 ms
+09-Jul-2020 09:53:15.467 +08:00 [INF] Request finished in 189.3447ms 200 text/plain; charset=utf-8
+09-Jul-2020 09:53:15.471 +08:00 [DBG] Starting step null on workflow 72604f55-a9d5-4ee4-96e7-93074c2c3bb7
+09-Jul-2020 09:53:15.637 +08:00 [DBG] Starting step null on workflow 72604f55-a9d5-4ee4-96e7-93074c2c3bb7
+09-Jul-2020 09:53:15.771 +08:00 [DBG] Starting step null on workflow 72604f55-a9d5-4ee4-96e7-93074c2c3bb7
+09-Jul-2020 09:53:15.771 +08:00 [DBG] Starting step Task1 on workflow 72604f55-a9d5-4ee4-96e7-93074c2c3bb7
+09-Jul-2020 09:53:15.771 +08:00 [INF] App1.Message 2020/7/9 9:53:15 send to the App2.
+09-Jul-2020 09:53:15.774 +08:00 [DBG] RabbitMQ topic message [Test.App1ToApp2Text] has been published.
+09-Jul-2020 09:53:15.783 +08:00 [DBG] Received message. id:1281043710071062528, name: Test.App2TextReceived
+09-Jul-2020 09:53:15.784 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+09-Jul-2020 09:53:15.784 +08:00 [INF] --------> App2 has received the message: App1.Message 2020/7/9 9:53:15
+09-Jul-2020 09:53:15.784 +08:00 [DBG] Consumer executed. Took: 0.4009 ms.
+09-Jul-2020 09:53:15.956 +08:00 [DBG] Starting step null on workflow 72604f55-a9d5-4ee4-96e7-93074c2c3bb7
+09-Jul-2020 09:53:15.956 +08:00 [DBG] Starting step Task2 on workflow 72604f55-a9d5-4ee4-96e7-93074c2c3bb7
+09-Jul-2020 09:53:15.956 +08:00 [INF] Doing Task 2
+09-Jul-2020 09:53:16.003 +08:00 [ERR] Workflow 72604f55-a9d5-4ee4-96e7-93074c2c3bb7 raised error on step 4 Message: Exception of type 'System.Exception' was thrown.
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at App1.Steps.Task2.Run(IStepExecutionContext context) in D:\workshop\Github\Abp.EventBus.CAP\sample\App1\Saga\Task2.cs:line 21
+   at WorkflowCore.Models.StepBody.RunAsync(IStepExecutionContext context)
+   at WorkflowCore.Services.WorkflowExecutor.ExecuteStep(WorkflowInstance workflow, WorkflowStep step, ExecutionPointer pointer, WorkflowExecutorResult wfResult, WorkflowDefinition def)
+   at WorkflowCore.Services.WorkflowExecutor.Execute(WorkflowInstance workflow)
+09-Jul-2020 09:53:16.319 +08:00 [DBG] Starting step UndoTask2 on workflow 72604f55-a9d5-4ee4-96e7-93074c2c3bb7
+09-Jul-2020 09:53:16.319 +08:00 [INF] Undoing Task 2
+09-Jul-2020 09:53:16.319 +08:00 [DBG] Starting step UndoTask1 on workflow 72604f55-a9d5-4ee4-96e7-93074c2c3bb7
+09-Jul-2020 09:53:16.320 +08:00 [INF] undoing...
+09-Jul-2020 09:53:16.320 +08:00 [DBG] Starting step UndoEverything on workflow 72604f55-a9d5-4ee4-96e7-93074c2c3bb7
+09-Jul-2020 09:53:16.320 +08:00 [INF] Undo everything
+09-Jul-2020 09:53:16.320 +08:00 [DBG] Starting step null on workflow 72604f55-a9d5-4ee4-96e7-93074c2c3bb7
+09-Jul-2020 09:53:19.611 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/api/Values  
+09-Jul-2020 09:53:19.611 +08:00 [DBG] The request path /api/Values does not match a supported file type
+09-Jul-2020 09:53:19.611 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+09-Jul-2020 09:53:19.612 +08:00 [DBG] Endpoint 'App1.Controllers.ValuesController.AppMessage (App1)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+09-Jul-2020 09:53:19.612 +08:00 [DBG] Request matched endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:19.612 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+09-Jul-2020 09:53:19.612 +08:00 [INF] Executing endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:19.613 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] AppMessage() on controller App1.Controllers.ValuesController (App1).
+09-Jul-2020 09:53:19.613 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+09-Jul-2020 09:53:19.613 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+09-Jul-2020 09:53:19.614 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+09-Jul-2020 09:53:19.614 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+09-Jul-2020 09:53:19.614 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+09-Jul-2020 09:53:19.614 +08:00 [DBG] Executing controller factory for controller App1.Controllers.ValuesController (App1)
+09-Jul-2020 09:53:19.614 +08:00 [DBG] Executed controller factory for controller App1.Controllers.ValuesController (App1)
+09-Jul-2020 09:53:19.815 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+09-Jul-2020 09:53:19.815 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+09-Jul-2020 09:53:19.815 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+09-Jul-2020 09:53:19.815 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+09-Jul-2020 09:53:19.816 +08:00 [INF] Executed action App1.Controllers.ValuesController.AppMessage (App1) in 202.1356ms
+09-Jul-2020 09:53:19.816 +08:00 [INF] Executed endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:19.816 +08:00 [INF] HTTP GET /api/Values responded 200 in 204.7101 ms
+09-Jul-2020 09:53:19.816 +08:00 [INF] Request finished in 205.2623ms 200 text/plain; charset=utf-8
+09-Jul-2020 09:53:19.823 +08:00 [DBG] Starting step null on workflow 97f44025-4b18-45f5-aad6-b2779936fb48
+09-Jul-2020 09:53:19.999 +08:00 [DBG] Starting step null on workflow 97f44025-4b18-45f5-aad6-b2779936fb48
+09-Jul-2020 09:53:20.245 +08:00 [DBG] Starting step null on workflow 97f44025-4b18-45f5-aad6-b2779936fb48
+09-Jul-2020 09:53:20.245 +08:00 [DBG] Starting step Task1 on workflow 97f44025-4b18-45f5-aad6-b2779936fb48
+09-Jul-2020 09:53:20.246 +08:00 [INF] App1.Message 2020/7/9 9:53:20 send to the App2.
+09-Jul-2020 09:53:20.250 +08:00 [DBG] RabbitMQ topic message [Test.App1ToApp2Text] has been published.
+09-Jul-2020 09:53:20.271 +08:00 [DBG] Received message. id:1281043728869933056, name: Test.App2TextReceived
+09-Jul-2020 09:53:20.272 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+09-Jul-2020 09:53:20.273 +08:00 [INF] --------> App2 has received the message: App1.Message 2020/7/9 9:53:20
+09-Jul-2020 09:53:20.273 +08:00 [DBG] Consumer executed. Took: 0.704 ms.
+09-Jul-2020 09:53:20.376 +08:00 [DBG] Starting step null on workflow 97f44025-4b18-45f5-aad6-b2779936fb48
+09-Jul-2020 09:53:20.376 +08:00 [DBG] Starting step Task2 on workflow 97f44025-4b18-45f5-aad6-b2779936fb48
+09-Jul-2020 09:53:20.377 +08:00 [INF] Doing Task 2
+09-Jul-2020 09:53:20.420 +08:00 [ERR] Workflow 97f44025-4b18-45f5-aad6-b2779936fb48 raised error on step 4 Message: Exception of type 'System.Exception' was thrown.
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at App1.Steps.Task2.Run(IStepExecutionContext context) in D:\workshop\Github\Abp.EventBus.CAP\sample\App1\Saga\Task2.cs:line 21
+   at WorkflowCore.Models.StepBody.RunAsync(IStepExecutionContext context)
+   at WorkflowCore.Services.WorkflowExecutor.ExecuteStep(WorkflowInstance workflow, WorkflowStep step, ExecutionPointer pointer, WorkflowExecutorResult wfResult, WorkflowDefinition def)
+   at WorkflowCore.Services.WorkflowExecutor.Execute(WorkflowInstance workflow)
+09-Jul-2020 09:53:20.771 +08:00 [DBG] Starting step UndoTask2 on workflow 97f44025-4b18-45f5-aad6-b2779936fb48
+09-Jul-2020 09:53:20.771 +08:00 [INF] Undoing Task 2
+09-Jul-2020 09:53:20.771 +08:00 [DBG] Starting step UndoTask1 on workflow 97f44025-4b18-45f5-aad6-b2779936fb48
+09-Jul-2020 09:53:20.772 +08:00 [INF] undoing...
+09-Jul-2020 09:53:20.772 +08:00 [DBG] Starting step UndoEverything on workflow 97f44025-4b18-45f5-aad6-b2779936fb48
+09-Jul-2020 09:53:20.772 +08:00 [INF] Undo everything
+09-Jul-2020 09:53:20.772 +08:00 [DBG] Starting step null on workflow 97f44025-4b18-45f5-aad6-b2779936fb48
+09-Jul-2020 09:53:21.003 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/api/Values  
+09-Jul-2020 09:53:21.003 +08:00 [DBG] The request path /api/Values does not match a supported file type
+09-Jul-2020 09:53:21.003 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+09-Jul-2020 09:53:21.003 +08:00 [DBG] Endpoint 'App1.Controllers.ValuesController.AppMessage (App1)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+09-Jul-2020 09:53:21.003 +08:00 [DBG] Request matched endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:21.004 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+09-Jul-2020 09:53:21.004 +08:00 [INF] Executing endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:21.005 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] AppMessage() on controller App1.Controllers.ValuesController (App1).
+09-Jul-2020 09:53:21.005 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+09-Jul-2020 09:53:21.005 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+09-Jul-2020 09:53:21.005 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+09-Jul-2020 09:53:21.005 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+09-Jul-2020 09:53:21.005 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+09-Jul-2020 09:53:21.005 +08:00 [DBG] Executing controller factory for controller App1.Controllers.ValuesController (App1)
+09-Jul-2020 09:53:21.005 +08:00 [DBG] Executed controller factory for controller App1.Controllers.ValuesController (App1)
+09-Jul-2020 09:53:21.290 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+09-Jul-2020 09:53:21.290 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+09-Jul-2020 09:53:21.290 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+09-Jul-2020 09:53:21.290 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+09-Jul-2020 09:53:21.291 +08:00 [INF] Executed action App1.Controllers.ValuesController.AppMessage (App1) in 285.9898ms
+09-Jul-2020 09:53:21.291 +08:00 [INF] Executed endpoint 'App1.Controllers.ValuesController.AppMessage (App1)'
+09-Jul-2020 09:53:21.291 +08:00 [INF] HTTP GET /api/Values responded 200 in 288.0912 ms
+09-Jul-2020 09:53:21.291 +08:00 [INF] Request finished in 288.6956ms 200 text/plain; charset=utf-8
+09-Jul-2020 09:53:21.295 +08:00 [DBG] Starting step null on workflow f00884ef-5cc2-4e4b-845b-88f2c07c31b6
+09-Jul-2020 09:53:21.382 +08:00 [DBG] Starting step null on workflow f00884ef-5cc2-4e4b-845b-88f2c07c31b6
+09-Jul-2020 09:53:21.420 +08:00 [DBG] Starting step null on workflow f00884ef-5cc2-4e4b-845b-88f2c07c31b6
+09-Jul-2020 09:53:21.420 +08:00 [DBG] Starting step Task1 on workflow f00884ef-5cc2-4e4b-845b-88f2c07c31b6
+09-Jul-2020 09:53:21.420 +08:00 [INF] App1.Message 2020/7/9 9:53:21 send to the App2.
+09-Jul-2020 09:53:21.422 +08:00 [DBG] RabbitMQ topic message [Test.App1ToApp2Text] has been published.
+09-Jul-2020 09:53:21.431 +08:00 [DBG] Received message. id:1281043733756297216, name: Test.App2TextReceived
+09-Jul-2020 09:53:21.432 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+09-Jul-2020 09:53:21.432 +08:00 [INF] --------> App2 has received the message: App1.Message 2020/7/9 9:53:21
+09-Jul-2020 09:53:21.432 +08:00 [DBG] Consumer executed. Took: 0.3575 ms.
+09-Jul-2020 09:53:21.507 +08:00 [DBG] Starting step null on workflow f00884ef-5cc2-4e4b-845b-88f2c07c31b6
+09-Jul-2020 09:53:21.507 +08:00 [DBG] Starting step Task2 on workflow f00884ef-5cc2-4e4b-845b-88f2c07c31b6
+09-Jul-2020 09:53:21.507 +08:00 [INF] Doing Task 2
+09-Jul-2020 09:53:21.564 +08:00 [ERR] Workflow f00884ef-5cc2-4e4b-845b-88f2c07c31b6 raised error on step 4 Message: Exception of type 'System.Exception' was thrown.
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at App1.Steps.Task2.Run(IStepExecutionContext context) in D:\workshop\Github\Abp.EventBus.CAP\sample\App1\Saga\Task2.cs:line 21
+   at WorkflowCore.Models.StepBody.RunAsync(IStepExecutionContext context)
+   at WorkflowCore.Services.WorkflowExecutor.ExecuteStep(WorkflowInstance workflow, WorkflowStep step, ExecutionPointer pointer, WorkflowExecutorResult wfResult, WorkflowDefinition def)
+   at WorkflowCore.Services.WorkflowExecutor.Execute(WorkflowInstance workflow)
+09-Jul-2020 09:53:21.854 +08:00 [DBG] Starting step UndoTask2 on workflow f00884ef-5cc2-4e4b-845b-88f2c07c31b6
+09-Jul-2020 09:53:21.854 +08:00 [INF] Undoing Task 2
+09-Jul-2020 09:53:21.854 +08:00 [DBG] Starting step UndoTask1 on workflow f00884ef-5cc2-4e4b-845b-88f2c07c31b6
+09-Jul-2020 09:53:21.855 +08:00 [INF] undoing...
+09-Jul-2020 09:53:21.855 +08:00 [DBG] Starting step UndoEverything on workflow f00884ef-5cc2-4e4b-845b-88f2c07c31b6
+09-Jul-2020 09:53:21.856 +08:00 [INF] Undo everything
+09-Jul-2020 09:53:21.856 +08:00 [DBG] Starting step null on workflow f00884ef-5cc2-4e4b-845b-88f2c07c31b6
+09-Jul-2020 09:53:23.952 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:53:23.956 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:53:29.537 +08:00 [DBG] Transport connection checking...
+09-Jul-2020 09:53:29.537 +08:00 [DBG] Transport connection healthy!
+09-Jul-2020 09:53:30.826 +08:00 [DBG] Received message. id:1281043773161783296, name: Test.App2ToApp1Text
+09-Jul-2020 09:53:30.829 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+09-Jul-2020 09:53:30.835 +08:00 [INF] ************************ INCOMING MESSAGE ****************************
+09-Jul-2020 09:53:30.835 +08:00 [INF] App2.Message 2020/7/9 9:53:30
+09-Jul-2020 09:53:30.835 +08:00 [INF] **********************************************************************
+09-Jul-2020 09:53:30.839 +08:00 [DBG] RabbitMQ topic message [Test.App1TextReceived] has been published.
+09-Jul-2020 09:53:30.841 +08:00 [DBG] Consumer executed. Took: 11.8401 ms.
+09-Jul-2020 09:53:31.912 +08:00 [DBG] Received message. id:1281043777716797440, name: Test.App2ToApp1Text
+09-Jul-2020 09:53:31.913 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+09-Jul-2020 09:53:31.913 +08:00 [INF] ************************ INCOMING MESSAGE ****************************
+09-Jul-2020 09:53:31.913 +08:00 [INF] App2.Message 2020/7/9 9:53:31
+09-Jul-2020 09:53:31.913 +08:00 [INF] **********************************************************************
+09-Jul-2020 09:53:31.915 +08:00 [DBG] Consumer executed. Took: 1.8017 ms.
+09-Jul-2020 09:53:31.917 +08:00 [DBG] RabbitMQ topic message [Test.App1TextReceived] has been published.
+09-Jul-2020 09:53:32.657 +08:00 [DBG] Received message. id:1281043780803805184, name: Test.App2ToApp1Text
+09-Jul-2020 09:53:32.659 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+09-Jul-2020 09:53:32.659 +08:00 [INF] ************************ INCOMING MESSAGE ****************************
+09-Jul-2020 09:53:32.659 +08:00 [INF] App2.Message 2020/7/9 9:53:32
+09-Jul-2020 09:53:32.659 +08:00 [INF] **********************************************************************
+09-Jul-2020 09:53:32.663 +08:00 [DBG] Consumer executed. Took: 3.8942 ms.
+09-Jul-2020 09:53:32.666 +08:00 [DBG] RabbitMQ topic message [Test.App1TextReceived] has been published.
+09-Jul-2020 09:53:33.967 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:53:33.971 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:53:43.954 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:53:43.966 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:53:51.647 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap  
+09-Jul-2020 09:53:51.693 +08:00 [INF] Request finished in 46.6519ms 200 text/html
+09-Jul-2020 09:53:51.714 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/css304  
+09-Jul-2020 09:53:51.714 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/js304  
+09-Jul-2020 09:53:51.730 +08:00 [INF] Request finished in 15.8027ms 200 text/css
+09-Jul-2020 09:53:51.731 +08:00 [INF] Request finished in 16.7836ms 200 application/javascript
+09-Jul-2020 09:53:51.793 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/fonts/glyphicons-halflings-regular/woff2  
+09-Jul-2020 09:53:51.794 +08:00 [INF] Request finished in 1.0928ms 200 font/woff2
+09-Jul-2020 09:53:51.866 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/favicon.ico  
+09-Jul-2020 09:53:51.866 +08:00 [DBG] The request path /favicon.ico does not match an existing file
+09-Jul-2020 09:53:51.867 +08:00 [DBG] No candidates found for the request path '/favicon.ico'
+09-Jul-2020 09:53:51.867 +08:00 [DBG] Request did not match any endpoints
+09-Jul-2020 09:53:51.867 +08:00 [DBG] The request path  does not match the path filter
+09-Jul-2020 09:53:51.867 +08:00 [INF] HTTP GET /favicon.ico responded 404 in 0.5229 ms
+09-Jul-2020 09:53:51.868 +08:00 [INF] Request finished in 1.3013ms 404 
+09-Jul-2020 09:53:53.861 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 312
+09-Jul-2020 09:53:53.885 +08:00 [INF] Request finished in 26.563ms 200 application/json
+09-Jul-2020 09:53:53.953 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:53:53.958 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:53:54.067 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/received/succeeded  
+09-Jul-2020 09:53:54.084 +08:00 [INF] Request finished in 16.9054ms 200 text/html
+09-Jul-2020 09:53:56.137 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+09-Jul-2020 09:53:56.139 +08:00 [INF] Request finished in 1.8078ms 200 application/json
+09-Jul-2020 09:53:56.865 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/published/succeeded  
+09-Jul-2020 09:53:56.878 +08:00 [INF] Request finished in 13.3656ms 200 text/html
+09-Jul-2020 09:53:58.248 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/received/succeeded  
+09-Jul-2020 09:53:58.251 +08:00 [INF] Request finished in 2.4714ms 200 text/html
+09-Jul-2020 09:53:58.863 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/published/succeeded  
+09-Jul-2020 09:53:58.866 +08:00 [INF] Request finished in 3.0524ms 200 text/html
+09-Jul-2020 09:53:59.279 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/received/succeeded  
+09-Jul-2020 09:53:59.281 +08:00 [INF] Request finished in 1.6556ms 200 text/html
+09-Jul-2020 09:53:59.546 +08:00 [DBG] Transport connection checking...
+09-Jul-2020 09:53:59.546 +08:00 [DBG] Transport connection healthy!
+09-Jul-2020 09:54:01.250 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/received/succeeded?from=0&count=20  
+09-Jul-2020 09:54:01.252 +08:00 [INF] Request finished in 1.6648ms 200 text/html
+09-Jul-2020 09:54:01.856 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/received/succeeded?from=0&count=50  
+09-Jul-2020 09:54:01.858 +08:00 [INF] Request finished in 1.5641ms 200 text/html
+09-Jul-2020 09:54:02.473 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/received/succeeded?from=0&count=100  
+09-Jul-2020 09:54:02.475 +08:00 [INF] Request finished in 2.2106ms 200 text/html
+09-Jul-2020 09:54:02.881 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/received/succeeded?from=0&count=500  
+09-Jul-2020 09:54:02.882 +08:00 [INF] Request finished in 1.4407ms 200 text/html
+09-Jul-2020 09:54:03.956 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:54:03.963 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:54:04.409 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44339/cap/subscribers  
+09-Jul-2020 09:54:04.416 +08:00 [INF] Request finished in 6.3543ms 200 text/html
+09-Jul-2020 09:54:06.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:06.449 +08:00 [INF] Request finished in 1.4614ms 200 application/json
+09-Jul-2020 09:54:08.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:08.448 +08:00 [INF] Request finished in 1.305ms 200 application/json
+09-Jul-2020 09:54:10.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:10.448 +08:00 [INF] Request finished in 1.1333ms 200 application/json
+09-Jul-2020 09:54:12.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:12.448 +08:00 [INF] Request finished in 1.4791ms 200 application/json
+09-Jul-2020 09:54:13.964 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:54:13.967 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:54:14.448 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:14.449 +08:00 [INF] Request finished in 1.0111ms 200 application/json
+09-Jul-2020 09:54:16.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:16.447 +08:00 [INF] Request finished in 0.9446ms 200 application/json
+09-Jul-2020 09:54:18.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:18.447 +08:00 [INF] Request finished in 0.9114ms 200 application/json
+09-Jul-2020 09:54:20.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:20.447 +08:00 [INF] Request finished in 0.8721ms 200 application/json
+09-Jul-2020 09:54:22.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:22.447 +08:00 [INF] Request finished in 1.0204ms 200 application/json
+09-Jul-2020 09:54:23.953 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:54:23.963 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:54:24.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:24.448 +08:00 [INF] Request finished in 1.232ms 200 application/json
+09-Jul-2020 09:54:26.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:26.447 +08:00 [INF] Request finished in 1.0455ms 200 application/json
+09-Jul-2020 09:54:28.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:28.448 +08:00 [INF] Request finished in 0.7048ms 200 application/json
+09-Jul-2020 09:54:29.549 +08:00 [DBG] Transport connection checking...
+09-Jul-2020 09:54:29.549 +08:00 [DBG] Transport connection healthy!
+09-Jul-2020 09:54:30.454 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:30.456 +08:00 [INF] Request finished in 2.4503ms 200 application/json
+09-Jul-2020 09:54:32.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:32.448 +08:00 [INF] Request finished in 1.4588ms 200 application/json
+09-Jul-2020 09:54:33.954 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:54:33.958 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:54:34.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:34.449 +08:00 [INF] Request finished in 1.3474ms 200 application/json
+09-Jul-2020 09:54:36.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:36.447 +08:00 [INF] Request finished in 0.8902ms 200 application/json
+09-Jul-2020 09:54:38.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:38.448 +08:00 [INF] Request finished in 0.7735ms 200 application/json
+09-Jul-2020 09:54:40.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:40.448 +08:00 [INF] Request finished in 0.7946ms 200 application/json
+09-Jul-2020 09:54:42.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:42.448 +08:00 [INF] Request finished in 0.8819ms 200 application/json
+09-Jul-2020 09:54:43.956 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:54:43.963 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:54:44.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:44.447 +08:00 [INF] Request finished in 0.6489ms 200 application/json
+09-Jul-2020 09:54:46.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:46.447 +08:00 [INF] Request finished in 0.6546ms 200 application/json
+09-Jul-2020 09:54:48.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:48.448 +08:00 [INF] Request finished in 0.829ms 200 application/json
+09-Jul-2020 09:54:50.448 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:50.448 +08:00 [INF] Request finished in 0.6361ms 200 application/json
+09-Jul-2020 09:54:52.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:52.448 +08:00 [INF] Request finished in 0.7864ms 200 application/json
+09-Jul-2020 09:54:53.959 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:54:53.962 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:54:54.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:54.447 +08:00 [INF] Request finished in 0.5993ms 200 application/json
+09-Jul-2020 09:54:56.453 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:56.455 +08:00 [INF] Request finished in 1.8662ms 200 application/json
+09-Jul-2020 09:54:58.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:54:58.447 +08:00 [INF] Request finished in 0.8235ms 200 application/json
+09-Jul-2020 09:54:59.554 +08:00 [DBG] Transport connection checking...
+09-Jul-2020 09:54:59.554 +08:00 [DBG] Transport connection healthy!
+09-Jul-2020 09:55:00.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:00.447 +08:00 [INF] Request finished in 0.6337ms 200 application/json
+09-Jul-2020 09:55:02.448 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:02.448 +08:00 [INF] Request finished in 0.6073ms 200 application/json
+09-Jul-2020 09:55:03.958 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:55:03.965 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:55:04.457 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:04.458 +08:00 [INF] Request finished in 1.2935ms 200 application/json
+09-Jul-2020 09:55:06.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:06.447 +08:00 [INF] Request finished in 0.4503ms 200 application/json
+09-Jul-2020 09:55:08.455 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:08.456 +08:00 [INF] Request finished in 1.3317ms 200 application/json
+09-Jul-2020 09:55:10.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:10.447 +08:00 [INF] Request finished in 0.3942ms 200 application/json
+09-Jul-2020 09:55:12.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:12.447 +08:00 [INF] Request finished in 0.411ms 200 application/json
+09-Jul-2020 09:55:13.957 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:55:13.960 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:55:14.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:14.447 +08:00 [INF] Request finished in 0.4116ms 200 application/json
+09-Jul-2020 09:55:16.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:16.447 +08:00 [INF] Request finished in 0.4891ms 200 application/json
+09-Jul-2020 09:55:18.458 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:18.459 +08:00 [INF] Request finished in 1.2524ms 200 application/json
+09-Jul-2020 09:55:20.448 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:20.449 +08:00 [INF] Request finished in 0.6647ms 200 application/json
+09-Jul-2020 09:55:22.450 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:22.450 +08:00 [INF] Request finished in 0.417ms 200 application/json
+09-Jul-2020 09:55:23.960 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:55:23.968 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:55:24.449 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:24.449 +08:00 [INF] Request finished in 0.6771ms 200 application/json
+09-Jul-2020 09:55:26.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:26.448 +08:00 [INF] Request finished in 0.5125ms 200 application/json
+09-Jul-2020 09:55:28.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:28.446 +08:00 [INF] Request finished in 0.4726ms 200 application/json
+09-Jul-2020 09:55:29.556 +08:00 [DBG] Transport connection checking...
+09-Jul-2020 09:55:29.556 +08:00 [DBG] Transport connection healthy!
+09-Jul-2020 09:55:30.448 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:30.448 +08:00 [INF] Request finished in 0.3843ms 200 application/json
+09-Jul-2020 09:55:32.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:32.448 +08:00 [INF] Request finished in 0.5501ms 200 application/json
+09-Jul-2020 09:55:33.955 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:55:33.958 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:55:34.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:34.448 +08:00 [INF] Request finished in 0.4608ms 200 application/json
+09-Jul-2020 09:55:36.449 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:36.450 +08:00 [INF] Request finished in 0.7942ms 200 application/json
+09-Jul-2020 09:55:38.449 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:38.449 +08:00 [INF] Request finished in 0.4659ms 200 application/json
+09-Jul-2020 09:55:40.451 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:40.452 +08:00 [INF] Request finished in 0.6783ms 200 application/json
+09-Jul-2020 09:55:42.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:42.447 +08:00 [INF] Request finished in 0.6676ms 200 application/json
+09-Jul-2020 09:55:43.954 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:55:43.959 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:55:44.445 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:44.446 +08:00 [INF] Request finished in 0.4106ms 200 application/json
+09-Jul-2020 09:55:46.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:46.447 +08:00 [INF] Request finished in 0.4957ms 200 application/json
+09-Jul-2020 09:55:48.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:48.446 +08:00 [INF] Request finished in 0.4936ms 200 application/json
+09-Jul-2020 09:55:50.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:50.447 +08:00 [INF] Request finished in 0.5315ms 200 application/json
+09-Jul-2020 09:55:52.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:52.448 +08:00 [INF] Request finished in 1.0999ms 200 application/json
+09-Jul-2020 09:55:53.965 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:55:53.973 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:55:54.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:54.448 +08:00 [INF] Request finished in 0.4006ms 200 application/json
+09-Jul-2020 09:55:56.446 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:56.446 +08:00 [INF] Request finished in 0.4682ms 200 application/json
+09-Jul-2020 09:55:58.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:55:58.447 +08:00 [INF] Request finished in 0.4602ms 200 application/json
+09-Jul-2020 09:55:59.560 +08:00 [DBG] Transport connection checking...
+09-Jul-2020 09:55:59.560 +08:00 [DBG] Transport connection healthy!
+09-Jul-2020 09:56:00.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:56:00.447 +08:00 [INF] Request finished in 0.3741ms 200 application/json
+09-Jul-2020 09:56:02.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:56:02.447 +08:00 [INF] Request finished in 0.5089ms 200 application/json
+09-Jul-2020 09:56:03.968 +08:00 [INF] Polling for runnable workflows
+09-Jul-2020 09:56:03.971 +08:00 [INF] Polling for unprocessed events
+09-Jul-2020 09:56:04.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:56:04.448 +08:00 [INF] Request finished in 0.5098ms 200 application/json
+09-Jul-2020 09:56:06.449 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:56:06.450 +08:00 [INF] Request finished in 0.6274ms 200 application/json
+09-Jul-2020 09:56:08.451 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:56:08.452 +08:00 [INF] Request finished in 0.4656ms 200 application/json
+09-Jul-2020 09:56:10.447 +08:00 [INF] Request starting HTTP/2.0 POST https://localhost:44339/cap/stats application/x-www-form-urlencoded; charset=UTF-8 235
+09-Jul-2020 09:56:10.447 +08:00 [INF] Request finished in 0.4327ms 200 application/json

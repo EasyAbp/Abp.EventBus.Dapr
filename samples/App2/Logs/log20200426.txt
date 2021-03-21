@@ -1,0 +1,603 @@
+26-Apr-2020 12:43:20.310 +08:00 [INF] Starting App2.WebHost.
+26-Apr-2020 12:43:21.199 +08:00 [DBG] Hosting starting
+26-Apr-2020 12:43:21.222 +08:00 [INF] User profile is available. Using 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+26-Apr-2020 12:43:21.259 +08:00 [DBG] RabbitMQ configuration:'HostName:localhost, Port:-1, UserName:guest, Password:guest, ExchangeName:cap.default.router'
+26-Apr-2020 12:43:21.288 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-0bef591e-88d1-4798-8f0e-444aed5c7107.xml'.
+26-Apr-2020 12:43:21.294 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-5097cf8b-9f8a-4e57-b949-718a2a81439b.xml'.
+26-Apr-2020 12:43:21.295 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-53e17354-b418-4384-bfa8-08935f98ffbf.xml'.
+26-Apr-2020 12:43:21.295 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-cf3c06b9-d825-4592-b341-ed17371e7bdf.xml'.
+26-Apr-2020 12:43:21.295 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9.xml'.
+26-Apr-2020 12:43:21.295 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a.xml'.
+26-Apr-2020 12:43:21.300 +08:00 [DBG] Found key "0bef591e-88d1-4798-8f0e-444aed5c7107".
+26-Apr-2020 12:43:21.305 +08:00 [DBG] Found key "5097cf8b-9f8a-4e57-b949-718a2a81439b".
+26-Apr-2020 12:43:21.305 +08:00 [DBG] Found key "53e17354-b418-4384-bfa8-08935f98ffbf".
+26-Apr-2020 12:43:21.305 +08:00 [DBG] Found key "cf3c06b9-d825-4592-b341-ed17371e7bdf".
+26-Apr-2020 12:43:21.305 +08:00 [DBG] Found key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9".
+26-Apr-2020 12:43:21.306 +08:00 [DBG] Found key "ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a".
+26-Apr-2020 12:43:21.311 +08:00 [DBG] Considering key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9" with expiration date "2020-06-14T05:07:23.2879292+00:00" as default key.
+26-Apr-2020 12:43:21.317 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+26-Apr-2020 12:43:21.318 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+26-Apr-2020 12:43:21.319 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+26-Apr-2020 12:43:21.322 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+26-Apr-2020 12:43:21.324 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+26-Apr-2020 12:43:21.327 +08:00 [DBG] Using key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9" as the default key.
+26-Apr-2020 12:43:21.327 +08:00 [DBG] Key ring with default key "e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9" was loaded during application startup.
+26-Apr-2020 12:43:21.329 +08:00 [DBG] ### CAP background task is starting.
+26-Apr-2020 12:43:21.329 +08:00 [INF] Starting the processing server.
+26-Apr-2020 12:43:21.335 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:43:21.336 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:43:21.348 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 12:43:21.349 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 12:43:21.359 +08:00 [INF] ### CAP started!
+26-Apr-2020 12:43:21.372 +08:00 [INF] Loaded ABP modules:
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - EasyAbp.Abp.EventBus.Cap.CapModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Dapper.AbpDapperModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - EasyAbp.Abp.EventBus.CAP.PostgreSql.CapPostgreSqlModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+26-Apr-2020 12:43:21.372 +08:00 [INF] - App2.App2Module
+26-Apr-2020 12:43:21.441 +08:00 [INF] RabbitMQ consumer registered. --> amq.ctag-smWQtX2zRZxDNeNq2r2-yA
+26-Apr-2020 12:43:21.899 +08:00 [INF] Initialized all ABP modules.
+26-Apr-2020 12:43:21.920 +08:00 [DBG] Loaded hosting startup assembly App2
+26-Apr-2020 12:43:21.920 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+26-Apr-2020 12:43:21.920 +08:00 [INF] Hosting environment: Development
+26-Apr-2020 12:43:21.920 +08:00 [INF] Content root path: D:\workshop\Github\Abp.EventBus.CAP\sample\App2
+26-Apr-2020 12:43:21.920 +08:00 [DBG] Hosting started
+26-Apr-2020 12:43:21.935 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/  
+26-Apr-2020 12:43:21.937 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+26-Apr-2020 12:43:21.941 +08:00 [DBG] The request path / does not match a supported file type
+26-Apr-2020 12:43:21.972 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+26-Apr-2020 12:43:21.974 +08:00 [DBG] Endpoint 'App2.Controllers.HomeController.Index (App2)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+26-Apr-2020 12:43:21.975 +08:00 [DBG] Request matched endpoint 'App2.Controllers.HomeController.Index (App2)'
+26-Apr-2020 12:43:22.013 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+26-Apr-2020 12:43:22.013 +08:00 [INF] Executing endpoint 'App2.Controllers.HomeController.Index (App2)'
+26-Apr-2020 12:43:22.024 +08:00 [DBG] Registered model binder providers, in the following order: ["Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpDateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+26-Apr-2020 12:43:22.125 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller App2.Controllers.HomeController (App2).
+26-Apr-2020 12:43:22.125 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+26-Apr-2020 12:43:22.125 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-Apr-2020 12:43:22.125 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+26-Apr-2020 12:43:22.125 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+26-Apr-2020 12:43:22.125 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-Apr-2020 12:43:22.126 +08:00 [DBG] Executing controller factory for controller App2.Controllers.HomeController (App2)
+26-Apr-2020 12:43:22.127 +08:00 [DBG] Executed controller factory for controller App2.Controllers.HomeController (App2)
+26-Apr-2020 12:43:22.151 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+26-Apr-2020 12:43:22.155 +08:00 [INF] Executed action App2.Controllers.HomeController.Index (App2) in 25.7123ms
+26-Apr-2020 12:43:22.156 +08:00 [INF] Executed endpoint 'App2.Controllers.HomeController.Index (App2)'
+26-Apr-2020 12:43:22.157 +08:00 [INF] HTTP GET / responded 302 in 213.2982 ms
+26-Apr-2020 12:43:22.166 +08:00 [INF] Request finished in 232.3331ms 302 
+26-Apr-2020 12:43:22.168 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/swagger  
+26-Apr-2020 12:43:22.168 +08:00 [DBG] The request path /swagger does not match a supported file type
+26-Apr-2020 12:43:22.169 +08:00 [DBG] No candidates found for the request path '/swagger'
+26-Apr-2020 12:43:22.170 +08:00 [DBG] Request did not match any endpoints
+26-Apr-2020 12:43:22.170 +08:00 [INF] HTTP GET /swagger responded 301 in 2.2656 ms
+26-Apr-2020 12:43:22.171 +08:00 [INF] Request finished in 2.9613ms 301 
+26-Apr-2020 12:43:22.174 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/swagger/index.html  
+26-Apr-2020 12:43:22.175 +08:00 [DBG] The request path /swagger/index.html does not match an existing file
+26-Apr-2020 12:43:22.175 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+26-Apr-2020 12:43:22.175 +08:00 [DBG] Request did not match any endpoints
+26-Apr-2020 12:43:22.198 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 23.7299 ms
+26-Apr-2020 12:43:22.200 +08:00 [INF] Request finished in 26.2431ms 200 text/html;charset=utf-8
+26-Apr-2020 12:43:22.243 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/swagger/swagger-ui.css  
+26-Apr-2020 12:43:22.243 +08:00 [DBG] The request path /swagger/swagger-ui.css does not match an existing file
+26-Apr-2020 12:43:22.243 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/swagger/swagger-ui-bundle.js  
+26-Apr-2020 12:43:22.244 +08:00 [DBG] The request path /swagger/swagger-ui-bundle.js does not match an existing file
+26-Apr-2020 12:43:22.244 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/swagger/swagger-ui-standalone-preset.js  
+26-Apr-2020 12:43:22.245 +08:00 [DBG] The request path /swagger/swagger-ui-standalone-preset.js does not match an existing file
+26-Apr-2020 12:43:22.245 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+26-Apr-2020 12:43:22.245 +08:00 [DBG] Request did not match any endpoints
+26-Apr-2020 12:43:22.245 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+26-Apr-2020 12:43:22.245 +08:00 [DBG] Request did not match any endpoints
+26-Apr-2020 12:43:22.245 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+26-Apr-2020 12:43:22.245 +08:00 [DBG] Request did not match any endpoints
+26-Apr-2020 12:43:22.260 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+26-Apr-2020 12:43:22.260 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+26-Apr-2020 12:43:22.261 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+26-Apr-2020 12:43:22.263 +08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 20.0996 ms
+26-Apr-2020 12:43:22.263 +08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 18.6906 ms
+26-Apr-2020 12:43:22.263 +08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 19.781 ms
+26-Apr-2020 12:43:22.265 +08:00 [INF] Request finished in 20.3445ms 200 application/javascript
+26-Apr-2020 12:43:22.265 +08:00 [INF] Request finished in 21.4349ms 200 application/javascript
+26-Apr-2020 12:43:22.265 +08:00 [INF] Request finished in 22.0923ms 200 text/css
+26-Apr-2020 12:43:22.447 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/swagger/v1/swagger.json  
+26-Apr-2020 12:43:22.448 +08:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+26-Apr-2020 12:43:22.448 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+26-Apr-2020 12:43:22.449 +08:00 [DBG] Request did not match any endpoints
+26-Apr-2020 12:43:22.538 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 89.7294 ms
+26-Apr-2020 12:43:22.538 +08:00 [INF] Request finished in 91.5788ms 200 application/json;charset=utf-8
+26-Apr-2020 12:43:22.613 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/swagger/favicon-32x32.png  
+26-Apr-2020 12:43:22.613 +08:00 [DBG] The request path /swagger/favicon-32x32.png does not match an existing file
+26-Apr-2020 12:43:22.613 +08:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+26-Apr-2020 12:43:22.613 +08:00 [DBG] Request did not match any endpoints
+26-Apr-2020 12:43:22.615 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+26-Apr-2020 12:43:22.615 +08:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 1.6172 ms
+26-Apr-2020 12:43:22.615 +08:00 [INF] Request finished in 2.1852ms 200 image/png
+26-Apr-2020 12:43:28.033 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/api/Values  
+26-Apr-2020 12:43:28.034 +08:00 [DBG] The request path /api/Values does not match a supported file type
+26-Apr-2020 12:43:28.034 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+26-Apr-2020 12:43:28.034 +08:00 [DBG] Endpoint 'App2.Controllers.ValuesController.AppMessage (App2)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+26-Apr-2020 12:43:28.035 +08:00 [DBG] Request matched endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+26-Apr-2020 12:43:28.035 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+26-Apr-2020 12:43:28.035 +08:00 [INF] Executing endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+26-Apr-2020 12:43:28.045 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AppMessage() on controller App2.Controllers.ValuesController (App2).
+26-Apr-2020 12:43:28.045 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+26-Apr-2020 12:43:28.045 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-Apr-2020 12:43:28.045 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+26-Apr-2020 12:43:28.045 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+26-Apr-2020 12:43:28.045 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+26-Apr-2020 12:43:28.045 +08:00 [DBG] Executing controller factory for controller App2.Controllers.ValuesController (App2)
+26-Apr-2020 12:43:28.047 +08:00 [DBG] Executed controller factory for controller App2.Controllers.ValuesController (App2)
+26-Apr-2020 12:43:28.050 +08:00 [INF] App2.Message 2020/4/26 12:43:28 send to the App1.
+26-Apr-2020 12:43:28.153 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+26-Apr-2020 12:43:28.154 +08:00 [INF] Executed action App2.Controllers.ValuesController.AppMessage (App2) in 108.6819ms
+26-Apr-2020 12:43:28.154 +08:00 [INF] Executed endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+26-Apr-2020 12:43:28.155 +08:00 [INF] HTTP GET /api/Values responded 200 in 120.6025 ms
+26-Apr-2020 12:43:28.155 +08:00 [INF] Request finished in 121.641ms 200 
+26-Apr-2020 12:43:28.159 +08:00 [DBG] RabbitMQ topic message [Test.App2ToApp1Text] has been published.
+26-Apr-2020 12:43:28.427 +08:00 [DBG] Received message. id:1254269842866679808, name: Test.App1TextReceived
+26-Apr-2020 12:43:28.471 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-Apr-2020 12:43:28.496 +08:00 [INF] --------> App1 has received the message: App2.Message 2020/4/26 12:43:28
+26-Apr-2020 12:43:28.497 +08:00 [DBG] Consumer executed. Took: 28.9435 ms.
+26-Apr-2020 12:43:31.701 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/api/Values  
+26-Apr-2020 12:43:31.702 +08:00 [DBG] The request path /api/Values does not match a supported file type
+26-Apr-2020 12:43:31.702 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+26-Apr-2020 12:43:31.703 +08:00 [DBG] Endpoint 'App2.Controllers.ValuesController.AppMessage (App2)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+26-Apr-2020 12:43:31.703 +08:00 [DBG] Request matched endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+26-Apr-2020 12:43:31.704 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+26-Apr-2020 12:43:31.704 +08:00 [INF] Executing endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+26-Apr-2020 12:43:31.705 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AppMessage() on controller App2.Controllers.ValuesController (App2).
+26-Apr-2020 12:43:31.705 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+26-Apr-2020 12:43:31.705 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-Apr-2020 12:43:31.705 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+26-Apr-2020 12:43:31.705 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+26-Apr-2020 12:43:31.706 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+26-Apr-2020 12:43:31.706 +08:00 [DBG] Executing controller factory for controller App2.Controllers.ValuesController (App2)
+26-Apr-2020 12:43:31.706 +08:00 [DBG] Executed controller factory for controller App2.Controllers.ValuesController (App2)
+26-Apr-2020 12:43:31.707 +08:00 [INF] App2.Message 2020/4/26 12:43:31 send to the App1.
+26-Apr-2020 12:43:31.708 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+26-Apr-2020 12:43:31.709 +08:00 [INF] Executed action App2.Controllers.ValuesController.AppMessage (App2) in 2.8717ms
+26-Apr-2020 12:43:31.709 +08:00 [INF] Executed endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+26-Apr-2020 12:43:31.709 +08:00 [INF] HTTP GET /api/Values responded 200 in 6.9705 ms
+26-Apr-2020 12:43:31.709 +08:00 [INF] Request finished in 7.8723ms 200 
+26-Apr-2020 12:43:31.710 +08:00 [DBG] RabbitMQ topic message [Test.App2ToApp1Text] has been published.
+26-Apr-2020 12:43:31.719 +08:00 [DBG] Received message. id:1254269856754020352, name: Test.App1TextReceived
+26-Apr-2020 12:43:31.719 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-Apr-2020 12:43:31.720 +08:00 [INF] --------> App1 has received the message: App2.Message 2020/4/26 12:43:31
+26-Apr-2020 12:43:31.720 +08:00 [DBG] Consumer executed. Took: 0.4185 ms.
+26-Apr-2020 12:43:32.574 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/api/Values  
+26-Apr-2020 12:43:32.574 +08:00 [DBG] The request path /api/Values does not match a supported file type
+26-Apr-2020 12:43:32.574 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+26-Apr-2020 12:43:32.574 +08:00 [DBG] Endpoint 'App2.Controllers.ValuesController.AppMessage (App2)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+26-Apr-2020 12:43:32.575 +08:00 [DBG] Request matched endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+26-Apr-2020 12:43:32.575 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+26-Apr-2020 12:43:32.575 +08:00 [INF] Executing endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+26-Apr-2020 12:43:32.575 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AppMessage() on controller App2.Controllers.ValuesController (App2).
+26-Apr-2020 12:43:32.575 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+26-Apr-2020 12:43:32.576 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+26-Apr-2020 12:43:32.576 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+26-Apr-2020 12:43:32.576 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+26-Apr-2020 12:43:32.576 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+26-Apr-2020 12:43:32.576 +08:00 [DBG] Executing controller factory for controller App2.Controllers.ValuesController (App2)
+26-Apr-2020 12:43:32.576 +08:00 [DBG] Executed controller factory for controller App2.Controllers.ValuesController (App2)
+26-Apr-2020 12:43:32.576 +08:00 [INF] App2.Message 2020/4/26 12:43:32 send to the App1.
+26-Apr-2020 12:43:32.577 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+26-Apr-2020 12:43:32.578 +08:00 [INF] Executed action App2.Controllers.ValuesController.AppMessage (App2) in 1.8479ms
+26-Apr-2020 12:43:32.578 +08:00 [INF] Executed endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+26-Apr-2020 12:43:32.578 +08:00 [INF] HTTP GET /api/Values responded 200 in 3.2638 ms
+26-Apr-2020 12:43:32.578 +08:00 [INF] Request finished in 4.0358ms 200 
+26-Apr-2020 12:43:32.579 +08:00 [DBG] RabbitMQ topic message [Test.App2ToApp1Text] has been published.
+26-Apr-2020 12:43:32.585 +08:00 [DBG] Received message. id:1254269860394676224, name: Test.App1TextReceived
+26-Apr-2020 12:43:32.586 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-Apr-2020 12:43:32.586 +08:00 [INF] --------> App1 has received the message: App2.Message 2020/4/26 12:43:32
+26-Apr-2020 12:43:32.586 +08:00 [DBG] Consumer executed. Took: 0.2784 ms.
+26-Apr-2020 12:43:39.847 +08:00 [DBG] Received message. id:1254269890845323264, name: Test.App1ToApp2Text
+26-Apr-2020 12:43:39.853 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-Apr-2020 12:43:39.860 +08:00 [INF] ************************ INCOMING MESSAGE ****************************
+26-Apr-2020 12:43:39.860 +08:00 [INF] App1.Message 2020/4/26 12:43:39
+26-Apr-2020 12:43:39.860 +08:00 [INF] **********************************************************************
+26-Apr-2020 12:43:39.864 +08:00 [DBG] RabbitMQ topic message [Test.App2TextReceived] has been published.
+26-Apr-2020 12:43:39.864 +08:00 [DBG] Consumer executed. Took: 11.0504 ms.
+26-Apr-2020 12:43:40.936 +08:00 [DBG] Received message. id:1254269895421308928, name: Test.App1ToApp2Text
+26-Apr-2020 12:43:40.942 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-Apr-2020 12:43:40.943 +08:00 [INF] ************************ INCOMING MESSAGE ****************************
+26-Apr-2020 12:43:40.943 +08:00 [INF] App1.Message 2020/4/26 12:43:40
+26-Apr-2020 12:43:40.943 +08:00 [INF] **********************************************************************
+26-Apr-2020 12:43:40.943 +08:00 [DBG] Consumer executed. Took: 1.0283 ms.
+26-Apr-2020 12:43:40.945 +08:00 [DBG] RabbitMQ topic message [Test.App2TextReceived] has been published.
+26-Apr-2020 12:43:42.154 +08:00 [DBG] Received message. id:1254269900525776896, name: Test.App1ToApp2Text
+26-Apr-2020 12:43:42.155 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-Apr-2020 12:43:42.157 +08:00 [INF] ************************ INCOMING MESSAGE ****************************
+26-Apr-2020 12:43:42.157 +08:00 [INF] App1.Message 2020/4/26 12:43:42
+26-Apr-2020 12:43:42.157 +08:00 [INF] **********************************************************************
+26-Apr-2020 12:43:42.157 +08:00 [DBG] Consumer executed. Took: 2.3925 ms.
+26-Apr-2020 12:43:42.159 +08:00 [DBG] RabbitMQ topic message [Test.App2TextReceived] has been published.
+26-Apr-2020 12:43:43.038 +08:00 [DBG] Received message. id:1254269904237735936, name: Test.App1ToApp2Text
+26-Apr-2020 12:43:43.039 +08:00 [DBG] Executing subscriber method : HandleEventAsync
+26-Apr-2020 12:43:43.039 +08:00 [INF] ************************ INCOMING MESSAGE ****************************
+26-Apr-2020 12:43:43.039 +08:00 [INF] App1.Message 2020/4/26 12:43:43
+26-Apr-2020 12:43:43.039 +08:00 [INF] **********************************************************************
+26-Apr-2020 12:43:43.040 +08:00 [DBG] Consumer executed. Took: 1.0412 ms.
+26-Apr-2020 12:43:43.041 +08:00 [DBG] RabbitMQ topic message [Test.App2TextReceived] has been published.
+26-Apr-2020 12:43:51.340 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:43:51.340 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:43:54.595 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/cap  
+26-Apr-2020 12:43:54.632 +08:00 [INF] Request finished in 37.2379ms 200 text/html
+26-Apr-2020 12:43:54.665 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/cap/js303  
+26-Apr-2020 12:43:54.665 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/cap/css303  
+26-Apr-2020 12:43:54.672 +08:00 [INF] Request finished in 7.3858ms 200 text/css
+26-Apr-2020 12:43:54.673 +08:00 [INF] Request finished in 8.0863ms 200 application/javascript
+26-Apr-2020 12:43:54.764 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/cap/fonts/glyphicons-halflings-regular/woff2  
+26-Apr-2020 12:43:54.767 +08:00 [INF] Request finished in 3.3368ms 200 font/woff2
+26-Apr-2020 12:43:54.782 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/favicon.ico  
+26-Apr-2020 12:43:54.782 +08:00 [DBG] The request path /favicon.ico does not match an existing file
+26-Apr-2020 12:43:54.782 +08:00 [DBG] No candidates found for the request path '/favicon.ico'
+26-Apr-2020 12:43:54.782 +08:00 [DBG] Request did not match any endpoints
+26-Apr-2020 12:43:54.783 +08:00 [DBG] The request path  does not match the path filter
+26-Apr-2020 12:43:54.783 +08:00 [INF] HTTP GET /favicon.ico responded 404 in 0.4437 ms
+26-Apr-2020 12:43:54.783 +08:00 [INF] Request finished in 1.0167ms 404 
+26-Apr-2020 12:43:56.765 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 312
+26-Apr-2020 12:43:56.784 +08:00 [INF] Request finished in 19.4366ms 200 application/json
+26-Apr-2020 12:43:58.805 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 312
+26-Apr-2020 12:43:58.808 +08:00 [INF] Request finished in 3.2038ms 200 application/json
+26-Apr-2020 12:44:00.762 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 312
+26-Apr-2020 12:44:00.764 +08:00 [INF] Request finished in 2.0329ms 200 application/json
+26-Apr-2020 12:44:02.762 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 312
+26-Apr-2020 12:44:02.764 +08:00 [INF] Request finished in 1.9192ms 200 application/json
+26-Apr-2020 12:44:03.533 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62251/cap/received/succeeded  
+26-Apr-2020 12:44:03.554 +08:00 [INF] Request finished in 20.215ms 200 text/html
+26-Apr-2020 12:44:05.616 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:05.617 +08:00 [INF] Request finished in 1.3858ms 200 application/json
+26-Apr-2020 12:44:07.615 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:07.617 +08:00 [INF] Request finished in 1.258ms 200 application/json
+26-Apr-2020 12:44:09.615 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:09.617 +08:00 [INF] Request finished in 1.2466ms 200 application/json
+26-Apr-2020 12:44:11.615 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:11.616 +08:00 [INF] Request finished in 1.4384ms 200 application/json
+26-Apr-2020 12:44:13.615 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:13.616 +08:00 [INF] Request finished in 1.1377ms 200 application/json
+26-Apr-2020 12:44:15.615 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:15.616 +08:00 [INF] Request finished in 1.0162ms 200 application/json
+26-Apr-2020 12:44:17.615 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:17.616 +08:00 [INF] Request finished in 1.077ms 200 application/json
+26-Apr-2020 12:44:19.615 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:19.616 +08:00 [INF] Request finished in 0.9427ms 200 application/json
+26-Apr-2020 12:44:21.340 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:44:21.340 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:44:21.615 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:21.616 +08:00 [INF] Request finished in 0.9425ms 200 application/json
+26-Apr-2020 12:44:23.616 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:23.617 +08:00 [INF] Request finished in 1.0652ms 200 application/json
+26-Apr-2020 12:44:25.619 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:25.622 +08:00 [INF] Request finished in 2.947ms 200 application/json
+26-Apr-2020 12:44:27.616 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:27.617 +08:00 [INF] Request finished in 0.9283ms 200 application/json
+26-Apr-2020 12:44:29.624 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:29.625 +08:00 [INF] Request finished in 1.8608ms 200 application/json
+26-Apr-2020 12:44:31.616 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:31.617 +08:00 [INF] Request finished in 0.7798ms 200 application/json
+26-Apr-2020 12:44:33.616 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:62251/cap/stats application/x-www-form-urlencoded; charset=UTF-8 273
+26-Apr-2020 12:44:33.617 +08:00 [INF] Request finished in 0.92ms 200 application/json
+26-Apr-2020 12:44:51.352 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:44:51.352 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:45:21.352 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:45:21.352 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:45:51.361 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:45:51.362 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:46:21.374 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:46:21.374 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:46:51.383 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:46:51.383 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:47:21.383 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:47:21.383 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:47:51.383 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:47:51.383 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:48:21.362 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 12:48:21.362 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 12:48:21.394 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:48:21.394 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:48:51.408 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:48:51.408 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:49:21.413 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:49:21.413 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:49:51.414 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:49:51.414 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:50:21.430 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:50:21.430 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:50:51.439 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:50:51.439 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:51:21.448 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:51:21.448 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:51:51.461 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:51:51.461 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:52:21.462 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:52:21.462 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:52:51.477 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:52:51.477 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:53:21.370 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 12:53:21.371 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 12:53:21.492 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:53:21.492 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:53:51.497 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:53:51.497 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:54:21.498 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:54:21.498 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:54:51.511 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:54:51.511 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:55:21.512 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:55:21.512 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:55:51.523 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:55:51.523 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:56:21.525 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:56:21.525 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:56:51.532 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:56:51.532 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:57:21.533 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:57:21.533 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:57:51.541 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:57:51.541 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:58:21.385 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 12:58:21.385 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 12:58:21.542 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:58:21.542 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:58:51.556 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:58:51.556 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:59:21.557 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:59:21.557 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 12:59:51.571 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 12:59:51.571 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:00:21.582 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:00:21.582 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:00:51.597 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:00:51.597 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:01:21.603 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:01:21.603 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:01:51.617 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:01:51.617 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:02:21.624 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:02:21.625 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:02:51.636 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:02:51.636 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:03:21.392 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 13:03:21.392 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 13:03:21.639 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:03:21.639 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:03:51.648 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:03:51.648 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:04:21.656 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:04:21.656 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:04:51.664 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:04:51.664 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:05:21.680 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:05:21.680 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:05:51.694 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:05:51.694 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:06:21.695 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:06:21.695 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:06:51.705 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:06:51.705 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:07:21.715 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:07:21.715 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:07:51.726 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:07:51.726 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:08:21.401 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 13:08:21.401 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 13:08:21.729 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:08:21.729 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:08:51.740 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:08:51.740 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:09:21.742 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:09:21.742 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:09:51.758 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:09:51.758 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:10:21.773 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:10:21.773 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:10:51.773 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:10:51.773 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:11:21.774 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:11:21.774 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:11:51.788 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:11:51.788 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:12:21.788 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:12:21.788 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:12:51.788 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:12:51.788 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:13:21.415 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 13:13:21.415 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 13:13:21.804 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:13:21.805 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:13:51.805 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:13:51.805 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:14:21.805 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:14:21.805 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:14:51.806 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:14:51.806 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:15:21.806 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:15:21.806 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:15:51.821 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:15:51.821 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:16:21.822 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:16:21.822 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:16:51.836 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:16:51.836 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:17:21.836 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:17:21.836 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:17:51.852 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:17:51.852 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:18:21.417 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 13:18:21.417 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 13:18:21.854 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:18:21.854 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:18:51.867 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:18:51.867 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:19:21.866 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:19:21.867 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:19:51.867 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:19:51.867 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:20:21.870 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:20:21.870 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:20:51.880 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:20:51.880 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:21:21.883 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:21:21.883 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:21:51.891 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:21:51.891 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:22:21.890 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:22:21.890 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:22:51.897 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:22:51.898 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:23:21.419 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 13:23:21.419 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 13:23:21.906 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:23:21.906 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:23:51.916 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:23:51.916 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:24:21.929 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:24:21.929 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:24:51.939 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:24:51.939 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:25:21.949 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:25:21.949 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:25:51.959 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:25:51.959 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:26:21.962 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:26:21.962 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:26:51.977 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:26:51.977 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:27:21.978 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:27:21.978 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:27:51.979 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:27:51.979 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:28:21.434 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 13:28:21.434 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 13:28:21.979 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:28:21.979 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:28:51.994 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:28:51.994 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:29:22.008 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:29:22.008 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:29:52.009 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:29:52.009 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:30:22.010 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:30:22.010 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:30:52.023 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:30:52.023 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:31:22.029 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:31:22.030 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:31:52.042 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:31:52.042 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:32:22.045 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:32:22.045 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:32:52.057 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:32:52.057 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:33:21.446 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 13:33:21.446 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 13:33:22.061 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:33:22.061 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:33:52.076 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:33:52.076 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:34:22.078 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:34:22.078 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:34:52.091 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:34:52.091 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:35:22.092 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:35:22.092 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:35:52.105 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:35:52.105 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:36:22.108 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:36:22.108 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:36:52.120 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:36:52.120 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:37:22.134 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:37:22.134 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:37:52.149 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:37:52.149 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:38:21.452 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 13:38:21.452 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 13:38:22.153 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:38:22.153 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:38:52.164 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:38:52.164 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:39:22.168 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:39:22.168 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:39:52.181 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:39:52.181 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:40:22.182 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:40:22.182 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:40:52.194 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:40:52.194 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:41:22.199 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:41:22.199 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:41:52.211 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:41:52.211 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:42:22.213 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:42:22.213 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:42:52.225 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:42:52.225 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:43:21.466 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 13:43:21.466 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 13:43:22.233 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:43:22.233 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:43:52.246 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:43:52.246 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:44:22.247 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:44:22.247 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:44:52.255 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:44:52.255 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:45:22.263 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:45:22.263 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:45:52.271 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:45:52.271 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:46:22.280 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:46:22.280 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:46:52.294 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:46:52.294 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:47:22.305 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:47:22.305 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:47:52.305 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:47:52.305 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:48:21.476 +08:00 [DBG] Collecting expired data from table: PublishedMessages
+26-Apr-2020 13:48:21.476 +08:00 [DBG] Collecting expired data from table: ReceivedMessages
+26-Apr-2020 13:48:22.306 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:48:22.306 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:48:52.320 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:48:52.320 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:49:22.320 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:49:22.320 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:49:52.321 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:49:52.321 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:50:22.336 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:50:22.336 +08:00 [DBG] Transport connection healthy!
+26-Apr-2020 13:50:52.336 +08:00 [DBG] Transport connection checking...
+26-Apr-2020 13:50:52.336 +08:00 [DBG] Transport connection healthy!

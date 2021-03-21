@@ -1,0 +1,1019 @@
+19-Mar-2021 16:36:00.618 +08:00 [INF] Starting App2.WebHost.
+19-Mar-2021 16:36:05.430 +08:00 [DBG] Hosting starting
+19-Mar-2021 16:36:05.461 +08:00 [INF] User profile is available. Using 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+19-Mar-2021 16:36:05.486 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-0bef591e-88d1-4798-8f0e-444aed5c7107.xml'.
+19-Mar-2021 16:36:05.493 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-1dec78ce-fa77-4e01-9d68-899d85f63db2.xml'.
+19-Mar-2021 16:36:05.493 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-5097cf8b-9f8a-4e57-b949-718a2a81439b.xml'.
+19-Mar-2021 16:36:05.506 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-53e17354-b418-4384-bfa8-08935f98ffbf.xml'.
+19-Mar-2021 16:36:05.506 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-91ac9b5c-a5fe-4742-8803-8b13a019a067.xml'.
+19-Mar-2021 16:36:05.506 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-cf3c06b9-d825-4592-b341-ed17371e7bdf.xml'.
+19-Mar-2021 16:36:05.506 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9.xml'.
+19-Mar-2021 16:36:05.507 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e5ee03e3-e27a-4e1f-acff-3b3209d2568f.xml'.
+19-Mar-2021 16:36:05.507 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e7345e16-3be6-47c6-b70c-af755b6a12d4.xml'.
+19-Mar-2021 16:36:05.507 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a.xml'.
+19-Mar-2021 16:36:05.511 +08:00 [DBG] Found key {0bef591e-88d1-4798-8f0e-444aed5c7107}.
+19-Mar-2021 16:36:05.515 +08:00 [DBG] Found key {1dec78ce-fa77-4e01-9d68-899d85f63db2}.
+19-Mar-2021 16:36:05.515 +08:00 [DBG] Found key {5097cf8b-9f8a-4e57-b949-718a2a81439b}.
+19-Mar-2021 16:36:05.515 +08:00 [DBG] Found key {53e17354-b418-4384-bfa8-08935f98ffbf}.
+19-Mar-2021 16:36:05.516 +08:00 [DBG] Found key {91ac9b5c-a5fe-4742-8803-8b13a019a067}.
+19-Mar-2021 16:36:05.516 +08:00 [DBG] Found key {cf3c06b9-d825-4592-b341-ed17371e7bdf}.
+19-Mar-2021 16:36:05.516 +08:00 [DBG] Found key {e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9}.
+19-Mar-2021 16:36:05.516 +08:00 [DBG] Found key {e5ee03e3-e27a-4e1f-acff-3b3209d2568f}.
+19-Mar-2021 16:36:05.516 +08:00 [DBG] Found key {e7345e16-3be6-47c6-b70c-af755b6a12d4}.
+19-Mar-2021 16:36:05.516 +08:00 [DBG] Found key {ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a}.
+19-Mar-2021 16:36:05.522 +08:00 [DBG] Considering key {1dec78ce-fa77-4e01-9d68-899d85f63db2} with expiration date 2021-06-08 00:56:42Z as default key.
+19-Mar-2021 16:36:05.530 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+19-Mar-2021 16:36:05.532 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+19-Mar-2021 16:36:05.533 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+19-Mar-2021 16:36:05.536 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+19-Mar-2021 16:36:05.538 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+19-Mar-2021 16:36:05.540 +08:00 [DBG] Using key {1dec78ce-fa77-4e01-9d68-899d85f63db2} as the default key.
+19-Mar-2021 16:36:05.540 +08:00 [DBG] Key ring with default key {1dec78ce-fa77-4e01-9d68-899d85f63db2} was loaded during application startup.
+19-Mar-2021 16:36:05.550 +08:00 [INF] Loaded ABP modules:
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - EasyAbp.Abp.EventBus.Dapr.AbpDaprEventBusModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+19-Mar-2021 16:36:05.550 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+19-Mar-2021 16:36:05.551 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+19-Mar-2021 16:36:05.551 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+19-Mar-2021 16:36:05.551 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+19-Mar-2021 16:36:05.551 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+19-Mar-2021 16:36:05.551 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+19-Mar-2021 16:36:05.551 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+19-Mar-2021 16:36:05.551 +08:00 [INF] - App2.App2Module
+19-Mar-2021 16:36:06.541 +08:00 [INF] Initialized all ABP modules.
+19-Mar-2021 16:36:06.639 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 4197CA07B5AC52CD91B8F09F013EBCD875E7B6A9)
+19-Mar-2021 16:36:06.724 +08:00 [DBG] Connection id "0HM7AM851CNFL" received FIN.
+19-Mar-2021 16:36:06.735 +08:00 [DBG] Connection id "0HM7AM851CNFM" accepted.
+19-Mar-2021 16:36:06.735 +08:00 [DBG] Connection id "0HM7AM851CNFL" accepted.
+19-Mar-2021 16:36:06.736 +08:00 [DBG] Connection id "0HM7AM851CNFL" started.
+19-Mar-2021 16:36:06.736 +08:00 [DBG] Connection id "0HM7AM851CNFM" started.
+19-Mar-2021 16:36:06.741 +08:00 [DBG] Connection id "0HM7AM851CNFL" sending FIN because: "The client closed the connection."
+19-Mar-2021 16:36:06.743 +08:00 [DBG] Connection id "0HM7AM851CNFL" disconnecting.
+19-Mar-2021 16:36:06.744 +08:00 [DBG] Connection id "0HM7AM851CNFL" stopped.
+19-Mar-2021 16:36:06.772 +08:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:61595/dapr/config application/json -
+19-Mar-2021 16:36:06.773 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+19-Mar-2021 16:36:06.774 +08:00 [DBG] The request path /dapr/config does not match a supported file type
+19-Mar-2021 16:36:06.791 +08:00 [INF] Now listening on: http://localhost:61595
+19-Mar-2021 16:36:06.791 +08:00 [INF] Now listening on: https://localhost:61596
+19-Mar-2021 16:36:06.792 +08:00 [DBG] Loaded hosting startup assembly App2
+19-Mar-2021 16:36:06.792 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+19-Mar-2021 16:36:06.792 +08:00 [INF] Hosting environment: Development
+19-Mar-2021 16:36:06.792 +08:00 [INF] Content root path: D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2
+19-Mar-2021 16:36:06.792 +08:00 [DBG] Hosting started
+19-Mar-2021 16:36:06.806 +08:00 [DBG] No candidates found for the request path '/dapr/config'
+19-Mar-2021 16:36:06.806 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:36:06.846 +08:00 [DBG] The request path  does not match the path filter
+19-Mar-2021 16:36:06.847 +08:00 [INF] HTTP GET /dapr/config responded 404 in 71.0263 ms
+19-Mar-2021 16:36:06.849 +08:00 [DBG] Connection id "0HM7AM851CNFM" completed keep alive response.
+19-Mar-2021 16:36:06.850 +08:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:61595/dapr/config application/json - - 404 0 - 80.9906ms
+19-Mar-2021 16:36:16.850 +08:00 [DBG] Connection id "0HM7AM851CNFM" received FIN.
+19-Mar-2021 16:36:16.851 +08:00 [DBG] Connection id "0HM7AM851CNFM" sending FIN because: "The client closed the connection."
+19-Mar-2021 16:36:16.851 +08:00 [DBG] Connection id "0HM7AM851CNFM" disconnecting.
+19-Mar-2021 16:36:16.852 +08:00 [DBG] Connection id "0HM7AM851CNFM" stopped.
+19-Mar-2021 16:36:48.514 +08:00 [DBG] Connection id "0HM7AM851CNFN" accepted.
+19-Mar-2021 16:36:48.514 +08:00 [DBG] Connection id "0HM7AM851CNFN" started.
+19-Mar-2021 16:36:48.514 +08:00 [DBG] Connection id "0HM7AM851CNFO" accepted.
+19-Mar-2021 16:36:48.515 +08:00 [DBG] Connection id "0HM7AM851CNFO" started.
+19-Mar-2021 16:36:48.526 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:61595/ - -
+19-Mar-2021 16:36:48.526 +08:00 [DBG] The request path / does not match a supported file type
+19-Mar-2021 16:36:48.530 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+19-Mar-2021 16:36:48.534 +08:00 [DBG] Endpoint 'App2.Controllers.HomeController.Index (App2)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+19-Mar-2021 16:36:48.534 +08:00 [DBG] Request matched endpoint 'App2.Controllers.HomeController.Index (App2)'
+19-Mar-2021 16:36:48.536 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+19-Mar-2021 16:36:48.536 +08:00 [INF] Executing endpoint 'App2.Controllers.HomeController.Index (App2)'
+19-Mar-2021 16:36:48.548 +08:00 [DBG] Registered model binder providers, in the following order: ["Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpDateTimeModelBinderProvider","Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpExtraPropertiesDictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+19-Mar-2021 16:36:48.603 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller App2.Controllers.HomeController (App2).
+19-Mar-2021 16:36:48.603 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+19-Mar-2021 16:36:48.603 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+19-Mar-2021 16:36:48.603 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+19-Mar-2021 16:36:48.604 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+19-Mar-2021 16:36:48.604 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+19-Mar-2021 16:36:48.606 +08:00 [DBG] Executing controller factory for controller App2.Controllers.HomeController (App2)
+19-Mar-2021 16:36:48.606 +08:00 [DBG] Executed controller factory for controller App2.Controllers.HomeController (App2)
+19-Mar-2021 16:36:48.622 +08:00 [INF] Executing action method App2.Controllers.HomeController.Index (App2) - Validation state: "Valid"
+19-Mar-2021 16:36:48.626 +08:00 [INF] Executed action method App2.Controllers.HomeController.Index (App2), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.1175ms.
+19-Mar-2021 16:36:48.634 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+19-Mar-2021 16:36:48.638 +08:00 [INF] Executed action App2.Controllers.HomeController.Index (App2) in 31.2584ms
+19-Mar-2021 16:36:48.639 +08:00 [INF] Executed endpoint 'App2.Controllers.HomeController.Index (App2)'
+19-Mar-2021 16:36:48.639 +08:00 [INF] HTTP GET / responded 302 in 112.4958 ms
+19-Mar-2021 16:36:48.639 +08:00 [DBG] Connection id "0HM7AM851CNFN" completed keep alive response.
+19-Mar-2021 16:36:48.640 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:61595/ - - - 302 0 - 113.5095ms
+19-Mar-2021 16:36:48.645 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:61595/swagger - -
+19-Mar-2021 16:36:48.646 +08:00 [DBG] The request path /swagger does not match a supported file type
+19-Mar-2021 16:36:48.646 +08:00 [DBG] No candidates found for the request path '/swagger'
+19-Mar-2021 16:36:48.646 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:36:48.647 +08:00 [INF] HTTP GET /swagger responded 301 in 1.1614 ms
+19-Mar-2021 16:36:48.647 +08:00 [DBG] Connection id "0HM7AM851CNFN" completed keep alive response.
+19-Mar-2021 16:36:48.647 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:61595/swagger - - - 301 0 - 1.4204ms
+19-Mar-2021 16:36:48.650 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:61595/swagger/index.html - -
+19-Mar-2021 16:36:48.651 +08:00 [DBG] The request path /swagger/index.html does not match an existing file
+19-Mar-2021 16:36:48.651 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+19-Mar-2021 16:36:48.651 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:36:48.700 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 49.3863 ms
+19-Mar-2021 16:36:48.700 +08:00 [DBG] Connection id "0HM7AM851CNFN" completed keep alive response.
+19-Mar-2021 16:36:48.700 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:61595/swagger/index.html - - - 200 - text/html;charset=utf-8 50.2009ms
+19-Mar-2021 16:36:48.715 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:61595/swagger/swagger-ui-bundle.js - -
+19-Mar-2021 16:36:48.715 +08:00 [DBG] The request path /swagger/swagger-ui-bundle.js does not match an existing file
+19-Mar-2021 16:36:48.715 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+19-Mar-2021 16:36:48.715 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:36:48.715 +08:00 [DBG] Connection id "0HM7AM851CNFP" accepted.
+19-Mar-2021 16:36:48.715 +08:00 [DBG] Connection id "0HM7AM851CNFP" started.
+19-Mar-2021 16:36:48.716 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:61595/swagger/swagger-ui-standalone-preset.js - -
+19-Mar-2021 16:36:48.716 +08:00 [DBG] The request path /swagger/swagger-ui-standalone-preset.js does not match an existing file
+19-Mar-2021 16:36:48.716 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+19-Mar-2021 16:36:48.716 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:36:48.716 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:61595/swagger/swagger-ui.css - -
+19-Mar-2021 16:36:48.716 +08:00 [DBG] The request path /swagger/swagger-ui.css does not match an existing file
+19-Mar-2021 16:36:48.716 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+19-Mar-2021 16:36:48.716 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:36:48.756 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+19-Mar-2021 16:36:48.758 +08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 41.8798 ms
+19-Mar-2021 16:36:48.759 +08:00 [DBG] Connection id "0HM7AM851CNFN" completed keep alive response.
+19-Mar-2021 16:36:48.759 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:61595/swagger/swagger-ui.css - - - 200 142933 text/css 42.7143ms
+19-Mar-2021 16:36:48.773 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+19-Mar-2021 16:36:48.774 +08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 57.7108 ms
+19-Mar-2021 16:36:48.774 +08:00 [DBG] Connection id "0HM7AM851CNFP" completed keep alive response.
+19-Mar-2021 16:36:48.774 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:61595/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 57.9761ms
+19-Mar-2021 16:36:48.780 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+19-Mar-2021 16:36:48.780 +08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 64.7741 ms
+19-Mar-2021 16:36:48.780 +08:00 [DBG] Connection id "0HM7AM851CNFO" completed keep alive response.
+19-Mar-2021 16:36:48.780 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:61595/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 65.1020ms
+19-Mar-2021 16:36:48.924 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:61595/swagger/v1/swagger.json - -
+19-Mar-2021 16:36:48.924 +08:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+19-Mar-2021 16:36:48.924 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+19-Mar-2021 16:36:48.924 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:36:48.964 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:61595/swagger/favicon-32x32.png - -
+19-Mar-2021 16:36:48.965 +08:00 [DBG] The request path /swagger/favicon-32x32.png does not match an existing file
+19-Mar-2021 16:36:48.965 +08:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+19-Mar-2021 16:36:48.965 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:36:48.967 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+19-Mar-2021 16:36:48.967 +08:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 1.9705 ms
+19-Mar-2021 16:36:48.967 +08:00 [DBG] Connection id "0HM7AM851CNFP" completed keep alive response.
+19-Mar-2021 16:36:48.968 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:61595/swagger/favicon-32x32.png - - - 200 628 image/png 3.2862ms
+19-Mar-2021 16:36:49.042 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 118.0371 ms
+19-Mar-2021 16:36:49.042 +08:00 [DBG] Connection id "0HM7AM851CNFO" completed keep alive response.
+19-Mar-2021 16:36:49.042 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:61595/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.3766ms
+19-Mar-2021 16:36:59.719 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:61595/api/Values - -
+19-Mar-2021 16:36:59.719 +08:00 [DBG] The request path /api/Values does not match a supported file type
+19-Mar-2021 16:36:59.719 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+19-Mar-2021 16:36:59.719 +08:00 [DBG] Endpoint 'App2.Controllers.ValuesController.AppMessage (App2)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+19-Mar-2021 16:36:59.719 +08:00 [DBG] Request matched endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 16:36:59.720 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+19-Mar-2021 16:36:59.720 +08:00 [INF] Executing endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 16:36:59.729 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AppMessage() on controller App2.Controllers.ValuesController (App2).
+19-Mar-2021 16:36:59.729 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+19-Mar-2021 16:36:59.729 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+19-Mar-2021 16:36:59.729 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+19-Mar-2021 16:36:59.729 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+19-Mar-2021 16:36:59.729 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+19-Mar-2021 16:36:59.729 +08:00 [DBG] Executing controller factory for controller App2.Controllers.ValuesController (App2)
+19-Mar-2021 16:36:59.729 +08:00 [DBG] Executed controller factory for controller App2.Controllers.ValuesController (App2)
+19-Mar-2021 16:36:59.730 +08:00 [INF] Executing action method App2.Controllers.ValuesController.AppMessage (App2) - Validation state: "Valid"
+19-Mar-2021 16:36:59.731 +08:00 [INF] App2.Message 2021/3/19 16:36:59 send to the App1.
+19-Mar-2021 16:36:59.941 +08:00 [INF] Executed action App2.Controllers.ValuesController.AppMessage (App2) in 212.2772ms
+19-Mar-2021 16:36:59.942 +08:00 [INF] Executed endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 16:36:59.952 +08:00 [ERR] HTTP GET /api/Values responded 500 in 232.5983 ms
+Dapr.DaprException: Publish operation failed: the Dapr endpoint indicated a failure. See InnerException for details.
+ ---> Grpc.Core.RpcException: Status(StatusCode="FailedPrecondition", Detail="no pubsub is configured")
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid1[T0](CallSite site, T0 arg0)
+   at EasyAbp.Abp.EventBus.Dapr.DaprServiceBus.PublishAsync(Type eventType, Object eventData) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\src\EasyAbp.Abp.EventBus.Dapr\DaprServiceBus.cs:line 55
+   at App2.App2MessagingService.RunAsync(String message) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\App2MessagingService.cs:line 26
+   at App2.Controllers.ValuesController.AppMessage() in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\Controllers\ValuesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+19-Mar-2021 16:37:00.175 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Dapr.DaprException: Publish operation failed: the Dapr endpoint indicated a failure. See InnerException for details.
+ ---> Grpc.Core.RpcException: Status(StatusCode="FailedPrecondition", Detail="no pubsub is configured")
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid1[T0](CallSite site, T0 arg0)
+   at EasyAbp.Abp.EventBus.Dapr.DaprServiceBus.PublishAsync(Type eventType, Object eventData) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\src\EasyAbp.Abp.EventBus.Dapr\DaprServiceBus.cs:line 55
+   at App2.App2MessagingService.RunAsync(String message) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\App2MessagingService.cs:line 26
+   at App2.Controllers.ValuesController.AppMessage() in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\Controllers\ValuesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+19-Mar-2021 16:37:00.180 +08:00 [DBG] Connection id "0HM7AM851CNFO" completed keep alive response.
+19-Mar-2021 16:37:00.180 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:61595/api/Values - - - 500 - text/plain 460.7555ms
+19-Mar-2021 16:38:49.655 +08:00 [DBG] Connection id "0HM7AM851CNFN" disconnecting.
+19-Mar-2021 16:38:49.655 +08:00 [DBG] Connection id "0HM7AM851CNFN" stopped.
+19-Mar-2021 16:38:49.655 +08:00 [DBG] Connection id "0HM7AM851CNFP" disconnecting.
+19-Mar-2021 16:38:49.655 +08:00 [DBG] Connection id "0HM7AM851CNFP" stopped.
+19-Mar-2021 16:38:49.655 +08:00 [DBG] Connection id "0HM7AM851CNFN" sending FIN because: "The Socket transport's send loop completed gracefully."
+19-Mar-2021 16:38:49.655 +08:00 [DBG] Connection id "0HM7AM851CNFP" sending FIN because: "The Socket transport's send loop completed gracefully."
+19-Mar-2021 16:39:00.663 +08:00 [DBG] Connection id "0HM7AM851CNFO" disconnecting.
+19-Mar-2021 16:39:00.663 +08:00 [DBG] Connection id "0HM7AM851CNFO" stopped.
+19-Mar-2021 16:39:00.663 +08:00 [DBG] Connection id "0HM7AM851CNFO" sending FIN because: "The Socket transport's send loop completed gracefully."
+19-Mar-2021 16:47:56.250 +08:00 [DBG] Connection id "0HM7AM851CNFQ" accepted.
+19-Mar-2021 16:47:56.250 +08:00 [DBG] Connection id "0HM7AM851CNFQ" started.
+19-Mar-2021 16:47:56.254 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:61595/api/Values - -
+19-Mar-2021 16:47:56.254 +08:00 [DBG] The request path /api/Values does not match a supported file type
+19-Mar-2021 16:47:56.255 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+19-Mar-2021 16:47:56.255 +08:00 [DBG] Endpoint 'App2.Controllers.ValuesController.AppMessage (App2)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+19-Mar-2021 16:47:56.255 +08:00 [DBG] Request matched endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 16:47:56.255 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+19-Mar-2021 16:47:56.255 +08:00 [INF] Executing endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 16:47:56.256 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AppMessage() on controller App2.Controllers.ValuesController (App2).
+19-Mar-2021 16:47:56.256 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+19-Mar-2021 16:47:56.256 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+19-Mar-2021 16:47:56.256 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+19-Mar-2021 16:47:56.256 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+19-Mar-2021 16:47:56.256 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+19-Mar-2021 16:47:56.256 +08:00 [DBG] Executing controller factory for controller App2.Controllers.ValuesController (App2)
+19-Mar-2021 16:47:56.256 +08:00 [DBG] Executed controller factory for controller App2.Controllers.ValuesController (App2)
+19-Mar-2021 16:47:56.256 +08:00 [INF] Executing action method App2.Controllers.ValuesController.AppMessage (App2) - Validation state: "Valid"
+19-Mar-2021 16:47:56.257 +08:00 [INF] App2.Message 2021/3/19 16:47:56 send to the App1.
+19-Mar-2021 16:48:48.537 +08:00 [INF] Executed action App2.Controllers.ValuesController.AppMessage (App2) in 52281.2343ms
+19-Mar-2021 16:48:48.626 +08:00 [INF] Executed endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 16:48:49.135 +08:00 [ERR] HTTP GET /api/Values responded 500 in 52881.2211 ms
+Dapr.DaprException: Publish operation failed: the Dapr endpoint indicated a failure. See InnerException for details.
+ ---> Grpc.Core.RpcException: Status(StatusCode="FailedPrecondition", Detail="no pubsub is configured")
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   at EasyAbp.Abp.EventBus.Dapr.DaprServiceBus.PublishAsync(Type eventType, Object eventData) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\src\EasyAbp.Abp.EventBus.Dapr\DaprServiceBus.cs:line 55
+   at App2.App2MessagingService.RunAsync(String message) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\App2MessagingService.cs:line 26
+   at App2.Controllers.ValuesController.AppMessage() in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\Controllers\ValuesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+19-Mar-2021 16:48:49.308 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Dapr.DaprException: Publish operation failed: the Dapr endpoint indicated a failure. See InnerException for details.
+ ---> Grpc.Core.RpcException: Status(StatusCode="FailedPrecondition", Detail="no pubsub is configured")
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   at EasyAbp.Abp.EventBus.Dapr.DaprServiceBus.PublishAsync(Type eventType, Object eventData) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\src\EasyAbp.Abp.EventBus.Dapr\DaprServiceBus.cs:line 55
+   at App2.App2MessagingService.RunAsync(String message) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\App2MessagingService.cs:line 26
+   at App2.Controllers.ValuesController.AppMessage() in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\Controllers\ValuesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+19-Mar-2021 16:48:49.310 +08:00 [DBG] Connection id "0HM7AM851CNFQ" completed keep alive response.
+19-Mar-2021 16:48:49.310 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:61595/api/Values - - - 500 - text/plain 53058.8681ms
+19-Mar-2021 16:53:53.861 +08:00 [DBG] Connection id "0HM7AM851CNFQ" received FIN.
+19-Mar-2021 16:53:53.867 +08:00 [DBG] Connection id "0HM7AM851CNFQ" sending FIN because: "The client closed the connection."
+19-Mar-2021 16:53:53.870 +08:00 [DBG] Connection id "0HM7AM851CNFQ" disconnecting.
+19-Mar-2021 16:53:53.870 +08:00 [DBG] Connection id "0HM7AM851CNFQ" stopped.
+19-Mar-2021 16:57:37.954 +08:00 [DBG] Hosting stopping
+19-Mar-2021 16:57:37.956 +08:00 [INF] Application is shutting down...
+19-Mar-2021 16:57:37.979 +08:00 [DBG] Hosting stopped
+19-Mar-2021 16:58:13.007 +08:00 [INF] Starting App2.WebHost.
+19-Mar-2021 16:58:13.625 +08:00 [DBG] Hosting starting
+19-Mar-2021 16:58:13.657 +08:00 [INF] User profile is available. Using 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+19-Mar-2021 16:58:13.678 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-0bef591e-88d1-4798-8f0e-444aed5c7107.xml'.
+19-Mar-2021 16:58:13.686 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-1dec78ce-fa77-4e01-9d68-899d85f63db2.xml'.
+19-Mar-2021 16:58:13.687 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-5097cf8b-9f8a-4e57-b949-718a2a81439b.xml'.
+19-Mar-2021 16:58:13.687 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-53e17354-b418-4384-bfa8-08935f98ffbf.xml'.
+19-Mar-2021 16:58:13.687 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-91ac9b5c-a5fe-4742-8803-8b13a019a067.xml'.
+19-Mar-2021 16:58:13.687 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-cf3c06b9-d825-4592-b341-ed17371e7bdf.xml'.
+19-Mar-2021 16:58:13.688 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9.xml'.
+19-Mar-2021 16:58:13.688 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e5ee03e3-e27a-4e1f-acff-3b3209d2568f.xml'.
+19-Mar-2021 16:58:13.688 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e7345e16-3be6-47c6-b70c-af755b6a12d4.xml'.
+19-Mar-2021 16:58:13.688 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a.xml'.
+19-Mar-2021 16:58:13.693 +08:00 [DBG] Found key {0bef591e-88d1-4798-8f0e-444aed5c7107}.
+19-Mar-2021 16:58:13.697 +08:00 [DBG] Found key {1dec78ce-fa77-4e01-9d68-899d85f63db2}.
+19-Mar-2021 16:58:13.698 +08:00 [DBG] Found key {5097cf8b-9f8a-4e57-b949-718a2a81439b}.
+19-Mar-2021 16:58:13.698 +08:00 [DBG] Found key {53e17354-b418-4384-bfa8-08935f98ffbf}.
+19-Mar-2021 16:58:13.698 +08:00 [DBG] Found key {91ac9b5c-a5fe-4742-8803-8b13a019a067}.
+19-Mar-2021 16:58:13.698 +08:00 [DBG] Found key {cf3c06b9-d825-4592-b341-ed17371e7bdf}.
+19-Mar-2021 16:58:13.699 +08:00 [DBG] Found key {e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9}.
+19-Mar-2021 16:58:13.699 +08:00 [DBG] Found key {e5ee03e3-e27a-4e1f-acff-3b3209d2568f}.
+19-Mar-2021 16:58:13.699 +08:00 [DBG] Found key {e7345e16-3be6-47c6-b70c-af755b6a12d4}.
+19-Mar-2021 16:58:13.699 +08:00 [DBG] Found key {ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a}.
+19-Mar-2021 16:58:13.708 +08:00 [DBG] Considering key {1dec78ce-fa77-4e01-9d68-899d85f63db2} with expiration date 2021-06-08 00:56:42Z as default key.
+19-Mar-2021 16:58:13.717 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+19-Mar-2021 16:58:13.719 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+19-Mar-2021 16:58:13.720 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+19-Mar-2021 16:58:13.723 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+19-Mar-2021 16:58:13.725 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+19-Mar-2021 16:58:13.728 +08:00 [DBG] Using key {1dec78ce-fa77-4e01-9d68-899d85f63db2} as the default key.
+19-Mar-2021 16:58:13.729 +08:00 [DBG] Key ring with default key {1dec78ce-fa77-4e01-9d68-899d85f63db2} was loaded during application startup.
+19-Mar-2021 16:58:13.741 +08:00 [INF] Loaded ABP modules:
+19-Mar-2021 16:58:13.741 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+19-Mar-2021 16:58:13.741 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+19-Mar-2021 16:58:13.741 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+19-Mar-2021 16:58:13.741 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+19-Mar-2021 16:58:13.741 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+19-Mar-2021 16:58:13.741 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+19-Mar-2021 16:58:13.741 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - EasyAbp.Abp.EventBus.Dapr.AbpDaprEventBusModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+19-Mar-2021 16:58:13.742 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+19-Mar-2021 16:58:13.743 +08:00 [INF] - App2.App2Module
+19-Mar-2021 16:58:14.165 +08:00 [INF] Initialized all ABP modules.
+19-Mar-2021 16:58:14.242 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 4197CA07B5AC52CD91B8F09F013EBCD875E7B6A9)
+19-Mar-2021 16:58:14.278 +08:00 [DBG] Connection id "0HM7AMKGLU6AM" received FIN.
+19-Mar-2021 16:58:14.289 +08:00 [DBG] Connection id "0HM7AMKGLU6AM" accepted.
+19-Mar-2021 16:58:14.289 +08:00 [DBG] Connection id "0HM7AMKGLU6AM" started.
+19-Mar-2021 16:58:14.291 +08:00 [DBG] Connection id "0HM7AMKGLU6AN" accepted.
+19-Mar-2021 16:58:14.292 +08:00 [DBG] Connection id "0HM7AMKGLU6AN" started.
+19-Mar-2021 16:58:14.293 +08:00 [DBG] Connection id "0HM7AMKGLU6AM" sending FIN because: "The client closed the connection."
+19-Mar-2021 16:58:14.295 +08:00 [DBG] Connection id "0HM7AMKGLU6AM" disconnecting.
+19-Mar-2021 16:58:14.297 +08:00 [DBG] Connection id "0HM7AMKGLU6AM" stopped.
+19-Mar-2021 16:58:14.319 +08:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:64070/dapr/config application/json -
+19-Mar-2021 16:58:14.320 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+19-Mar-2021 16:58:14.321 +08:00 [DBG] The request path /dapr/config does not match a supported file type
+19-Mar-2021 16:58:14.351 +08:00 [DBG] No candidates found for the request path '/dapr/config'
+19-Mar-2021 16:58:14.351 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:58:14.364 +08:00 [INF] Now listening on: http://localhost:64070
+19-Mar-2021 16:58:14.364 +08:00 [INF] Now listening on: https://localhost:64071
+19-Mar-2021 16:58:14.364 +08:00 [DBG] Loaded hosting startup assembly App2
+19-Mar-2021 16:58:14.364 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+19-Mar-2021 16:58:14.364 +08:00 [INF] Hosting environment: Development
+19-Mar-2021 16:58:14.364 +08:00 [INF] Content root path: D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2
+19-Mar-2021 16:58:14.364 +08:00 [DBG] Hosting started
+19-Mar-2021 16:58:14.382 +08:00 [DBG] The request path  does not match the path filter
+19-Mar-2021 16:58:14.384 +08:00 [INF] HTTP GET /dapr/config responded 404 in 60.9751 ms
+19-Mar-2021 16:58:14.385 +08:00 [DBG] Connection id "0HM7AMKGLU6AN" completed keep alive response.
+19-Mar-2021 16:58:14.386 +08:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:64070/dapr/config application/json - - 404 0 - 68.8024ms
+19-Mar-2021 16:58:24.386 +08:00 [DBG] Connection id "0HM7AMKGLU6AN" received FIN.
+19-Mar-2021 16:58:24.387 +08:00 [DBG] Connection id "0HM7AMKGLU6AN" sending FIN because: "The client closed the connection."
+19-Mar-2021 16:58:24.387 +08:00 [DBG] Connection id "0HM7AMKGLU6AN" disconnecting.
+19-Mar-2021 16:58:24.388 +08:00 [DBG] Connection id "0HM7AMKGLU6AN" stopped.
+19-Mar-2021 16:58:49.921 +08:00 [DBG] Connection id "0HM7AMKGLU6AO" accepted.
+19-Mar-2021 16:58:49.922 +08:00 [DBG] Connection id "0HM7AMKGLU6AO" started.
+19-Mar-2021 16:58:49.922 +08:00 [DBG] Connection id "0HM7AMKGLU6AP" accepted.
+19-Mar-2021 16:58:49.922 +08:00 [DBG] Connection id "0HM7AMKGLU6AP" started.
+19-Mar-2021 16:58:49.934 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64070/ - -
+19-Mar-2021 16:58:49.934 +08:00 [DBG] The request path / does not match a supported file type
+19-Mar-2021 16:58:49.937 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+19-Mar-2021 16:58:49.939 +08:00 [DBG] Endpoint 'App2.Controllers.HomeController.Index (App2)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+19-Mar-2021 16:58:49.939 +08:00 [DBG] Request matched endpoint 'App2.Controllers.HomeController.Index (App2)'
+19-Mar-2021 16:58:49.940 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+19-Mar-2021 16:58:49.940 +08:00 [INF] Executing endpoint 'App2.Controllers.HomeController.Index (App2)'
+19-Mar-2021 16:58:49.947 +08:00 [DBG] Registered model binder providers, in the following order: ["Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpDateTimeModelBinderProvider","Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpExtraPropertiesDictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+19-Mar-2021 16:58:49.995 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller App2.Controllers.HomeController (App2).
+19-Mar-2021 16:58:49.996 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+19-Mar-2021 16:58:49.996 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+19-Mar-2021 16:58:49.996 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+19-Mar-2021 16:58:49.996 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+19-Mar-2021 16:58:49.996 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+19-Mar-2021 16:58:49.998 +08:00 [DBG] Executing controller factory for controller App2.Controllers.HomeController (App2)
+19-Mar-2021 16:58:49.999 +08:00 [DBG] Executed controller factory for controller App2.Controllers.HomeController (App2)
+19-Mar-2021 16:58:50.015 +08:00 [INF] Executing action method App2.Controllers.HomeController.Index (App2) - Validation state: "Valid"
+19-Mar-2021 16:58:50.019 +08:00 [INF] Executed action method App2.Controllers.HomeController.Index (App2), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.1146ms.
+19-Mar-2021 16:58:50.027 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+19-Mar-2021 16:58:50.031 +08:00 [INF] Executed action App2.Controllers.HomeController.Index (App2) in 31.4452ms
+19-Mar-2021 16:58:50.031 +08:00 [INF] Executed endpoint 'App2.Controllers.HomeController.Index (App2)'
+19-Mar-2021 16:58:50.031 +08:00 [INF] HTTP GET / responded 302 in 97.5736 ms
+19-Mar-2021 16:58:50.032 +08:00 [DBG] Connection id "0HM7AMKGLU6AO" completed keep alive response.
+19-Mar-2021 16:58:50.032 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:64070/ - - - 302 0 - 98.5445ms
+19-Mar-2021 16:58:50.037 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64070/swagger - -
+19-Mar-2021 16:58:50.037 +08:00 [DBG] The request path /swagger does not match a supported file type
+19-Mar-2021 16:58:50.038 +08:00 [DBG] No candidates found for the request path '/swagger'
+19-Mar-2021 16:58:50.038 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:58:50.038 +08:00 [INF] HTTP GET /swagger responded 301 in 1.3522 ms
+19-Mar-2021 16:58:50.038 +08:00 [DBG] Connection id "0HM7AMKGLU6AO" completed keep alive response.
+19-Mar-2021 16:58:50.039 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:64070/swagger - - - 301 0 - 1.7873ms
+19-Mar-2021 16:58:50.042 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64070/swagger/index.html - -
+19-Mar-2021 16:58:50.042 +08:00 [DBG] The request path /swagger/index.html does not match an existing file
+19-Mar-2021 16:58:50.043 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+19-Mar-2021 16:58:50.043 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:58:50.090 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 47.7428 ms
+19-Mar-2021 16:58:50.091 +08:00 [DBG] Connection id "0HM7AMKGLU6AO" completed keep alive response.
+19-Mar-2021 16:58:50.091 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:64070/swagger/index.html - - - 200 - text/html;charset=utf-8 48.8856ms
+19-Mar-2021 16:58:50.105 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64070/swagger/swagger-ui.css - -
+19-Mar-2021 16:58:50.105 +08:00 [DBG] The request path /swagger/swagger-ui.css does not match an existing file
+19-Mar-2021 16:58:50.105 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+19-Mar-2021 16:58:50.106 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64070/swagger/swagger-ui-bundle.js - -
+19-Mar-2021 16:58:50.106 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:58:50.106 +08:00 [DBG] The request path /swagger/swagger-ui-bundle.js does not match an existing file
+19-Mar-2021 16:58:50.106 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+19-Mar-2021 16:58:50.106 +08:00 [DBG] Connection id "0HM7AMKGLU6AQ" accepted.
+19-Mar-2021 16:58:50.106 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:58:50.106 +08:00 [DBG] Connection id "0HM7AMKGLU6AQ" started.
+19-Mar-2021 16:58:50.106 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64070/swagger/swagger-ui-standalone-preset.js - -
+19-Mar-2021 16:58:50.107 +08:00 [DBG] The request path /swagger/swagger-ui-standalone-preset.js does not match an existing file
+19-Mar-2021 16:58:50.107 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+19-Mar-2021 16:58:50.107 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:58:50.122 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+19-Mar-2021 16:58:50.123 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+19-Mar-2021 16:58:50.127 +08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 21.6137 ms
+19-Mar-2021 16:58:50.127 +08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 20.4741 ms
+19-Mar-2021 16:58:50.128 +08:00 [DBG] Connection id "0HM7AMKGLU6AQ" completed keep alive response.
+19-Mar-2021 16:58:50.128 +08:00 [DBG] Connection id "0HM7AMKGLU6AO" completed keep alive response.
+19-Mar-2021 16:58:50.128 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:64070/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 21.5350ms
+19-Mar-2021 16:58:50.128 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:64070/swagger/swagger-ui.css - - - 200 142933 text/css 22.9613ms
+19-Mar-2021 16:58:50.128 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+19-Mar-2021 16:58:50.128 +08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 22.4207 ms
+19-Mar-2021 16:58:50.128 +08:00 [DBG] Connection id "0HM7AMKGLU6AP" completed keep alive response.
+19-Mar-2021 16:58:50.129 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:64070/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 22.9016ms
+19-Mar-2021 16:58:50.265 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64070/swagger/v1/swagger.json - -
+19-Mar-2021 16:58:50.265 +08:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+19-Mar-2021 16:58:50.266 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+19-Mar-2021 16:58:50.266 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:58:50.300 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64070/swagger/favicon-32x32.png - -
+19-Mar-2021 16:58:50.301 +08:00 [DBG] The request path /swagger/favicon-32x32.png does not match an existing file
+19-Mar-2021 16:58:50.301 +08:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+19-Mar-2021 16:58:50.301 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 16:58:50.301 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+19-Mar-2021 16:58:50.301 +08:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.7800 ms
+19-Mar-2021 16:58:50.302 +08:00 [DBG] Connection id "0HM7AMKGLU6AQ" completed keep alive response.
+19-Mar-2021 16:58:50.302 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:64070/swagger/favicon-32x32.png - - - 200 628 image/png 1.3757ms
+19-Mar-2021 16:58:50.351 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 85.7434 ms
+19-Mar-2021 16:58:50.351 +08:00 [DBG] Connection id "0HM7AMKGLU6AP" completed keep alive response.
+19-Mar-2021 16:58:50.352 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:64070/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.3734ms
+19-Mar-2021 16:58:56.534 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64070/api/Values - -
+19-Mar-2021 16:58:56.534 +08:00 [DBG] The request path /api/Values does not match a supported file type
+19-Mar-2021 16:58:56.534 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+19-Mar-2021 16:58:56.535 +08:00 [DBG] Endpoint 'App2.Controllers.ValuesController.AppMessage (App2)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+19-Mar-2021 16:58:56.535 +08:00 [DBG] Request matched endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 16:58:56.535 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+19-Mar-2021 16:58:56.535 +08:00 [INF] Executing endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 16:58:56.545 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AppMessage() on controller App2.Controllers.ValuesController (App2).
+19-Mar-2021 16:58:56.545 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+19-Mar-2021 16:58:56.545 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+19-Mar-2021 16:58:56.545 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+19-Mar-2021 16:58:56.546 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+19-Mar-2021 16:58:56.546 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+19-Mar-2021 16:58:56.546 +08:00 [DBG] Executing controller factory for controller App2.Controllers.ValuesController (App2)
+19-Mar-2021 16:58:56.546 +08:00 [DBG] Executed controller factory for controller App2.Controllers.ValuesController (App2)
+19-Mar-2021 16:58:56.547 +08:00 [INF] Executing action method App2.Controllers.ValuesController.AppMessage (App2) - Validation state: "Valid"
+19-Mar-2021 16:58:56.548 +08:00 [INF] App2.Message 2021/3/19 16:58:56 send to the App1.
+19-Mar-2021 16:58:56.720 +08:00 [INF] Executed action App2.Controllers.ValuesController.AppMessage (App2) in 174.7139ms
+19-Mar-2021 16:58:56.721 +08:00 [INF] Executed endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 16:58:56.722 +08:00 [ERR] HTTP GET /api/Values responded 500 in 187.3459 ms
+Dapr.DaprException: Publish operation failed: the Dapr endpoint indicated a failure. See InnerException for details.
+ ---> Grpc.Core.RpcException: Status(StatusCode="FailedPrecondition", Detail="no pubsub is configured")
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid1[T0](CallSite site, T0 arg0)
+   at EasyAbp.Abp.EventBus.Dapr.DaprServiceBus.PublishAsync(Type eventType, Object eventData) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\src\EasyAbp.Abp.EventBus.Dapr\DaprServiceBus.cs:line 55
+   at App2.App2MessagingService.RunAsync(String message) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\App2MessagingService.cs:line 26
+   at App2.Controllers.ValuesController.AppMessage() in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\Controllers\ValuesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+19-Mar-2021 16:58:56.745 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Dapr.DaprException: Publish operation failed: the Dapr endpoint indicated a failure. See InnerException for details.
+ ---> Grpc.Core.RpcException: Status(StatusCode="FailedPrecondition", Detail="no pubsub is configured")
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid1[T0](CallSite site, T0 arg0)
+   at EasyAbp.Abp.EventBus.Dapr.DaprServiceBus.PublishAsync(Type eventType, Object eventData) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\src\EasyAbp.Abp.EventBus.Dapr\DaprServiceBus.cs:line 55
+   at App2.App2MessagingService.RunAsync(String message) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\App2MessagingService.cs:line 26
+   at App2.Controllers.ValuesController.AppMessage() in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\Controllers\ValuesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+19-Mar-2021 16:58:56.749 +08:00 [DBG] Connection id "0HM7AMKGLU6AP" completed keep alive response.
+19-Mar-2021 16:58:56.750 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:64070/api/Values - - - 500 - text/plain 215.7351ms
+19-Mar-2021 17:00:50.270 +08:00 [DBG] Connection id "0HM7AMKGLU6AO" disconnecting.
+19-Mar-2021 17:00:50.270 +08:00 [DBG] Connection id "0HM7AMKGLU6AO" stopped.
+19-Mar-2021 17:00:50.271 +08:00 [DBG] Connection id "0HM7AMKGLU6AO" sending FIN because: "The Socket transport's send loop completed gracefully."
+19-Mar-2021 17:00:51.270 +08:00 [DBG] Connection id "0HM7AMKGLU6AQ" disconnecting.
+19-Mar-2021 17:00:51.271 +08:00 [DBG] Connection id "0HM7AMKGLU6AQ" stopped.
+19-Mar-2021 17:00:51.271 +08:00 [DBG] Connection id "0HM7AMKGLU6AQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+19-Mar-2021 17:00:57.274 +08:00 [DBG] Connection id "0HM7AMKGLU6AP" disconnecting.
+19-Mar-2021 17:00:57.275 +08:00 [DBG] Connection id "0HM7AMKGLU6AP" stopped.
+19-Mar-2021 17:00:57.275 +08:00 [DBG] Connection id "0HM7AMKGLU6AP" sending FIN because: "The Socket transport's send loop completed gracefully."
+19-Mar-2021 17:10:05.736 +08:00 [DBG] Hosting stopping
+19-Mar-2021 17:10:05.739 +08:00 [INF] Application is shutting down...
+19-Mar-2021 17:10:05.766 +08:00 [DBG] Hosting stopped
+19-Mar-2021 17:27:33.245 +08:00 [INF] Starting App2.WebHost.
+19-Mar-2021 17:27:33.854 +08:00 [DBG] Hosting starting
+19-Mar-2021 17:27:33.877 +08:00 [INF] User profile is available. Using 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+19-Mar-2021 17:27:33.891 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-0bef591e-88d1-4798-8f0e-444aed5c7107.xml'.
+19-Mar-2021 17:27:33.896 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-1dec78ce-fa77-4e01-9d68-899d85f63db2.xml'.
+19-Mar-2021 17:27:33.896 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-5097cf8b-9f8a-4e57-b949-718a2a81439b.xml'.
+19-Mar-2021 17:27:33.896 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-53e17354-b418-4384-bfa8-08935f98ffbf.xml'.
+19-Mar-2021 17:27:33.897 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-91ac9b5c-a5fe-4742-8803-8b13a019a067.xml'.
+19-Mar-2021 17:27:33.897 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-cf3c06b9-d825-4592-b341-ed17371e7bdf.xml'.
+19-Mar-2021 17:27:33.897 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9.xml'.
+19-Mar-2021 17:27:33.897 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e5ee03e3-e27a-4e1f-acff-3b3209d2568f.xml'.
+19-Mar-2021 17:27:33.897 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-e7345e16-3be6-47c6-b70c-af755b6a12d4.xml'.
+19-Mar-2021 17:27:33.897 +08:00 [DBG] Reading data from file 'C:\Users\geffzhang\AppData\Local\ASP.NET\DataProtection-Keys\key-ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a.xml'.
+19-Mar-2021 17:27:33.901 +08:00 [DBG] Found key {0bef591e-88d1-4798-8f0e-444aed5c7107}.
+19-Mar-2021 17:27:33.904 +08:00 [DBG] Found key {1dec78ce-fa77-4e01-9d68-899d85f63db2}.
+19-Mar-2021 17:27:33.905 +08:00 [DBG] Found key {5097cf8b-9f8a-4e57-b949-718a2a81439b}.
+19-Mar-2021 17:27:33.905 +08:00 [DBG] Found key {53e17354-b418-4384-bfa8-08935f98ffbf}.
+19-Mar-2021 17:27:33.905 +08:00 [DBG] Found key {91ac9b5c-a5fe-4742-8803-8b13a019a067}.
+19-Mar-2021 17:27:33.905 +08:00 [DBG] Found key {cf3c06b9-d825-4592-b341-ed17371e7bdf}.
+19-Mar-2021 17:27:33.905 +08:00 [DBG] Found key {e50ab07e-2dd1-4f21-8a8d-a8d08a1d59b9}.
+19-Mar-2021 17:27:33.906 +08:00 [DBG] Found key {e5ee03e3-e27a-4e1f-acff-3b3209d2568f}.
+19-Mar-2021 17:27:33.906 +08:00 [DBG] Found key {e7345e16-3be6-47c6-b70c-af755b6a12d4}.
+19-Mar-2021 17:27:33.906 +08:00 [DBG] Found key {ea74d3e8-6c97-43ae-ac5e-b4f1a9eff86a}.
+19-Mar-2021 17:27:33.913 +08:00 [DBG] Considering key {1dec78ce-fa77-4e01-9d68-899d85f63db2} with expiration date 2021-06-08 00:56:42Z as default key.
+19-Mar-2021 17:27:33.920 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+19-Mar-2021 17:27:33.922 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+19-Mar-2021 17:27:33.923 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+19-Mar-2021 17:27:33.925 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+19-Mar-2021 17:27:33.927 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+19-Mar-2021 17:27:33.930 +08:00 [DBG] Using key {1dec78ce-fa77-4e01-9d68-899d85f63db2} as the default key.
+19-Mar-2021 17:27:33.930 +08:00 [DBG] Key ring with default key {1dec78ce-fa77-4e01-9d68-899d85f63db2} was loaded during application startup.
+19-Mar-2021 17:27:33.940 +08:00 [INF] Loaded ABP modules:
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - EasyAbp.Abp.EventBus.Dapr.AbpDaprEventBusModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+19-Mar-2021 17:27:33.940 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+19-Mar-2021 17:27:33.941 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+19-Mar-2021 17:27:33.942 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+19-Mar-2021 17:27:33.942 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+19-Mar-2021 17:27:33.942 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+19-Mar-2021 17:27:33.942 +08:00 [INF] - App2.App2Module
+19-Mar-2021 17:27:34.315 +08:00 [INF] pubsubname: pubsubTest.App1ToApp2Text
+19-Mar-2021 17:27:34.316 +08:00 [INF] pubsubname: pubsubTest.App1TextReceived
+19-Mar-2021 17:27:34.316 +08:00 [INF] Initialized all ABP modules.
+19-Mar-2021 17:27:34.398 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 4197CA07B5AC52CD91B8F09F013EBCD875E7B6A9)
+19-Mar-2021 17:27:34.521 +08:00 [INF] Now listening on: http://localhost:51345
+19-Mar-2021 17:27:34.521 +08:00 [INF] Now listening on: https://localhost:51346
+19-Mar-2021 17:27:34.521 +08:00 [DBG] Loaded hosting startup assembly App2
+19-Mar-2021 17:27:34.521 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+19-Mar-2021 17:27:34.521 +08:00 [INF] Hosting environment: Development
+19-Mar-2021 17:27:34.521 +08:00 [INF] Content root path: D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2
+19-Mar-2021 17:27:34.521 +08:00 [DBG] Hosting started
+19-Mar-2021 17:27:34.635 +08:00 [DBG] Connection id "0HM7AN4TA0CI7" received FIN.
+19-Mar-2021 17:27:34.644 +08:00 [DBG] Connection id "0HM7AN4TA0CI7" accepted.
+19-Mar-2021 17:27:34.645 +08:00 [DBG] Connection id "0HM7AN4TA0CI7" started.
+19-Mar-2021 17:27:34.647 +08:00 [DBG] Connection id "0HM7AN4TA0CI8" accepted.
+19-Mar-2021 17:27:34.647 +08:00 [DBG] Connection id "0HM7AN4TA0CI8" started.
+19-Mar-2021 17:27:34.650 +08:00 [DBG] Connection id "0HM7AN4TA0CI7" sending FIN because: "The client closed the connection."
+19-Mar-2021 17:27:34.652 +08:00 [DBG] Connection id "0HM7AN4TA0CI7" disconnecting.
+19-Mar-2021 17:27:34.653 +08:00 [DBG] Connection id "0HM7AN4TA0CI7" stopped.
+19-Mar-2021 17:27:34.676 +08:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:51345/dapr/config application/json -
+19-Mar-2021 17:27:34.676 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+19-Mar-2021 17:27:34.678 +08:00 [DBG] The request path /dapr/config does not match a supported file type
+19-Mar-2021 17:27:34.700 +08:00 [DBG] No candidates found for the request path '/dapr/config'
+19-Mar-2021 17:27:34.700 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 17:27:34.730 +08:00 [DBG] The request path  does not match the path filter
+19-Mar-2021 17:27:34.731 +08:00 [DBG] No candidates found for the request path '/dapr/config'
+19-Mar-2021 17:27:34.731 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 17:27:34.732 +08:00 [INF] HTTP GET /dapr/config responded 404 in 52.8640 ms
+19-Mar-2021 17:27:34.734 +08:00 [DBG] Connection id "0HM7AN4TA0CI8" completed keep alive response.
+19-Mar-2021 17:27:34.734 +08:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:51345/dapr/config application/json - - 404 0 - 60.4319ms
+19-Mar-2021 17:27:44.735 +08:00 [DBG] Connection id "0HM7AN4TA0CI8" received FIN.
+19-Mar-2021 17:27:44.735 +08:00 [DBG] Connection id "0HM7AN4TA0CI8" sending FIN because: "The client closed the connection."
+19-Mar-2021 17:27:44.736 +08:00 [DBG] Connection id "0HM7AN4TA0CI8" disconnecting.
+19-Mar-2021 17:27:44.737 +08:00 [DBG] Connection id "0HM7AN4TA0CI8" stopped.
+19-Mar-2021 17:28:00.097 +08:00 [DBG] Connection id "0HM7AN4TA0CI9" accepted.
+19-Mar-2021 17:28:00.098 +08:00 [DBG] Connection id "0HM7AN4TA0CI9" started.
+19-Mar-2021 17:28:00.098 +08:00 [DBG] Connection id "0HM7AN4TA0CIA" accepted.
+19-Mar-2021 17:28:00.098 +08:00 [DBG] Connection id "0HM7AN4TA0CIA" started.
+19-Mar-2021 17:28:00.108 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51345/ - -
+19-Mar-2021 17:28:00.108 +08:00 [DBG] The request path / does not match a supported file type
+19-Mar-2021 17:28:00.112 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+19-Mar-2021 17:28:00.115 +08:00 [DBG] Endpoint 'App2.Controllers.HomeController.Index (App2)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+19-Mar-2021 17:28:00.116 +08:00 [DBG] Request matched endpoint 'App2.Controllers.HomeController.Index (App2)'
+19-Mar-2021 17:28:00.116 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+19-Mar-2021 17:28:00.117 +08:00 [INF] Executing endpoint 'App2.Controllers.HomeController.Index (App2)'
+19-Mar-2021 17:28:00.124 +08:00 [DBG] Registered model binder providers, in the following order: ["Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpDateTimeModelBinderProvider","Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpExtraPropertiesDictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+19-Mar-2021 17:28:00.180 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller App2.Controllers.HomeController (App2).
+19-Mar-2021 17:28:00.181 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+19-Mar-2021 17:28:00.182 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+19-Mar-2021 17:28:00.182 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+19-Mar-2021 17:28:00.182 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+19-Mar-2021 17:28:00.182 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+19-Mar-2021 17:28:00.185 +08:00 [DBG] Executing controller factory for controller App2.Controllers.HomeController (App2)
+19-Mar-2021 17:28:00.185 +08:00 [DBG] Executed controller factory for controller App2.Controllers.HomeController (App2)
+19-Mar-2021 17:28:00.201 +08:00 [INF] Executing action method App2.Controllers.HomeController.Index (App2) - Validation state: "Valid"
+19-Mar-2021 17:28:00.205 +08:00 [INF] Executed action method App2.Controllers.HomeController.Index (App2), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.2165ms.
+19-Mar-2021 17:28:00.214 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+19-Mar-2021 17:28:00.218 +08:00 [INF] Executed action App2.Controllers.HomeController.Index (App2) in 31.8961ms
+19-Mar-2021 17:28:00.218 +08:00 [INF] Executed endpoint 'App2.Controllers.HomeController.Index (App2)'
+19-Mar-2021 17:28:00.218 +08:00 [INF] HTTP GET / responded 302 in 109.7929 ms
+19-Mar-2021 17:28:00.219 +08:00 [DBG] Connection id "0HM7AN4TA0CI9" completed keep alive response.
+19-Mar-2021 17:28:00.219 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:51345/ - - - 302 0 - 110.9668ms
+19-Mar-2021 17:28:00.224 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51345/swagger - -
+19-Mar-2021 17:28:00.224 +08:00 [DBG] The request path /swagger does not match a supported file type
+19-Mar-2021 17:28:00.224 +08:00 [DBG] No candidates found for the request path '/swagger'
+19-Mar-2021 17:28:00.224 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 17:28:00.225 +08:00 [INF] HTTP GET /swagger responded 301 in 0.9236 ms
+19-Mar-2021 17:28:00.225 +08:00 [DBG] Connection id "0HM7AN4TA0CI9" completed keep alive response.
+19-Mar-2021 17:28:00.225 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:51345/swagger - - - 301 0 - 1.3676ms
+19-Mar-2021 17:28:00.233 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51345/swagger/index.html - -
+19-Mar-2021 17:28:00.233 +08:00 [DBG] The request path /swagger/index.html does not match an existing file
+19-Mar-2021 17:28:00.233 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+19-Mar-2021 17:28:00.233 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 17:28:00.281 +08:00 [INF] HTTP GET /swagger/index.html responded 200 in 47.4469 ms
+19-Mar-2021 17:28:00.281 +08:00 [DBG] Connection id "0HM7AN4TA0CI9" completed keep alive response.
+19-Mar-2021 17:28:00.281 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:51345/swagger/index.html - - - 200 - text/html;charset=utf-8 48.5499ms
+19-Mar-2021 17:28:00.300 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51345/swagger/swagger-ui.css - -
+19-Mar-2021 17:28:00.300 +08:00 [DBG] The request path /swagger/swagger-ui.css does not match an existing file
+19-Mar-2021 17:28:00.300 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+19-Mar-2021 17:28:00.300 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 17:28:00.300 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51345/swagger/swagger-ui-bundle.js - -
+19-Mar-2021 17:28:00.300 +08:00 [DBG] The request path /swagger/swagger-ui-bundle.js does not match an existing file
+19-Mar-2021 17:28:00.300 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+19-Mar-2021 17:28:00.300 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 17:28:00.300 +08:00 [DBG] Connection id "0HM7AN4TA0CIB" accepted.
+19-Mar-2021 17:28:00.301 +08:00 [DBG] Connection id "0HM7AN4TA0CIB" started.
+19-Mar-2021 17:28:00.301 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51345/swagger/swagger-ui-standalone-preset.js - -
+19-Mar-2021 17:28:00.301 +08:00 [DBG] The request path /swagger/swagger-ui-standalone-preset.js does not match an existing file
+19-Mar-2021 17:28:00.301 +08:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+19-Mar-2021 17:28:00.301 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 17:28:00.318 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+19-Mar-2021 17:28:00.318 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+19-Mar-2021 17:28:00.319 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+19-Mar-2021 17:28:00.321 +08:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 20.6466 ms
+19-Mar-2021 17:28:00.321 +08:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 20.2816 ms
+19-Mar-2021 17:28:00.321 +08:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 19.6095 ms
+19-Mar-2021 17:28:00.322 +08:00 [DBG] Connection id "0HM7AN4TA0CI9" completed keep alive response.
+19-Mar-2021 17:28:00.322 +08:00 [DBG] Connection id "0HM7AN4TA0CIB" completed keep alive response.
+19-Mar-2021 17:28:00.322 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:51345/swagger/swagger-ui.css - - - 200 142933 text/css 22.4615ms
+19-Mar-2021 17:28:00.322 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:51345/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 21.0813ms
+19-Mar-2021 17:28:00.322 +08:00 [DBG] Connection id "0HM7AN4TA0CIA" completed keep alive response.
+19-Mar-2021 17:28:00.322 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:51345/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 22.1014ms
+19-Mar-2021 17:28:00.450 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51345/swagger/v1/swagger.json - -
+19-Mar-2021 17:28:00.451 +08:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+19-Mar-2021 17:28:00.451 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+19-Mar-2021 17:28:00.451 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 17:28:00.486 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51345/swagger/favicon-32x32.png - -
+19-Mar-2021 17:28:00.487 +08:00 [DBG] The request path /swagger/favicon-32x32.png does not match an existing file
+19-Mar-2021 17:28:00.487 +08:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+19-Mar-2021 17:28:00.487 +08:00 [DBG] Request did not match any endpoints
+19-Mar-2021 17:28:00.488 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+19-Mar-2021 17:28:00.488 +08:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.9462 ms
+19-Mar-2021 17:28:00.488 +08:00 [DBG] Connection id "0HM7AN4TA0CIB" completed keep alive response.
+19-Mar-2021 17:28:00.488 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:51345/swagger/favicon-32x32.png - - - 200 628 image/png 1.6258ms
+19-Mar-2021 17:28:00.533 +08:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 82.7166 ms
+19-Mar-2021 17:28:00.534 +08:00 [DBG] Connection id "0HM7AN4TA0CIA" completed keep alive response.
+19-Mar-2021 17:28:00.534 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:51345/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.2785ms
+19-Mar-2021 17:28:05.590 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51345/api/Values - -
+19-Mar-2021 17:28:05.591 +08:00 [DBG] The request path /api/Values does not match a supported file type
+19-Mar-2021 17:28:05.591 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+19-Mar-2021 17:28:05.591 +08:00 [DBG] Endpoint 'App2.Controllers.ValuesController.AppMessage (App2)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+19-Mar-2021 17:28:05.591 +08:00 [DBG] Request matched endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 17:28:05.592 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+19-Mar-2021 17:28:05.592 +08:00 [INF] Executing endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 17:28:05.604 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AppMessage() on controller App2.Controllers.ValuesController (App2).
+19-Mar-2021 17:28:05.604 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+19-Mar-2021 17:28:05.604 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+19-Mar-2021 17:28:05.605 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+19-Mar-2021 17:28:05.605 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+19-Mar-2021 17:28:05.605 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+19-Mar-2021 17:28:05.605 +08:00 [DBG] Executing controller factory for controller App2.Controllers.ValuesController (App2)
+19-Mar-2021 17:28:05.605 +08:00 [DBG] Executed controller factory for controller App2.Controllers.ValuesController (App2)
+19-Mar-2021 17:28:05.606 +08:00 [INF] Executing action method App2.Controllers.ValuesController.AppMessage (App2) - Validation state: "Valid"
+19-Mar-2021 17:28:05.607 +08:00 [INF] App2.Message 2021/3/19 17:28:05 send to the App1.
+19-Mar-2021 17:28:05.793 +08:00 [INF] Executed action App2.Controllers.ValuesController.AppMessage (App2) in 188.1427ms
+19-Mar-2021 17:28:05.794 +08:00 [INF] Executed endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 17:28:05.794 +08:00 [ERR] HTTP GET /api/Values responded 500 in 203.4249 ms
+Dapr.DaprException: Publish operation failed: the Dapr endpoint indicated a failure. See InnerException for details.
+ ---> Grpc.Core.RpcException: Status(StatusCode="FailedPrecondition", Detail="no pubsub is configured")
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid1[T0](CallSite site, T0 arg0)
+   at EasyAbp.Abp.EventBus.Dapr.DaprServiceBus.PublishAsync(Type eventType, Object eventData) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\src\EasyAbp.Abp.EventBus.Dapr\DaprServiceBus.cs:line 55
+   at App2.App2MessagingService.RunAsync(String message) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\App2MessagingService.cs:line 26
+   at App2.Controllers.ValuesController.AppMessage() in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\Controllers\ValuesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+19-Mar-2021 17:28:05.814 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Dapr.DaprException: Publish operation failed: the Dapr endpoint indicated a failure. See InnerException for details.
+ ---> Grpc.Core.RpcException: Status(StatusCode="FailedPrecondition", Detail="no pubsub is configured")
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid1[T0](CallSite site, T0 arg0)
+   at EasyAbp.Abp.EventBus.Dapr.DaprServiceBus.PublishAsync(Type eventType, Object eventData) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\src\EasyAbp.Abp.EventBus.Dapr\DaprServiceBus.cs:line 55
+   at App2.App2MessagingService.RunAsync(String message) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\App2MessagingService.cs:line 26
+   at App2.Controllers.ValuesController.AppMessage() in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\Controllers\ValuesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+19-Mar-2021 17:28:05.818 +08:00 [DBG] Connection id "0HM7AN4TA0CIA" completed keep alive response.
+19-Mar-2021 17:28:05.818 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:51345/api/Values - - - 500 - text/plain 227.8790ms
+19-Mar-2021 17:30:00.414 +08:00 [DBG] Connection id "0HM7AN4TA0CI9" disconnecting.
+19-Mar-2021 17:30:00.414 +08:00 [DBG] Connection id "0HM7AN4TA0CI9" stopped.
+19-Mar-2021 17:30:00.414 +08:00 [DBG] Connection id "0HM7AN4TA0CI9" sending FIN because: "The Socket transport's send loop completed gracefully."
+19-Mar-2021 17:30:01.414 +08:00 [DBG] Connection id "0HM7AN4TA0CIB" disconnecting.
+19-Mar-2021 17:30:01.414 +08:00 [DBG] Connection id "0HM7AN4TA0CIB" stopped.
+19-Mar-2021 17:30:01.415 +08:00 [DBG] Connection id "0HM7AN4TA0CIB" sending FIN because: "The Socket transport's send loop completed gracefully."
+19-Mar-2021 17:30:06.417 +08:00 [DBG] Connection id "0HM7AN4TA0CIA" disconnecting.
+19-Mar-2021 17:30:06.417 +08:00 [DBG] Connection id "0HM7AN4TA0CIA" stopped.
+19-Mar-2021 17:30:06.418 +08:00 [DBG] Connection id "0HM7AN4TA0CIA" sending FIN because: "The Socket transport's send loop completed gracefully."
+19-Mar-2021 17:30:15.284 +08:00 [DBG] Connection id "0HM7AN4TA0CIC" accepted.
+19-Mar-2021 17:30:15.284 +08:00 [DBG] Connection id "0HM7AN4TA0CIC" started.
+19-Mar-2021 17:30:15.285 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51345/api/Values - -
+19-Mar-2021 17:30:15.285 +08:00 [DBG] The request path /api/Values does not match a supported file type
+19-Mar-2021 17:30:15.285 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Values'
+19-Mar-2021 17:30:15.285 +08:00 [DBG] Endpoint 'App2.Controllers.ValuesController.AppMessage (App2)' with route pattern 'api/Values' is valid for the request path '/api/Values'
+19-Mar-2021 17:30:15.285 +08:00 [DBG] Request matched endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 17:30:15.286 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+19-Mar-2021 17:30:15.286 +08:00 [INF] Executing endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 17:30:15.286 +08:00 [INF] Route matched with {action = "AppMessage", controller = "Values", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AppMessage() on controller App2.Controllers.ValuesController (App2).
+19-Mar-2021 17:30:15.286 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+19-Mar-2021 17:30:15.286 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+19-Mar-2021 17:30:15.286 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+19-Mar-2021 17:30:15.287 +08:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+19-Mar-2021 17:30:15.287 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+19-Mar-2021 17:30:15.287 +08:00 [DBG] Executing controller factory for controller App2.Controllers.ValuesController (App2)
+19-Mar-2021 17:30:15.287 +08:00 [DBG] Executed controller factory for controller App2.Controllers.ValuesController (App2)
+19-Mar-2021 17:30:15.287 +08:00 [INF] Executing action method App2.Controllers.ValuesController.AppMessage (App2) - Validation state: "Valid"
+19-Mar-2021 17:30:15.287 +08:00 [INF] App2.Message 2021/3/19 17:30:15 send to the App1.
+19-Mar-2021 17:30:15.290 +08:00 [INF] Executed action App2.Controllers.ValuesController.AppMessage (App2) in 3.1513ms
+19-Mar-2021 17:30:15.290 +08:00 [INF] Executed endpoint 'App2.Controllers.ValuesController.AppMessage (App2)'
+19-Mar-2021 17:30:15.290 +08:00 [ERR] HTTP GET /api/Values responded 500 in 5.7666 ms
+Dapr.DaprException: Publish operation failed: the Dapr endpoint indicated a failure. See InnerException for details.
+ ---> Grpc.Core.RpcException: Status(StatusCode="FailedPrecondition", Detail="no pubsub is configured")
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   at EasyAbp.Abp.EventBus.Dapr.DaprServiceBus.PublishAsync(Type eventType, Object eventData) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\src\EasyAbp.Abp.EventBus.Dapr\DaprServiceBus.cs:line 55
+   at App2.App2MessagingService.RunAsync(String message) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\App2MessagingService.cs:line 26
+   at App2.Controllers.ValuesController.AppMessage() in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\Controllers\ValuesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+19-Mar-2021 17:30:15.292 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Dapr.DaprException: Publish operation failed: the Dapr endpoint indicated a failure. See InnerException for details.
+ ---> Grpc.Core.RpcException: Status(StatusCode="FailedPrecondition", Detail="no pubsub is configured")
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Dapr.Client.DaprClientGrpc.MakePublishRequest(String pubsubName, String topicName, ByteString content, Dictionary`2 metadata, CancellationToken cancellationToken)
+   at EasyAbp.Abp.EventBus.Dapr.DaprServiceBus.PublishAsync(Type eventType, Object eventData) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\src\EasyAbp.Abp.EventBus.Dapr\DaprServiceBus.cs:line 55
+   at App2.App2MessagingService.RunAsync(String message) in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\App2MessagingService.cs:line 26
+   at App2.Controllers.ValuesController.AppMessage() in D:\workshop\Github\EasyAbp.Abp.EventBus.Dapr\samples\App2\Controllers\ValuesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Volo.Abp.AspNetCore.Serilog.AbpSerilogMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+19-Mar-2021 17:30:15.294 +08:00 [DBG] Connection id "0HM7AN4TA0CIC" completed keep alive response.
+19-Mar-2021 17:30:15.305 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:51345/api/Values - - - 500 - text/plain 9.1803ms
+19-Mar-2021 17:32:15.492 +08:00 [DBG] Connection id "0HM7AN4TA0CIC" disconnecting.
+19-Mar-2021 17:32:15.492 +08:00 [DBG] Connection id "0HM7AN4TA0CIC" stopped.
+19-Mar-2021 17:32:15.493 +08:00 [DBG] Connection id "0HM7AN4TA0CIC" sending FIN because: "The Socket transport's send loop completed gracefully."
+19-Mar-2021 17:53:54.486 +08:00 [DBG] Hosting stopping
+19-Mar-2021 17:53:54.487 +08:00 [INF] Application is shutting down...
+19-Mar-2021 17:53:54.501 +08:00 [DBG] Hosting stopped
