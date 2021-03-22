@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Core" Version="$(AbpVersion)" />
     <PackageReference Include="Volo.Abp.EventBus" Version="$(AbpVersion)" />
+    <PackageReference Include="Volo.Abp.AspNetCore" Version="$(AbpVersion)" />
     <PackageReference Include="Dapr.AspNetCore" Version="$(DaprVersion)" />
   </ItemGroup>
 
