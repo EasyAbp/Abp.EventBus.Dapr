@@ -71,8 +71,6 @@ namespace App1
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "App1 API");
             });
             app.UseConfiguredEndpoints();
-            // Use Dapr service bus
-            app.UseDaprServiceBus();
         }
  
     }
