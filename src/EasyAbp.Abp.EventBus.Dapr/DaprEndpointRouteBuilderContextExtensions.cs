@@ -103,7 +103,7 @@ namespace Microsoft.AspNetCore.Builder
 
                         if (serviceBus.EventTypes.TryGetValue(topic, out Type eventType))
                         {
-                            serviceBus.TriggerHandlersAsync(eventType, @event);
+                            await serviceBus.TriggerHandlersAsync(eventType, @event);
                             // await (handler.GetHandler().EventHandler as IDistributedEventHandler<dynamic>).HandleEventAsync(@event);
                         }
                     }
