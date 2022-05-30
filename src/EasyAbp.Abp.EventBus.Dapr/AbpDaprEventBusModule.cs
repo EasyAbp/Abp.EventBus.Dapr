@@ -1,12 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Volo.Abp;
 using Volo.Abp.AspNetCore;
 using Volo.Abp.EventBus;
@@ -24,10 +18,6 @@ namespace EasyAbp.Abp.EventBus.Dapr
     {
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
-            //context.Services.Configure<DaprServiceBusOptions>(options =>
-            //{
-            //    options.PubSubName = "pubsub";
-            //});
 
             // Add Dapr service bus
             context.Services.AddDaprServiceBus();
