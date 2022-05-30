@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <Import Project="..\..\common.props" />
 
   <PropertyGroup>
-    <TargetFrameworks>net5.0</TargetFrameworks>
+    <TargetFrameworks>net6.0</TargetFrameworks>
     <RootNamespace>EasyAbp.Abp.EventBus.Dapr</RootNamespace>
   </PropertyGroup>
 
@@ -11,11 +11,12 @@
     <PackageReference Include="Volo.Abp.Core" Version="$(AbpVersion)" />
     <PackageReference Include="Volo.Abp.EventBus" Version="$(AbpVersion)" />
     <PackageReference Include="Volo.Abp.AspNetCore" Version="$(AbpVersion)" />
+	<PackageReference Include="Volo.Abp.Uow" Version="$(AbpVersion)" />
     <PackageReference Include="Dapr.AspNetCore" Version="$(DaprVersion)" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Update="Fody" Version="6.2.5">
+    <PackageReference Update="Fody" Version="6.6.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>

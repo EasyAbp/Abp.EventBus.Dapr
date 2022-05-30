@@ -12,6 +12,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.EventBus;
 using Volo.Abp.EventBus.Distributed;
 using Volo.Abp.MultiTenancy;
+using Volo.Abp.Uow;
 
 namespace EasyAbp.Abp.EventBus.Dapr
 {
@@ -33,8 +34,10 @@ namespace EasyAbp.Abp.EventBus.Dapr
            IOptions<AbpDistributedEventBusOptions> distributedEventBusOptions,
            IOptions<DaprServiceBusOptions> options,
            DaprClient dapr,
-           ICurrentTenant currentTenant)
-           : base(serviceScopeFactory, currentTenant)
+           IUnitOfWorkManager unitOfWorkManager,
+           ICurrentTenant currentTenant,
+           IEventHandlerInvoker eventHandlerInvoker)
+           : base(serviceScopeFactory, currentTenant,unitOfWorkManager, eventHandlerInvoker)
         {
             _dapr = dapr;
             _options = options;
@@ -44,8 +47,25 @@ namespace EasyAbp.Abp.EventBus.Dapr
             Topics = new ConcurrentDictionary<string, List<IEventHandlerFactory>>();
         }
 
+        public virtual Task PublishAsync<TEvent>(TEvent eventData, bool onUnitOfWorkComplete = true, bool useOutbox = true) where TEvent : class
+        {
+            return PublishAsync(typeof(TEvent), eventData, onUnitOfWorkComplete, useOutbox);
+        }
 
-        public override async Task PublishAsync(Type eventType, object eventData)
+        public virtual async Task PublishAsync(Type eventType, object eventData, bool onUnitOfWorkComplete = true, bool useOutbox = true)
+        {
+            if (onUnitOfWorkComplete && UnitOfWorkManager.Current != null)
+            {
+                AddToUnitOfWork(
+                    UnitOfWorkManager.Current,
+                    new UnitOfWorkEventRecord(eventType, eventData, EventOrderGenerator.GetNext(), useOutbox)
+                );
+                return;
+            }
+            await PublishToEventBusAsync(eventType, eventData);
+        }
+
+        protected override async Task PublishToEventBusAsync(Type eventType, object eventData)
         {
             if (eventData is null) 
                 throw new ArgumentNullException(nameof(eventData));
@@ -57,6 +77,10 @@ namespace EasyAbp.Abp.EventBus.Dapr
             await _dapr.PublishEventAsync(_options.Value.PubSubName, topic, (dynamic)eventData);
         }
 
+        protected override void AddToUnitOfWork(IUnitOfWork unitOfWork, UnitOfWorkEventRecord eventRecord)
+        {
+            unitOfWork.AddOrReplaceDistributedEvent(eventRecord);
+        }
 
         public override IDisposable Subscribe(Type eventType, IEventHandlerFactory factory)
         {

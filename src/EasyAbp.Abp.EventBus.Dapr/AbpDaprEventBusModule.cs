@@ -11,12 +11,14 @@ using Volo.Abp;
 using Volo.Abp.AspNetCore;
 using Volo.Abp.EventBus;
 using Volo.Abp.Modularity;
+using Volo.Abp.Uow;
 
 namespace EasyAbp.Abp.EventBus.Dapr
 {
     [DependsOn(
         typeof(AbpEventBusModule),
-        typeof(AbpAspNetCoreModule)
+        typeof(AbpAspNetCoreModule),
+        typeof(AbpUnitOfWorkModule)
         )]
     public class AbpDaprEventBusModule : AbpModule
     {
